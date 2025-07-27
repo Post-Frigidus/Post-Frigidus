@@ -4,8 +4,8 @@ guiTypes = {
 		name ="frontend_background"
 		position = { x=0 y =0 }	
 		size = { 
-			width = 1920 
-			height = 1440 
+			width = 1792 
+			height = 1024 
 			min = { width = 100% height = 100% }
 			max = { width = 100% height = 10000 }
 			preserve_aspect_ratio = yes
@@ -499,8 +499,8 @@ guiTypes = {
 			position = { x=280 y=-393 }
 			quadTextureSprite ="discord"
 			#clicksound = click_default
-			pdx_tooltip = "MENU_DISCORD"
-			web_link = "https://discord.gg/TkaG72C6Dt"
+			pdx_tooltip = "MENU_PF_DISCORD"
+			web_link = "https://discord.gg/cteghWgzTT"
 			scale = 0.9
 		}
 
@@ -509,7 +509,7 @@ guiTypes = {
 			position = { x=280 y=-353 }
 			quadTextureSprite ="youtube"
 			#clicksound = click_default
-			pdx_tooltip = "MENU_YOUTUBE"
+			pdx_tooltip = "MENU_PF_YOUTUBE"
 			web_link = "https://www.youtube.com/channel/UCRuWUHbi0erwOyh8CbImnhg"
 			scale = 0.9
 		}
