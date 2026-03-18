@@ -7,16 +7,16 @@ state={
 	}
 
 	history={
-		owner = SMT
+		owner = TST
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2
 			air_base = 2
 
 		}
-		add_core_of = SMT
+		add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 
 		}
 		victory_points = {

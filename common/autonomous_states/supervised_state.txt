@@ -34,7 +34,6 @@ autonomy_state = {
 	}
 
 	ai_overlord_wants_garrison = {
-		always = no
 	}
 
 	allowed = {
@@ -49,7 +48,6 @@ autonomy_state = {
 		autonomy_supervised_state
 	}
 
-	#ROOT is puppet - FROM is potential OVERLORD
 	use_for_peace_conference_weight = {
 		base = 0
 		modifier = {
@@ -66,6 +64,5 @@ autonomy_state = {
 	}
 
 	can_lose_level = {
-		always = no
 	}
 }

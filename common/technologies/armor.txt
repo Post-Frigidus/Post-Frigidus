@@ -1,5 +1,4 @@
 technologies = {
-	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
 	gwtank = { #Leichttraktor
 
 		enable_equipments = {
@@ -762,7 +761,6 @@ technologies = {
 		research_cost = 0.5
 		start_year = 1939
 
-		
 		ai_will_do = {
 			base = 0
 
@@ -1106,7 +1104,6 @@ technologies = {
 			advanced_medium_spaa
 		}
 		
-
 		ai_will_do = {
 			base = 1
 			
@@ -1585,7 +1582,6 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 
-	
 	basic_heavy_spaa = {
 
 		enable_equipments = {
@@ -1657,7 +1653,6 @@ technologies = {
 		ai_will_do = {
 			base = 0.8
 			modifier = {
-				tag = JAP
 				num_of_military_factories < 100
 				factor = 0
 			}
@@ -1755,7 +1750,6 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 
-	
 	improved_heavy_spaa = {
 
 		enable_equipments = {

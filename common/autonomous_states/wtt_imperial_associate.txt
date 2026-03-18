@@ -36,7 +36,6 @@ autonomy_state = {
 	}
 
 	ai_overlord_wants_garrison = {
-		always = no
 	}
 
 	allowed = {
@@ -51,6 +50,5 @@ autonomy_state = {
 	}
 
 	can_lose_level = {
-		#trigger here
 	}
 }

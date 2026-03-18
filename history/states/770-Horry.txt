@@ -5,11 +5,11 @@ state={
 		1346 1367 5396 5397 5398 5400 5401 5402 
 	}
 	history = {
-		owner = SSC
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
-		add_core_of = SSC
+		add_core_of = TST
 		buildings = {
 			infrastructure = 2
 			1346 = {

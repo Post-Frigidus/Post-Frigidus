@@ -5,8 +5,8 @@ state={
 		295 734 735 1934 1967 2046 2106 2127 
 	}
 	history = {
-		owner = GUA
-		add_core_of = GUA
+		owner = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

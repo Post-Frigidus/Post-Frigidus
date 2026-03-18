@@ -2,17 +2,17 @@ state={
 	id=173
 	name="STATE_173"
 	history={
-		owner = SCA
+		owner = TST
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
 		}
-		add_core_of = SCA
+		add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
-		add_core_of = JEF
+		add_core_of = TST
 		victory_points = {
 			697 8
 		}

@@ -3,7 +3,6 @@ ideas = {
 	country = {
 		add_production_efficiency = {
 			allowed = {
-				always = no
 			}
 			removal_cost = -1
 			
@@ -17,7 +16,6 @@ ideas = {
 		}
 		decrease_production_efficiency = {
 			allowed = {
-				always = no
 			}
 			removal_cost = -1
 			

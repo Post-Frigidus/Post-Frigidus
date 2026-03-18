@@ -5,8 +5,8 @@ state={
 		288 724 733 748 769 
 	}
 	history = {
-		owner = GUA
-		add_core_of = GUA
+		owner = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 1
 			dockyard = 1

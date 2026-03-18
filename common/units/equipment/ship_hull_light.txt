@@ -98,7 +98,6 @@ equipments = {
 		
 		armor_value = 0
 
-		
 		surface_detection = 20
 		sub_detection = 1
 		surface_visibility = 10
@@ -109,7 +108,6 @@ equipments = {
 		
 		max_strength = 25
 		
-
 		fuel_consumption = 0
 		
 		build_cost_ic = 400
@@ -126,7 +124,6 @@ equipments = {
 
 		archetype = ship_hull_light
 		priority = 2000
-		#alias = destroyer_1
 		
 		module_slots = inherit
 	}
@@ -138,7 +135,6 @@ equipments = {
 		archetype = ship_hull_light
 		priority = 2000
 		parent = ship_hull_light_1
-		#alias = destroyer_2
 		
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -169,7 +165,6 @@ equipments = {
 			fixed_ship_engine_slot = light_ship_engine_2
 		}
 
-
 		reliability = 0.85
 		naval_range = 1800
 		max_strength = 40
@@ -187,7 +182,6 @@ equipments = {
 		archetype = ship_hull_light
 		priority = 2000
 		parent = ship_hull_light_2
-		#alias = destroyer_3
 
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -232,7 +226,6 @@ equipments = {
 			}
 		}
 
-		
 		resources = {
 			steel = 3
 		}
@@ -259,7 +252,6 @@ equipments = {
 		archetype = ship_hull_light
 		priority = 2000
 		parent = ship_hull_light_3
-		#alias = destroyer_4
 		
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -304,7 +296,6 @@ equipments = {
 			}
 		}
 
-
 		surface_detection = 20
 		reliability = 0.92
 		naval_range = 2500
@@ -342,7 +333,6 @@ equipments = {
 		
 		armor_value = 0
 
-		
 		surface_detection = 20
 		sub_detection = 5
 		surface_visibility = 10
@@ -353,12 +343,10 @@ equipments = {
 		
 		max_strength = 25
 		
-
 		fuel_consumption = 7
 		
 		build_cost_ic = 400
 		resources = {
-			#oil = 1
 			steel = 2
 		}
 		
@@ -390,7 +378,6 @@ equipments = {
 		
 		armor_value = 0
 
-		
 		surface_detection = 25
 		sub_detection = 10
 		surface_visibility = 10
@@ -401,8 +388,6 @@ equipments = {
 		
 		max_strength = 40
 		
-
-		
 		type = { 
 			screen_ship
 			anti_air
@@ -410,7 +395,6 @@ equipments = {
 
 		build_cost_ic = 500
 		resources = {
-			#oil = 1
 			steel = 3
 		}		
 		manpower = 325
@@ -442,7 +426,6 @@ equipments = {
 		
 		armor_value = 0
 
-		
 		surface_detection = 40
 		sub_detection = 10
 		surface_visibility = 10
@@ -453,15 +436,12 @@ equipments = {
 		
 		max_strength = 50
 		
-
-		
 		type = { 
 			screen_ship
 			anti_air
 		}
 		build_cost_ic = 500
 		resources = {
-			#oil = 2
 			steel = 3
 		}
 		manpower = 400
@@ -493,7 +473,6 @@ equipments = {
 		
 		armor_value = 0
 
-		
 		surface_detection = 40
 		sub_detection = 10
 		surface_visibility = 10
@@ -504,8 +483,6 @@ equipments = {
 		
 		max_strength = 60
 		
-
-		
 		type = { 
 			screen_ship
 			anti_air
@@ -513,7 +490,6 @@ equipments = {
 
 		build_cost_ic = 500
 		resources = {
-			#oil = 2
 			steel = 4
 			chromium = 1
 		}		

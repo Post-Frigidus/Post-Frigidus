@@ -1,17 +1,3 @@
-#	Example:
-#
-#	example_trigger = {
-#		tag = GER
-#		is_ai = no
-#	}
-#
-#
-#	In a script file:
-#
-#	trigger = {
-#		exampel_trigger = yes
-#	}
-#
 
 can_ROOT_get_wargoal_on_THIS = {
 	exists = yes
@@ -45,7 +31,6 @@ has_not_initiated_border_incident_with_ROOT = {
 	}
 }
 
-#State scope
 has_ROOT_at_least_1_div_in_current_state_scope = {
 	custom_trigger_tooltip = {
 		tooltip = at_least_one_division_in_state
@@ -53,7 +38,6 @@ has_ROOT_at_least_1_div_in_current_state_scope = {
 	}
 }
 
-#State scope
 is_controlled_by_ROOT_or_subject = {
 	custom_trigger_tooltip = {
 		tooltip = is_controlled_by_ROOT_or_subject
@@ -80,7 +64,6 @@ is_not_controlled_by_ROOT_or_subject = {
 	}
 }
 
-#Country scope
 is_free_or_subject_of_root = {
 	OR = {
 		is_subject = no
@@ -88,7 +71,6 @@ is_free_or_subject_of_root = {
 	}
 }
 
-#State scope
 is_controlled_by_ROOT_or_ally = {
 	custom_trigger_tooltip = {
 		tooltip = is_controlled_by_ROOT_or_ally
@@ -244,7 +226,6 @@ enemy_has_equal_or_better_radar_tech_trigger = {
 				}
 			}
 		}
-		#no more steps needed because end of research tree is reached
 	}
 }
 
@@ -360,7 +341,6 @@ is_major_not_original_tag_root = {
 
 has_subject_autonomy_feature = {
 	has_dlc = "Together for Victory"
-	#TODO_Manu: More DLCs?
 }
 
 is_organization_of_african_unity_member = {
@@ -401,7 +381,6 @@ is_at_peace_exiled_countries_excluded = {
 	}
 }
 
-#State scope
 state_is_fully_controlled_by_ROOT_or_subject = {
 	custom_trigger_tooltip = {
 		tooltip = state_is_fully_controlled_by_ROOT_or_subject_tt
@@ -415,7 +394,6 @@ state_is_fully_controlled_by_ROOT_or_subject = {
 	}
 }
 
-#State scope
 state_is_fully_controlled_by_ROOT_subject_or_faction_member = {
 	custom_trigger_tooltip = {
 		tooltip = state_is_fully_controlled_by_ROOT_subject_or_faction_member_tt
@@ -474,71 +452,6 @@ country_can_be_reasonable_target_of_wargoal = { #Expected scopes: Target country
 
 is_unlikely_country_tag = {
 	OR = {
-	    tag = BRI
-	    tag = CAT
-	    tag = NAV
-	    tag = GLC
-	    tag = ADU
-	    tag = BRI
-	    tag = OCC
-	    tag = COR
-	    tag = DNZ
-	    tag = KSH
-	    tag = CKK
-	    tag = FER
-	    tag = YAK
-	    tag = VLA
-	    tag = KKP
-	    tag = YAM
-	    tag = TAY
-	    tag = OVO
-	    tag = NEN
-	    tag = KOM
-	    tag = CHU
-	    tag = MEL
-	    tag = RIF
-	    tag = HAR
-	    tag = TIG
-	    tag = AFA
-	    tag = BEG
-	    tag = GBA
-	    tag = SID
-	    tag = ORO
-	    tag = QEM
-	    tag = LBV
-	    tag = PAP
-	    tag = TOS
-	    tag = SPM
-	    tag = TTS
-		tag = BSK
-		tag = TAT
-		tag = UDM
-		tag = KHA
-		tag = VGE
-		tag = KAL
-		tag = KAR
-		tag = SIL
-		tag = KSH
-		tag = ALT
-		tag = BUK
-		tag = KHI
-		tag = SMI
-		tag = QUE
-		tag = YUC
-		tag = RIG
-		tag = WLA
-		tag = GRN
-		tag = EVE
-		tag = SHL
-		tag = MEK
-		tag = HAN
-		tag = SAX
-		tag = PRE
-		tag = BAY
-		tag = WUR
-		tag = THU
-		tag = HES
-		tag = RHI
 	}
 }
 
@@ -574,23 +487,6 @@ has_hide_rule = {
 		option = HIDE
 	}
 }
-
-
-###########################################################################################
-###########################################################################################
-###########################################################################################
-
-							########    ###       ###    ######## 
-							   ##      ## ##     ## ##      ##    
-							   ##     ##   ##   ##   ##     ##    
-							   ##    ##     ## ##     ##    ##    
-							   ##    ######### #########    ##    
-							   ##    ##     ## ##     ##    ##    
-							   ##    ##     ## ##     ##    ##    
-
-###########################################################################################
-###########################################################################################
-###########################################################################################
 
 has_aat = {
 	has_dlc = "Arms Against Tyranny"
@@ -660,7 +556,6 @@ mio_original_country_available_with_opinion_subject_and_war_requirements_fulfill
 	NOT = { has_war_with = ROOT }
 }
 
-
 can_unlock_new_special_forces_tree = {
 	if = {
 		limit = { NOT = { has_variable = sf_trees } }
@@ -679,11 +574,9 @@ can_unlock_new_special_forces_tree = {
 	else = {
 		custom_trigger_tooltip = {
 			tooltip = can_unlock_new_special_forces_tree_more_no
-			always = no
 		}
 	}
 }
-# These are to make strength comparisons easier 
 
 FROM_is_stronger = {
 	strength_ratio = {
@@ -750,7 +643,6 @@ ai_has_completed_naval_doctrine = {
 	}
 }
 
-### Neutrality Act - only trade with countries at peace 
 trade_partner_not_at_war = {
 	custom_trigger_tooltip = {
 		tooltip = trade_partner_not_at_war_tt
@@ -769,7 +661,6 @@ is_democratic_seller_trigger = {
 	}
 }
 
-#Subsidy Seller Triggers
 is_fascist_seller_trigger = {
 	NOT = { has_war_with = ROOT	}
 	has_government = fascism 

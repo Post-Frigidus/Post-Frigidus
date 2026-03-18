@@ -17,9 +17,9 @@ state={
 			arms_factory = 1
 			air_base = 2
 		}
-		owner = BLZ
-		add_core_of = BLZ
-		add_core_of = GUA
+		owner = TST
+		add_core_of = TST
+		add_core_of = TST
 		victory_points = {
 			2299 5 
 		}

@@ -16,20 +16,17 @@ sub_units = { #Per ALbin Bus
 		group = mobile
 		
 		categories = {
-			#category_support_battalions #To prevent Integrated Support doctrines making them extremely good
 			category_bus
 		}
 
 		combat_width = 2
 		maximum_speed = 6
-		#Size Definitions
 		max_strength = 400 #Inf is 25
 		max_organisation = 100 #Inf is 60
 		default_morale = 0.2 #Inf is 30
 		manpower = 10
 		training_time = 120 #Same as other support battalions
 
-		#Misc Abilities
 		suppression = 0
 		weight = 0.4 #Inf is 0.5
 		supply_consumption = 0.04

@@ -8,9 +8,9 @@ state={
 	}
 
 	history={
-		owner = SGA
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 
 		}
 		buildings = {
@@ -18,7 +18,7 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = SGA
+		add_core_of = TST
 		victory_points = {
 			5404 12 
 		}

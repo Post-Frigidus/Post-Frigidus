@@ -4,16 +4,16 @@ state={
 	name="STATE_528"
 
 	history={
-		owner = PON
+		owner = TST
 		1936.1.2 = {
-			owner = CAN
+			owner = TST
 
 		}
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = PON
+		add_core_of = TST
 		victory_points = {
 			3843 2 
 		}

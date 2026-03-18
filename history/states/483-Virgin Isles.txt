@@ -6,12 +6,12 @@ state={
 		372 1593 
 	}
 	history = {
-		owner = UAF
-		add_core_of = UAF
-		add_core_of = VIR
+		owner = TST
+		add_core_of = TST
+		add_core_of = TST
 		add_claim_by = PRR
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 1

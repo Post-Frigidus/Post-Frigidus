@@ -1,5 +1,3 @@
-# Scripted AI desire for peace actions.
-# See documentation.info file for more detailed scripting information.
 
 peace_ai_desires = {
 
@@ -24,7 +22,6 @@ peace_ai_desires = {
             ROOT.FROM.FROM.FROM = {
                 NOT = { is_claimed_by = ROOT.FROM }
                 pc_is_state_outside_influence_for_winner = ROOT.FROM
-                #is_coastal = no
                 NOT = {
                     OR = {
                         AND = {
@@ -55,19 +52,16 @@ peace_ai_desires = {
     generic_influence_cutoff_force_government_fascism_unaligned = { #Don't do ANYTHING outside influence range
         peace_action_type = { take_states puppet force_government liberate }
         enable = {
-            # ROOT = { tag = ROOT.FROM } #We are negotiating for ourselves
             NOT = {
                 OR = {
                     has_government = democratic
                     has_government = communism
                 }
             }
-            # ROOT.FROM.FROM.FROM = { NOT = { is_core_of = ROOT } } #It is not ours
             ROOT.FROM.FROM.FROM = {
                 NOT = { is_claimed_by = ROOT.FROM }
                 ROOT.FROM = { pc_is_winner = yes }
                 pc_is_state_outside_influence_for_winner = ROOT.FROM
-                # is_coastal = no
                 NOT = {
                     OR = {
                         AND = {
@@ -91,7 +85,6 @@ peace_ai_desires = {
                     }
                 }
             } #It is not claimed by us
-			#Special Japan China Handling; this has logic elsewhere which we reluctantly have to special case.
         }
         ai_desire = -1000
     }
@@ -122,8 +115,6 @@ peace_ai_desires = {
         }
         ai_desire = -20
     }
-
-    ### The above trigger looks extremely harsh. In reality, this means the AI is more inclined to step through nearby land without bunny hopping and potentially leaving gaps.
 
     fascist_majors_on_a_mission = {
         peace_action_type = take_states
@@ -164,7 +155,6 @@ peace_ai_desires = {
         ai_desire = -75
     }
 
-    # Breakaway countries in the Soviet Civil war don't want to liberate stuff
     breakaway_country = {
         peace_action_type = { liberate puppet force_government }
         enable = {
@@ -173,8 +163,6 @@ peace_ai_desires = {
         ai_desire = -200  # just don't, please
     }
 
-
-    # Force gov on communism preferably
     democracy_force_government_on_communism = {
         peace_action_type = force_government
         enable = {
@@ -185,7 +173,6 @@ peace_ai_desires = {
         ai_desire = 50
     }
 
-
     democracy_owner_does_not_have_core = {
         peace_action_type = { force_government puppet take_states }
         enable = {
@@ -194,7 +181,6 @@ peace_ai_desires = {
         }
         ai_desire = -50
     }
-
 
     other_owner_does_not_have_core = {
         peace_action_type = { force_government puppet take_states }
@@ -212,7 +198,6 @@ peace_ai_desires = {
         }
         ai_desire = -20
     }
-
 
     dont_grab_exclaves = {
         peace_action_type = take_states
@@ -234,7 +219,6 @@ peace_ai_desires = {
         ai_desire = -40
     }
 
-
     do_grab_stuff_near_us = {
         peace_action_type = take_states
         enable = {
@@ -255,7 +239,6 @@ peace_ai_desires = {
         ai_desire = 10
     }
 
-
     leave_force_gov_at_will_to_allies = { #It is a bit hacky, but we need a preference here or we end up worse than where we started
         peace_action_type = force_government
         enable = {
@@ -273,7 +256,6 @@ peace_ai_desires = {
         }
         ai_desire = -80
     }
-
 
     generic_occupies_state = {
         peace_action_type = { take_states puppet liberate force_government }
@@ -313,7 +295,6 @@ peace_ai_desires = {
         ai_desire = -200
     }
 
-
     dont_puppet_and_force_government = {
         peace_action_type = { puppet }
 
@@ -335,12 +316,10 @@ peace_ai_desires = {
                 ROOT.FROM.FROM = { pc_is_forced_government_to = neutrality }
             }
             else = {
-                always = no
             }
         }
         ai_desire = -200
     }
-
 
     dont_force_government_and_puppet = {
         peace_action_type = { force_government }
@@ -351,7 +330,6 @@ peace_ai_desires = {
         ai_desire = -200
     }
 
-
     nonaligned_dont_liberate_the_wrong_ideology = {
         peace_action_type = liberate
         enable = {
@@ -361,7 +339,6 @@ peace_ai_desires = {
         ai_desire = -200
     }
 
-
     communism_dont_liberate_the_wrong_ideology = {
         peace_action_type = liberate
         enable = {
@@ -370,7 +347,6 @@ peace_ai_desires = {
         }
         ai_desire = -200
     }
-
 
     fascism_dont_liberate_the_wrong_ideology = {
         peace_action_type = liberate
@@ -388,7 +364,6 @@ peace_ai_desires = {
         ai_desire = -200
     }
 
-
     dont_force_government_or_puppet_on_non_core = {
         peace_action_type = { puppet force_government }
         enable = {
@@ -399,7 +374,6 @@ peace_ai_desires = {
 
         ai_desire = -200
     }
-
 
     liberate_on_non_core = {
         peace_action_type = liberate
@@ -428,7 +402,6 @@ peace_ai_desires = {
         ai_desire = 100
     }
 
-
     minors_and_subjects_dont_liberate = {
         peace_action_type = { liberate take_states force_government puppet }
         enable = {
@@ -452,7 +425,6 @@ peace_ai_desires = {
         }
         ai_desire = -90
     }
-
 
     non_aligned_should_stick_to_claims = {
         peace_action_type = take_states
@@ -531,24 +503,20 @@ peace_ai_desires = {
                 ROOT.FROM.FROM = { pc_is_forced_government_to = neutrality }
             }
             else = {
-                always = no
             }
         }
         ai_desire = 20
     }
 
-
     dont_resurrect_hitler = {
         peace_action_type = liberate
         enable = {
             ROOT.FROM = {
-                original_tag = GER
                 has_government = fascism
             }
         }
         ai_desire = -100
     }
-
 
     dont_take_states_for_wrong_ideology_allies = {
         peace_action_type = take_states
@@ -579,7 +547,6 @@ peace_ai_desires = {
         ai_desire = 100
     }
 
-
     dont_force_government_for_puppets_with_cores = {
         peace_action_type = { force_government puppet }
         enable = {
@@ -593,8 +560,6 @@ peace_ai_desires = {
         ai_desire = -100
     }
 
-
-    # push countries to actually retake territory that has risen up against them
     retake_territory_from_independence_wars = {
         peace_action_type = { take_states }
         enable = {
@@ -608,7 +573,6 @@ peace_ai_desires = {
         }
         ai_desire = 75
     }
-
 
     dont_change_gov_after_independence_wars = {
         peace_action_type = { force_government liberate puppet }
@@ -632,7 +596,6 @@ peace_ai_desires = {
                     is_subject_of = ROOT
                     AND = {
                         pc_is_puppeted_by = ROOT
-                        NOT = { original_tag = GER } #This messes with yalta too much.
                     }
                 }
             }
@@ -654,10 +617,6 @@ peace_ai_desires = {
         }
         ai_desire = -200
     }
-
-    #############
-    # Puppets
-    #############
 
     puppets_dont_interfere_take_states = { #Puppets will focus on helping others most likely, or biidding on their own claims/cores
         peace_action_type = take_states
@@ -684,10 +643,6 @@ peace_ai_desires = {
         ai_desire = -200
     }
 
-    #############
-    # Unaligned
-    #############
-
     nonaligned_mostly_take_states = { #We are empire
         peace_action_type = { puppet liberate force_government }
         enable = {
@@ -695,10 +650,6 @@ peace_ai_desires = {
         }
         ai_desire = -120
     }
-
-    #############
-    # Misc
-    #############
 
     puppet_if_another_puppet_has_core = {
         peace_action_type = puppet
@@ -775,7 +726,6 @@ peace_ai_desires = {
             ROOT.FROM.FROM = {
                 pc_is_puppeted = yes
                 NOT = { ROOT.FROM.FROM = { pc_is_puppeted_by = ROOT } }
-                NOT = { original_tag = GER }
             }
         }
         ai_desire = -50
@@ -797,7 +747,6 @@ peace_ai_desires = {
         }
         ai_desire = 30
     }
-
 
     continuous_puppet = {
         peace_action_type = { puppet }
@@ -878,7 +827,6 @@ peace_ai_desires = {
                     pc_is_puppeted_by = ROOT
                 }
                 overlord = {
-                    NOT = { tag = GER }
                 }
             }
             ROOT.FROM.FROM.FROM = {

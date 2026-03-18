@@ -1,6 +1,5 @@
 technologies = {
 
-
 	@1918 = 0
 	@1934 = 2
 	@1935 = 3
@@ -16,7 +15,6 @@ technologies = {
 	@1945 = 12
 	@1946 = 20
 
-	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
 	gwtank_chassis = { #Leichttraktor
 
 		show_equipment_icon = yes
@@ -274,25 +272,20 @@ technologies = {
 				is_major = yes
 				NOT = {
 					AND = {
-						tag = JAP
 						num_of_military_factories < 50
 					}
 				}
 			}
 			modifier = {
 				is_major = yes
-				not = { tag = JAP }
 				has_war = yes
 				factor = 10 #you are embarassing yourself
 			}
 			modifier = {
-				tag = SOV
 				factor = 3
 			}
 			modifier = {
 				factor = 3
-				# Matilda II was designed and entered production in 1937
-				tag = ENG
 				date > "1936.9.1"
 			}
 
@@ -320,8 +313,6 @@ technologies = {
 		}
 		special_project_specialization = { specialization_land }
 	}
-
-
 
 	amphibious_tank_chassis = { #SchwimmPanzer II
 
@@ -374,7 +365,6 @@ technologies = {
 
 	amphibious_drive = { #SchwimmPanzer II
 
-
 		enable_equipment_modules = {
 			amphibious_drive
 		}
@@ -411,8 +401,6 @@ technologies = {
 			}
 			modifier = {
 				OR = {
-					original_tag = USA
-					original_tag = JAP
 				}
 				factor = 2
 			}
@@ -544,14 +532,12 @@ technologies = {
 				is_major = yes
 				NOT = {
 					AND = {
-						tag = JAP
 						num_of_military_factories < 50
 					}
 				}
 				date > "1938.1.1"
 			}
 			modifier = {
-				tag = SOV
 				factor = 1.5
 			}
 
@@ -584,7 +570,6 @@ technologies = {
 		}
 		special_project_specialization = { specialization_land }
 	}
-
 
 	improved_medium_tank_chassis = { #Panzer IV
 
@@ -738,7 +723,6 @@ technologies = {
 		special_project_specialization = { specialization_land }
 	}
 
-
 	basic_heavy_tank_chassis = { #Grosstraktor
 
 		enable_equipments = {
@@ -809,11 +793,9 @@ technologies = {
 				date > "1939.1.1"
 			}
 			modifier = {
-				tag = FRA
 				factor = 3
 			}
 			modifier = {
-				tag = JAP
 				num_of_military_factories < 100
 				factor = 0
 			}
@@ -881,7 +863,6 @@ technologies = {
 		}
 		special_project_specialization = { specialization_land }
 	}
-
 
 	advanced_heavy_tank_chassis = { #King Tiger
 
@@ -1237,7 +1218,6 @@ technologies = {
 
 	engine_tech_1 = {
 
-
 		path = {
 			leads_to_tech = engine_tech_2
 			research_cost_coeff = 1
@@ -1292,7 +1272,6 @@ technologies = {
 	}
 
 	engine_tech_2 = {
-
 
 		path = {
 			leads_to_tech = engine_tech_3
@@ -1350,7 +1329,6 @@ technologies = {
 	}
 
 	engine_tech_3 = {
-
 
 		path = {
 			leads_to_tech = engine_tech_4
@@ -1476,16 +1454,10 @@ technologies = {
 		research_cost = 1
 		start_year = 1936
 
-
 		categories = {
 			armor
 		}
 	}
-
-
-	########################
-	### SPECIAL PROJECTS ###
-	########################
 
 	sp_armored_advanced_flamethrower_tech = {
 

@@ -124,13 +124,6 @@ technologies = {
 				factor = 5
 
 				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
 				}
 			}
 
@@ -189,17 +182,6 @@ technologies = {
 				num_of_military_factories < 50
 				factor = 0.5
 			}
-			#modifier = {
-			#	factor = 0
-			#	tag = SOV
-			#	OR = {
-			#		date < "1944.1.1" # stock up on lots of rifles, we got the manpower
-			#		AND = {
-			#			date > "1943.1.1"
-			#			surrender_progress < 0.1 # if we arent losing badly its ok
-			#		}
-			#	}
-			#}
 		}
 	}
 	improved_infantry_weapons_2 = {
@@ -520,7 +502,6 @@ technologies = {
 			max_organisation = 5
 		}
 		
-
 		research_cost = 2.0
 		start_year = 1943
 		folder = {
@@ -730,14 +711,6 @@ technologies = {
 		
 		allow_branch = { NOT = { has_dlc = "Arms Against Tyranny" } }
 		
-		#dependencies = {
-		#	OR = {
-		#		marines = 1
-		#		paratrooper = 1
-		#		mountaineer = 1
-		#	}
-		#}
-
 		path = {
 			leads_to_tech = advanced_special_forces
 			research_cost_coeff = 1
@@ -766,7 +739,6 @@ technologies = {
 			factor = 0.7
 		}
 	}
-
 
 	advanced_special_forces = {
 		xor={
@@ -836,7 +808,6 @@ technologies = {
 		}
 	}
 
-
 	extreme_environment_training = {
 
 		category_special_forces = {
@@ -871,7 +842,6 @@ technologies = {
 		}
 	}
 
-
 	survival_training = {
 
 		category_special_forces = {
@@ -905,7 +875,6 @@ technologies = {
 		}
 	}
 
-
 	elite_forces = {
 		category_special_forces = {
 			max_organisation = 5
@@ -937,14 +906,9 @@ technologies = {
 
 		research_cost = 1
 
-		# only from focus!!! #####
 		allow = {
-			always = no
 		}
 
-
-		#If you change these
-		#Change the custom tooltip too: RAJ_jungle_training_effect
 		marine = {
 			jungle = {
 				attack = 0.05 
@@ -973,7 +937,6 @@ technologies = {
 		research_cost = 1
 
 		allow = {
-			always = no
 		}
 
 		paratrooper = {  # CHANGE TOOLTIP WHEN NEEDED
@@ -995,14 +958,9 @@ technologies = {
 
 		research_cost = 1
 
-		# only from focus!!! #####
 		allow = {
-			always = no
 		}
 
-
-		#If you change these
-		#Change the custom tooltip too: HUN_light_infantry_divisions_doctrine_effect
 		infantry = {
 			forest = {
 				attack = 0.02
@@ -1020,14 +978,9 @@ technologies = {
 
 		research_cost = 1
 
-		# only from focus!
 		allow = {
-			always = no
 		}
 
-
-		#If you change these
-		#Change the custom tooltip too: GRE_mountain_training_effect
 		infantry = {
 			mountain = {
 				defence = 0.05
@@ -1063,14 +1016,9 @@ technologies = {
 
 		research_cost = 1
 
-		# only from focus!
 		allow = {
-			always = no
 		}
 
-
-		#If you change these
-		#Change the custom tooltip too: AUS_osterreichische_gebirgsjager_tt
 		infantry = {
 			mountain = {
 				defence = 0.05
@@ -1086,7 +1034,6 @@ technologies = {
 		}
 
 	}
-
 
 	night_vision = {
 
@@ -1269,13 +1216,6 @@ technologies = {
 				factor = 5
 
 				OR = {
-					tag = CHI
-					tag = PRC
-					tag = XSM
-					tag = SIK
-					tag = GXC
-					tag = SHX
-					tag = YUN
 				}
 			}
 			modifier = {
@@ -1443,7 +1383,6 @@ technologies = {
 			tank_wheeled_suspension
 		}
 
-		
 		path = {
 			leads_to_tech = motorised_infantry
 			research_cost_coeff = 1
@@ -1501,10 +1440,6 @@ technologies = {
 		enable_equipments = {
 			motorized_equipment_1
 		}
-
-		#enable_equipment_modules = {
-		#	tank_wheeled_suspension
-		#}
 
 		on_research_complete_limit = {
 			NOT = {
@@ -1593,7 +1528,6 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				tag = SOV
 			}
 		}
 		
@@ -1800,7 +1734,6 @@ technologies = {
  	SWE_lynx_armored_car = {
  		allow = { always = no }
 		enable_equipments = {
-			#armored_car_at_equipment
 		}
 
 		research_cost = 1
@@ -1818,7 +1751,6 @@ technologies = {
 			max_organisation = 5
 			ap_attack = 0.1
 			hard_attack = 0.1
-			#hardness = 1
 			forest = {
 		    	attack = 0.2
 				movement = 0.55
@@ -1838,7 +1770,6 @@ technologies = {
 			max_organisation = 3
 			ap_attack = 0.1
 			hard_attack = 0.1
-			#hardness = 1
 			forest = {
 		    	attack = 0.05
 				movement = 0.05
@@ -1913,7 +1844,6 @@ technologies = {
 		ai_will_do = {
 			factor = 2
 			modifier = {
-				tag = USA
 				factor = 2
 			}
 		}
@@ -1964,7 +1894,6 @@ technologies = {
 		ai_will_do = {
 			factor = 2
 			modifier = {
-				tag = USA
 				factor = 2
 			}
 		}
@@ -2060,11 +1989,9 @@ technologies = {
 		}
 	}
 	
-	######### FROM JAPANESE FOCUS ##########
 	bicycle_infantry = {
 		
 		allow = {
-			always = no
 		}
 
 		research_cost = 1
@@ -2078,7 +2005,6 @@ technologies = {
 	camelry = {
 		
 		allow = {
-			always = no
 		}
 
 		research_cost = 1
@@ -2089,11 +2015,9 @@ technologies = {
 		}		
 	}
 
-	######### FROM SOVIET FOCUS ########## (And Finnish)
 	penal_infantry = {
 		
 		allow = {
-			always = no
 		}
 
 		research_cost = 1
@@ -2104,11 +2028,9 @@ technologies = {
 		}
 	}
 
-	######### FROM ITALIAN FOCUS ##########
 	blackshirt_assault_battalion_tech = {
 		
 		allow = {
-			always = no
 		}
 
 		research_cost = 1
@@ -2122,7 +2044,6 @@ technologies = {
 	mountain_warfare_militias_tech = { #Hidden tech showed as part of ITA_grande_rivolta_rurale_ns national spirit
 		
 		allow = {
-			always = no
 		}
 
 		research_cost = 1
@@ -2140,25 +2061,18 @@ technologies = {
 		}
 	}
 
-	### Improved Irregular Infantry Organization 
-
 	ETH_improved_irregular_infantry_tech = {
 		research_cost = 1
-		# only from focus!!! #####
 		allow = {
-			always = no
 		}
 		irregular_infantry = {
 			max_organisation = 10
 		}
 	}
 
-
-	######### FROM FINNISH FOCUS ##########
 	molotov_cocktails_tech = {
 		
 		allow = {
-			always = no
 		}
 
 		research_cost = 1
@@ -2173,7 +2087,6 @@ technologies = {
 	winter_logistics_support_tech = {
 		
 		allow = {
-			always = no
 		}
 
 		research_cost = 1
@@ -2187,7 +2100,6 @@ technologies = {
 	long_range_patrol_support_tech = {
 		
 		allow = {
-			always = no
 		}
 
 		research_cost = 1
@@ -2201,7 +2113,6 @@ technologies = {
 	sami_pathfinders_tech = { #Hidden tech showed as part of FIN_sami_pathfinders national spirit
 		
 		allow = {
-			always = no
 		}
 
 		research_cost = 1
@@ -2237,7 +2148,6 @@ technologies = {
 	lotta_svard_tech = { #Hidden tech showed as part of FIN_lotta_svard national spirit
 		
 		allow = {
-			always = no
 		}
 
 		research_cost = 1
@@ -2252,7 +2162,6 @@ technologies = {
 	SWE_sami_support_tech = { #Hidden tech for Sami reconcilliation for Sweden
 		
 		allow = {
-			always = no
 		}
 
 		research_cost = 1
@@ -2279,7 +2188,6 @@ technologies = {
 	TOA_jungle_pioneers_support_tech = {
 		
 		allow = {
-			always = no
 		}
 
 		research_cost = 1
@@ -2291,10 +2199,8 @@ technologies = {
 	}
 
 	ToA_river_boats_tech = { #hidden tech to boost Brazil via Brown Water Navy focus
-		# Remember to update tt: BRA_brown_water_navy_idea_bonus_tt
 		
 		allow = {
-			always = no
 		}
 
 		research_cost = 1
@@ -2309,11 +2215,9 @@ technologies = {
 		}
 	}
 
-	######### FROM GERMAN FOCUS ##########
 	sturmtruppe_battalion_tech = {
 		
 		allow = {
-			always = no
 		}
 
 		research_cost = 1
@@ -2327,7 +2231,6 @@ technologies = {
 	GER_heavy_armored_car = {
  		allow = { always = no }
 		enable_equipments = {
-			#armored_car_at_equipment
 		}
 
 		research_cost = 1
@@ -2344,17 +2247,12 @@ technologies = {
 			max_strength = 3
 			max_organisation = 2
 			armor_value = 0.5
-			#ap_attack = 0.1
-			#hard_attack = 0.1
-			#hardness = 1
 			recon = 1
 			defense = 0.1
 			forest = {
-		    	#attack = 0.05
 				movement = 0.05
 			}
 			desert = {
-		    	#attack = 0.05
 				movement = 0.1
 			}
 			plains = {
@@ -2363,12 +2261,9 @@ technologies = {
 		}
 	}	
 
-
-	##### FROM BELGIAN FOCUS #####
 	BEL_chasseurs_ardennais = { #hidden tech to boost Mountaineers in Forests. Remember to update BEL_chasseurs_ardennais_tt if you change these numbers!
 		
 		allow = {
-			always = no
 		}
 
 		research_cost = 1

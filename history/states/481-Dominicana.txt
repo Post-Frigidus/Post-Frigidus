@@ -6,8 +6,8 @@ state={
 		401 1554 1629 1783 4284 
 	}
 	history = {
-		owner = DOM
-		add_core_of = DOM
+		owner = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2

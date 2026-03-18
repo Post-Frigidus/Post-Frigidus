@@ -11,13 +11,11 @@ equipments = {
 		
 		interface_category = interface_category_other_ships
 
-		# Unused by convoys
 		surface_detection = 10
 		sub_detection = 0
 
 		fuel_consumption = 0
 
-		# Combat abilities
 		lg_armor_piercing = 1
 		armor_value = 0
 		reliability = 0.8
@@ -30,16 +28,12 @@ equipments = {
 		max_organisation = 30
 		anti_air_attack = 0.1
 
-
-        #Space taken in convoy
         lend_lease_cost = 0
 		
-		# (Describes combat behaviour - hidden stat)
 		offensive_weapons = no
 		
 		build_cost_ic = 70
 		resources = {
-			#oil = 1
 			steel = 1
 		}
 	}

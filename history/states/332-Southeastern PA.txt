@@ -7,16 +7,16 @@ state={
 	}
 
 	history={
-		owner = SPA
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 
 		}
-		add_core_of = SPA
+		add_core_of = TST
 		victory_points = {
 			2103 20
 		}

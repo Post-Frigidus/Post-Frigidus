@@ -4,9 +4,9 @@ state={
 	name="STATE_386"
 
 	history={
-		owner = PMB
+		owner = TST
 		1936.1.2 = {
-			owner = CAN
+			owner = TST
 
 		}
 		buildings = {
@@ -16,7 +16,7 @@ state={
 			air_base = 1
 
 		}
-		add_core_of = PMB
+		add_core_of = TST
 
 	}
 

@@ -2,15 +2,15 @@ state = {
 	id = 119
 	name = "STATE_119"
 	history = {
-		owner = PQC
+		owner = TST
 		1936.1.2 = {
-			owner = CAN
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = PQC
+		add_core_of = TST
 		victory_points = {
 			2795
 			8

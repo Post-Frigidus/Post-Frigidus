@@ -5,7 +5,7 @@ state = {
 		oil = 32
 	}
 	history = {
-		owner = STX
+		owner = TST
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -41,9 +41,9 @@ state = {
 				bunker = 3
 			}
 		}
-		add_core_of = STX
+		add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		victory_points = {
 			6024

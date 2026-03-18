@@ -7,10 +7,10 @@ state={
 	}
 
 	history={
-		owner = MCO
-		add_core_of = MCO
+		owner = TST
+		add_core_of = TST
 		1936.1.2 = {
-			owner = MEX
+			owner = TST
 		}
 		victory_points = {
 			4832 25 

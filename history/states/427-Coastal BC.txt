@@ -5,9 +5,9 @@ state={
 		tungsten=20
 	}
 	history={
-		owner = PBC
+		owner = TST
 		1936.1.2 = {
-			owner = CAN
+			owner = TST
 		}	
 		buildings = {
 			infrastructure = 2
@@ -15,7 +15,7 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = PBC
+		add_core_of = TST
 		victory_points = {
 			3172 10 
 		}

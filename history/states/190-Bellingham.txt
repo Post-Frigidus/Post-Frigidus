@@ -5,15 +5,15 @@ state={
 		chromium=25.000
 	}
 	history={
-		owner = SWA
+		owner = TST
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			dockyard = 1
 		}
-		add_core_of = SWA
+		add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		victory_points = {
 			5807 10 

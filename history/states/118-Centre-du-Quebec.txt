@@ -7,16 +7,16 @@ state={
 	}
 
 	history={
-		owner = PQC
+		owner = TST
 		1936.1.2 = {
-			owner = CAN
+			owner = TST
 
 		}
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = PQC
+		add_core_of = TST
 		victory_points = {
 			2757 8 
 		}

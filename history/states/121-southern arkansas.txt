@@ -8,16 +8,16 @@ state={
 	}
 
 	history={
-		owner = SAR
+		owner = TST
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 			fuel_silo = 1
 
 		}
-		add_core_of = SAR
+		add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 
 		}
 

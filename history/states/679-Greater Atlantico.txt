@@ -6,8 +6,8 @@ state={
 		steel=6.000
 	}
 	history={
-		owner = COL
-		add_core_of = COL
+		owner = TST
+		add_core_of = TST
 		victory_points = {
 			8693 10
 		}

@@ -6,15 +6,15 @@ state={
 		aluminium=2.000
 	}
 	history={
-		owner = SUT
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = SUT
+		add_core_of = TST
 		victory_points = {
 			1897 1 
 		}

@@ -8,9 +8,9 @@ state={
 	}
 
 	history={
-		owner = SHI
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 2
@@ -22,7 +22,7 @@ state={
 			}
 
 		}
-		add_core_of = SHI
+		add_core_of = TST
 		victory_points = {
 			173 25 
 		}

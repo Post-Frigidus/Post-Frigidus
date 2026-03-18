@@ -5,15 +5,15 @@ state={
 		5878 5886 
 	}
 	history={
-		owner = PBC
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 1
 		}
 		1936.1.2 = {
-			owner = CAN
+			owner = TST
 		}
 	}
 	manpower=10

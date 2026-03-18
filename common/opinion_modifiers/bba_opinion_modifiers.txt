@@ -1,12 +1,3 @@
-#########################################################################
-# OPINION MODIFIERS
-##########################################################################
-# value
-# min_trust
-# max_trust
-# decay
-# months/years/days = timer
-# trade = yes/no
 
 opinion_modifiers = {
 
@@ -24,8 +15,6 @@ opinion_modifiers = {
 		value = 75
 	}
 
-
-	#ITALY
 	ITA_supports_albanian_irredentism = {
 		value = 50
 	}
@@ -49,7 +38,6 @@ opinion_modifiers = {
 		months = 64
 	} 
 
-	#DANNES
 	ITA_military_cooperation_acceptance = {
 		value = 20
 		years = 1
@@ -93,8 +81,6 @@ opinion_modifiers = {
 		value = 50
 	}
 
-	#ETHIOPIA
-
 	ETH_supported_independence = {
 		value = 75
 	}
@@ -129,12 +115,6 @@ opinion_modifiers = {
 	Hosting_ETH = {
 		value = -50
 	}
-
-	###########################
-	####### SWITZERLAND ####### 
-	###########################
-
-### Generic Modifiers ###
 
 	SWI_mild_breach_of_neutrality = {
 		value = -10
@@ -233,8 +213,6 @@ opinion_modifiers = {
 		years = 2
 	}
 
-### Focus Tree Modifiers ###	
-
 	SWI_fortified_border = {
 		value = -25
 		years = 3
@@ -295,8 +273,6 @@ opinion_modifiers = {
 		months = 18
 	}
 
-### Gustloff Affair ###
-
 	SWI_suspicions_of_coverup = {
 		value = -20
 		years = 2
@@ -356,9 +332,6 @@ opinion_modifiers = {
 		value = -35
 		years = 3
 	}
-
-
-### Events and decisions ###
 
 	SWI_accepted_petition_of_the_200_bad = {
 		value = -25

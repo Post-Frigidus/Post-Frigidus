@@ -9,11 +9,11 @@ state={
 		oil = 1
 	}
 	history = {
-		owner = BAH
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
-		add_core_of = BAH
+		add_core_of = TST
 		buildings = {
 			infrastructure = 1
 			561 = {

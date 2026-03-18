@@ -1,6 +1,5 @@
 leader_attack_skills = {
 
-	### NAVY ###
 	1 = {
 		cost = 100
 		type = navy
@@ -81,7 +80,6 @@ leader_attack_skills = {
 		}
 	}
 
-	### Corps Commander ###
 	1 = {
 		cost = 100
 		type = corps_commander
@@ -97,7 +95,6 @@ leader_attack_skills = {
 			offence = 0.05
 		}
 	}
-	
 	
 	3 = {
 		cost = 400
@@ -163,8 +160,6 @@ leader_attack_skills = {
 		}
 	}
 	
-	
-	### Field Marshal ###
 	1 = {
 		cost = 100
 		type = field_marshal
@@ -173,7 +168,6 @@ leader_attack_skills = {
 		}
 	}
 	
-	
 	2 = {
 		cost = 200
 		type = field_marshal
@@ -181,7 +175,6 @@ leader_attack_skills = {
 			offence = 0.05
 		}
 	}
-	
 	
 	3 = {
 		cost = 400

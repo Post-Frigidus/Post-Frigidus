@@ -1,9 +1,6 @@
-# AI plane design for testing
 
 generic_fighter = {
 	category = air
-
-	available_for = {}
 
 	roles = {
 		air_fighter
@@ -150,8 +147,6 @@ generic_fighter = {
 generic_cas = {
 	category = air
 
-	available_for = {}
-
 	roles = {
 		air_cas
 	}
@@ -234,8 +229,6 @@ generic_cas = {
 generic_naval_bomber = {
 	category = air
 
-	available_for = {}
-
 	roles = {
 		air_naval_bomber
 	}
@@ -314,8 +307,6 @@ generic_naval_bomber = {
 
 generic_cv_fighter = {
 	category = air
-
-	available_for = {}
 
 	roles = {
 		air_cv_fighter
@@ -461,8 +452,6 @@ generic_cv_fighter = {
 generic_cv_cas = {
 	category = air
 
-	available_for = {}
-
 	roles = {
 		air_cv_cas
 	}
@@ -557,8 +546,6 @@ generic_cv_cas = {
 generic_cv_naval_bomber = {
 	category = air
 
-	available_for = {}
-
 	roles = {
 		air_cv_naval_bomber
 	}
@@ -651,12 +638,8 @@ generic_cv_naval_bomber = {
 	}
 }
 
-
-
 generic_tactical_bomber = {
 	category = air
-
-	available_for = {}
 
 	roles = {
 		air_tactical_bomber
@@ -814,8 +797,6 @@ generic_tactical_bomber = {
 generic_heavy_fighter = {
 	category = air
 
-	available_for = {}
-
 	roles = {
 		air_heavy_fighter
 	}
@@ -830,7 +811,6 @@ generic_heavy_fighter = {
 			
 		}
 		
-
 		target_variant = {
 			match_value = 1000
 			type = medium_plane_fighter_airframe_1
@@ -858,7 +838,6 @@ generic_heavy_fighter = {
 			
 		}
 		
-
 		target_variant = {
 			match_value = 1500
 			type = medium_plane_fighter_airframe_2
@@ -908,10 +887,8 @@ generic_heavy_fighter = {
 	}
 }
 
-
 generic_scout_plane = {
 	category = air
-	available_for = {}
 
 	roles = {
 		air_scout_plane
@@ -1011,8 +988,6 @@ generic_scout_plane = {
 
 generic_strategic_bomber = {
 	category = air
-
-	available_for = {}
 
 	roles = {
 		air_strategic_bomber
@@ -1138,8 +1113,6 @@ generic_strategic_bomber = {
 
 generic_maritime_patrol = {
 	category = air
-
-	available_for = {}
 
 	roles = {
 		air_maritime_patrol

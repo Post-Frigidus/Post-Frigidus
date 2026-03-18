@@ -7,16 +7,16 @@ state={
 	}
 
 	history={
-		owner = SND
+		owner = TST
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 
 		}
-		add_core_of = SND
+		add_core_of = TST
 		add_claim_by = SSD
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 
 		}
 		victory_points = {

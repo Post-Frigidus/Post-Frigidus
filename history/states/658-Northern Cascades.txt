@@ -2,12 +2,12 @@ state={
 	id=658
 	name="STATE_848"
 	history={
-		owner = SWA
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
-		add_core_of = SWA
-		add_core_of = LIN
+		add_core_of = TST
+		add_core_of = TST
 	}
 	impassable = yes
 	provinces={

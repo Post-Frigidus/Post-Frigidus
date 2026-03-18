@@ -9,15 +9,15 @@ state={
 	}
 
 	history={
-		owner = STX
+		owner = TST
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = STX
+		add_core_of = TST
 		add_claim_by = SOK
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 
 		}
 		victory_points = {

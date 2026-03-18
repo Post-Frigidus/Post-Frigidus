@@ -47,8 +47,8 @@ state = {
 		8853
 	}
 	history = {
-		owner = GRE
-		add_core_of = GRE
+		owner = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3

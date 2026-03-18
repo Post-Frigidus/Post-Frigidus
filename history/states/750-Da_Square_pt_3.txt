@@ -4,12 +4,12 @@ state={
 	name="STATE_750"
 
 	history={
-		owner = SIA
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 
 		}
-		add_core_of = SIA
+		add_core_of = TST
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

@@ -1,29 +1,3 @@
-#action_type = {
-#	available = {
-#		#trigger to check if action available
-#	}
-#	
-#	weight = {
-#		base = 1
-#		modifier = {
-#			add = 10
-#		}
-#	}
-#	
-#	max_amount = 3
-#	duration = 10
-#	
-#	effect = {
-#	
-#	}
-#
-#	state_modifier = {
-#	
-#	}
-#
-#	#if defined, the game will show up an alert text on map when resistance activity trigerred
-#	alert_text = loc
-#}
 
 sabotage_arms_factory = {
 	available = {
@@ -222,7 +196,6 @@ sabotage_anti_air_building = {
 	alert_text = building_is_sabotaged
 }
 
-
 sabotage_synthetic_refinery = {
 	available = {
 		non_damaged_building_level = {
@@ -245,7 +218,6 @@ sabotage_synthetic_refinery = {
 	alert_text = building_is_sabotaged
 }
 
-
 sabotage_fuel_silo = {
 	available = {
 		non_damaged_building_level = {
@@ -267,7 +239,6 @@ sabotage_fuel_silo = {
 
 	alert_text = building_is_sabotaged
 }
-
 
 sabotage_radar_station = {
 	available = {
@@ -510,7 +481,6 @@ sabotage_tungsten = {
 
 	alert_text = resource_is_sabotaged
 }
-
 
 sabotage_steel = {
 	available = {

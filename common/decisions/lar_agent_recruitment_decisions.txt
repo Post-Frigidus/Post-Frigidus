@@ -1,8 +1,5 @@
 lar_local_recruitment = {
-	#unlocks decisions to recruit in Europe
 	recruit_in_europe = {
-
-		#icon = generic_research
 
 		available = {
 			
@@ -126,10 +123,7 @@ lar_local_recruitment = {
 			base = 0
 		}
 	}
-#unlocks decisions to recruit in Europe
 	recruit_in_north_america = {
-
-		#icon = generic_research
 
 		available = {
 			
@@ -255,10 +249,7 @@ lar_local_recruitment = {
 		}
 	}
 
-	#unlocks decisions to recruit in south_america
 	recruit_in_south_america = {
-
-		#icon = generic_research
 
 		available = {
 			
@@ -384,10 +375,7 @@ lar_local_recruitment = {
 		}
 	}
 
-	#unlocks decisions to recruit in africa
 	recruit_in_africa = {
-
-		#icon = generic_research
 
 		available = {
 			
@@ -513,10 +501,7 @@ lar_local_recruitment = {
 		}
 	}
 
-	#unlocks decisions to recruit in middle_east
 	recruit_in_middle_east = {
-
-		#icon = generic_research
 
 		available = {
 			
@@ -642,10 +627,7 @@ lar_local_recruitment = {
 		}
 	}
 
-	#unlocks decisions to recruit in asia
 	recruit_in_asia = {
-
-		#icon = generic_research
 
 		available = {
 			
@@ -775,10 +757,7 @@ lar_local_recruitment = {
 		}
 	}
 
-	#unlocks decisions to recruit in australia
 	recruit_in_australia = {
-
-		#icon = generic_research
 
 		available = {
 			

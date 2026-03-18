@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = PMB
+		owner = TST
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
@@ -15,12 +15,12 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = PMB
+		add_core_of = TST
 		victory_points = {
 			1662 25 
 		}
 		1936.1.2 = {
-			owner = CAN
+			owner = TST
 
 		}
 

@@ -1,9 +1,4 @@
 idea_categories = {
-	# ledger can be define for idea > idea slot > idea category
-	# first one overrides the others
-	# multiple ledgers can be defined, in that case will show on all
-	# possible values : army, air, navy, military (shows on all military ledgers), civilian, all (shows up everywhere), hidden (does not show up)
-	
 	
 	hidden_ideas = {
 		hidden = yes
@@ -175,7 +170,6 @@ idea_categories = {
 	}
 }
 
-
 slot_ledgers = {
 	army_chief = army
 	navy_chief = navy
@@ -187,7 +181,6 @@ slot_ledgers = {
 	
 	theorist = invalid # must be overridden
 	high_command = invalid # must be overridden
-	
 	
 	mobilization_laws = civilian
 }

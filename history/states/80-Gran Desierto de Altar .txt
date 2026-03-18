@@ -9,10 +9,10 @@ state={
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	history = {
-		owner = MSO
-		add_core_of = MSO
+		owner = TST
+		add_core_of = TST
 		1936.1.2 = {
-			owner = MEX
+			owner = TST
 		}
 		victory_points = {
 			1152 5

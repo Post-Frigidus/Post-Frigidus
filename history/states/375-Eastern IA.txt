@@ -5,9 +5,9 @@ state = {
 		steel = 41
 	}
 	history = {
-		owner = SIA
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 3
@@ -27,7 +27,7 @@ state = {
 			2253
 			8
 		}
-		add_core_of = SIA
+		add_core_of = TST
 	}
 	provinces = {
 		2146

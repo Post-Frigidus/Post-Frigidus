@@ -2,16 +2,16 @@ state = {
 	id = 501
 	name = "STATE_501"
 	history = {
-		owner = PNT
+		owner = TST
 		buildings = {
 			infrastructure = 1
 			5072 = {
 				naval_base = 3
 			}
 		}
-		add_core_of = PNT
+		add_core_of = TST
 		1936.1.2 = {
-			owner = CAN
+			owner = TST
 		}
 		victory_points = {
 			5072

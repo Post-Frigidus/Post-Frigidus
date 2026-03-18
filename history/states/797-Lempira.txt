@@ -5,8 +5,8 @@ state={
 		773 794 796 818 819 824 922 
 	}
 	history = {
-		owner = HON
-		add_core_of = HON
+		owner = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 1
 		}

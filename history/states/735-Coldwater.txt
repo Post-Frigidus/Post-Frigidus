@@ -5,12 +5,12 @@ state = {
 		7850 7851 7852 7855 7856 
 	}
     history = {
-        owner = SMI
+        owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
-        add_core_of = SMI
-        add_core_of = KOS
+        add_core_of = TST
+        add_core_of = TST
 		buildings = {
 			infrastructure = 2
 		}

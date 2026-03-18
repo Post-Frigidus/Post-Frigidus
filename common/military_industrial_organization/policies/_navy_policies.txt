@@ -90,7 +90,6 @@ mio_policy_navy_great_sea_keeping  = {
 	}
 }
 
- 	
 mio_policy_navy_coastal_battlefleet = {
 	icon = GFX_mio_policy_coastal_battlefleet
 	allowed = {

@@ -2,17 +2,17 @@ state={
 	id=499
 	name="STATE_499"
 	history={
-		owner = PYT
+		owner = TST
 		buildings = {
 			infrastructure = 1
 			air_base = 2
 		}
-		add_core_of = PYT
+		add_core_of = TST
 		victory_points = {
 			7291 15
 		}
 		1936.1.2 = {
-			owner = CAN
+			owner = TST
 		}
 	}
 	provinces={

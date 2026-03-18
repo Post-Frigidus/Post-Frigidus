@@ -5,8 +5,8 @@ state={
 		252 805 952 
 	}
 	history = {
-		owner = HON
-		add_core_of = HON
+		owner = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 1
 			dockyard = 1

@@ -9,12 +9,12 @@ state = {
 		3947 7623 
 	}
     history = {
-        owner = SOH
+        owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
-        add_core_of = SOH
-        add_core_of = DAY
+        add_core_of = TST
+        add_core_of = TST
         buildings = {
             infrastructure = 3
             arms_factory = 1

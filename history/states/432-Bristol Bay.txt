@@ -7,14 +7,14 @@ state={
 		chromium = 14
 	}
 	history={
-		owner = SAK
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SAK
+		add_core_of = TST
 	}
 	provinces={
 		1354 1426 3220 3272 5040 5047 5054 5058 

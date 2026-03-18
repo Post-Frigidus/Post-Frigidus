@@ -1,9 +1,6 @@
 @base_reward_weight = 2 #Base Reward weight value
 @reward_weight_factor_theme = 0.25 # Applied to factor - Used to reduce chances of repeating the same reward theme within the same project (ie. Failure 1 & Failure 2)
 
-
-
-#Low Scientist XP gain
 sp_land_generic_reward_scientist_xp_1 = {
 
 	fire_only_once = yes
@@ -13,11 +10,6 @@ sp_land_generic_reward_scientist_xp_1 = {
 		max = 100
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -55,7 +47,6 @@ sp_land_generic_reward_scientist_xp_1 = {
 	}
 }
 
-#Medium Scientist XP gain
 sp_land_generic_reward_scientist_xp_2 = {
 
 	fire_only_once = yes
@@ -65,11 +56,6 @@ sp_land_generic_reward_scientist_xp_2 = {
 		max = 100
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -110,7 +96,6 @@ sp_land_generic_reward_scientist_xp_2 = {
 	}
 }
 
-#High Scientist XP gain
 sp_land_generic_reward_scientist_xp_3 = {
 
 	fire_only_once = yes
@@ -120,11 +105,6 @@ sp_land_generic_reward_scientist_xp_3 = {
 		max = 100
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -172,7 +152,6 @@ sp_land_generic_reward_scientist_xp_3 = {
 	}
 }
 
-#Low Army XP
 sp_land_generic_reward_army_xp_1 = {
 	fire_only_once = yes
 	
@@ -181,11 +160,6 @@ sp_land_generic_reward_army_xp_1 = {
 		max = 100
 	}
 	
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -206,7 +180,6 @@ sp_land_generic_reward_army_xp_1 = {
 	}
 }
 
-#medium Army XP
 sp_land_generic_reward_army_xp_2 = {
 	fire_only_once = yes
 	
@@ -215,11 +188,6 @@ sp_land_generic_reward_army_xp_2 = {
 		max = 100
 	}
 	
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -240,7 +208,6 @@ sp_land_generic_reward_army_xp_2 = {
 	}
 }
 
-#High Army XP
 sp_land_generic_reward_army_xp_3 = {
 	fire_only_once = yes
 	
@@ -249,11 +216,6 @@ sp_land_generic_reward_army_xp_3 = {
 		max = 100
 	}
 	
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -280,7 +242,6 @@ sp_land_generic_reward_army_xp_3 = {
 	}
 }
 
-#Low Extra Progress
 sp_land_generic_reward_major_progress_1 = {
 	fire_only_once = yes
 
@@ -289,11 +250,6 @@ sp_land_generic_reward_major_progress_1 = {
 		max = 100
 	}
 	
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -332,7 +288,6 @@ sp_land_generic_reward_major_progress_1 = {
 	}
 }
 
-#Medium Extra Progress
 sp_land_generic_reward_major_progress_2 = {
 	fire_only_once = yes
 
@@ -341,11 +296,6 @@ sp_land_generic_reward_major_progress_2 = {
 		max = 100
 	}
 	
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -384,7 +334,6 @@ sp_land_generic_reward_major_progress_2 = {
 	}
 }
 
-#High Extra Progress
 sp_land_generic_reward_major_progress_3 = {
 	fire_only_once = yes
 
@@ -393,11 +342,6 @@ sp_land_generic_reward_major_progress_3 = {
 		max = 100
 	}
 	
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -441,7 +385,6 @@ sp_land_generic_reward_major_progress_3 = {
 	}
 }
 
-#Low Progress Loss
 sp_land_generic_reward_test_failure_1 = {
 	fire_only_once = yes
 	
@@ -450,11 +393,6 @@ sp_land_generic_reward_test_failure_1 = {
 		max = 100
 	}
 	
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -493,7 +431,6 @@ sp_land_generic_reward_test_failure_1 = {
 	}
 }
 
-#Medium Progress Loss
 sp_land_generic_reward_test_failure_2 = {
 	fire_only_once = yes
 	
@@ -502,11 +439,6 @@ sp_land_generic_reward_test_failure_2 = {
 		max = 100
 	}
 	
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -545,7 +477,6 @@ sp_land_generic_reward_test_failure_2 = {
 	}
 }
 
-#High Progress Loss
 sp_land_generic_reward_test_failure_3 = {
 	fire_only_once = yes
 	
@@ -554,11 +485,6 @@ sp_land_generic_reward_test_failure_3 = {
 		max = 100
 	}
 	
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -602,7 +528,6 @@ sp_land_generic_reward_test_failure_3 = {
 	}
 }
 
-#Low Tech Bonus
 sp_land_generic_reward_armor_tech_1 = {
 	fire_only_once = yes
 	
@@ -611,11 +536,6 @@ sp_land_generic_reward_armor_tech_1 = {
 		max = 100
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -642,7 +562,6 @@ sp_land_generic_reward_armor_tech_1 = {
 	}
 }
 
-#Medium Tech Bonus
 sp_land_generic_reward_armor_tech_2 = {
 	fire_only_once = yes
 	
@@ -651,11 +570,6 @@ sp_land_generic_reward_armor_tech_2 = {
 		max = 100
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -682,7 +596,6 @@ sp_land_generic_reward_armor_tech_2 = {
 	}
 }
 
-#High Tech Bonus
 sp_land_generic_reward_armor_tech_3 = {
 	fire_only_once = yes
 	
@@ -691,11 +604,6 @@ sp_land_generic_reward_armor_tech_3 = {
 		max = 100
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -727,7 +635,6 @@ sp_land_generic_reward_armor_tech_3 = {
 	}
 }
 
-#Low Tech Bonus
 sp_land_generic_reward_artillery_tech_1 = {
 	fire_only_once = yes
 	
@@ -736,11 +643,6 @@ sp_land_generic_reward_artillery_tech_1 = {
 		max = 100
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -767,7 +669,6 @@ sp_land_generic_reward_artillery_tech_1 = {
 	}
 }
 
-#Medium Tech Bonus
 sp_land_generic_reward_artillery_tech_2 = {
 	fire_only_once = yes
 	
@@ -776,11 +677,6 @@ sp_land_generic_reward_artillery_tech_2 = {
 		max = 100
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -807,7 +703,6 @@ sp_land_generic_reward_artillery_tech_2 = {
 	}
 }
 
-#High Tech Bonus
 sp_land_generic_reward_artillery_tech_3 = {
 	fire_only_once = yes
 	
@@ -816,11 +711,6 @@ sp_land_generic_reward_artillery_tech_3 = {
 		max = 100
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -852,7 +742,6 @@ sp_land_generic_reward_artillery_tech_3 = {
 	}
 }
 
-#Armor Bonus
 sp_land_generic_reward_armor_bonus_1 = {
 	fire_only_once = yes
 	
@@ -861,11 +750,6 @@ sp_land_generic_reward_armor_bonus_1 = {
 		max = 100
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -891,7 +775,6 @@ sp_land_generic_reward_armor_bonus_1 = {
 	}
 }
 
-#Hardness Bonus
 sp_land_generic_reward_armor_bonus_2 = {
 	fire_only_once = yes
 	
@@ -900,11 +783,6 @@ sp_land_generic_reward_armor_bonus_2 = {
 		max = 100
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -930,7 +808,6 @@ sp_land_generic_reward_armor_bonus_2 = {
 	}
 }
 
-#Armor + Hardness Bonus
 sp_land_generic_reward_armor_bonus_3 = {
 	fire_only_once = yes
 	
@@ -939,11 +816,6 @@ sp_land_generic_reward_armor_bonus_3 = {
 		max = 100
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -975,7 +847,6 @@ sp_land_generic_reward_armor_bonus_3 = {
 	}
 }
 
-#Max Speed
 sp_land_generic_reward_engine_bonus_1 = {
 	fire_only_once = yes
 	
@@ -984,11 +855,6 @@ sp_land_generic_reward_engine_bonus_1 = {
 		max = 100
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -1014,7 +880,6 @@ sp_land_generic_reward_engine_bonus_1 = {
 	}
 }
 
-#Reliability
 sp_land_generic_reward_engine_bonus_2 = {
 	fire_only_once = yes
 	
@@ -1023,11 +888,6 @@ sp_land_generic_reward_engine_bonus_2 = {
 		max = 100
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -1053,7 +913,6 @@ sp_land_generic_reward_engine_bonus_2 = {
 	}
 }
 
-#Max Speed + Reliability
 sp_land_generic_reward_engine_bonus_3 = {
 	fire_only_once = yes
 	
@@ -1062,11 +921,6 @@ sp_land_generic_reward_engine_bonus_3 = {
 		max = 100
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -1098,7 +952,6 @@ sp_land_generic_reward_engine_bonus_3 = {
 	}
 }
 
-#Arty Soft Attack
 sp_land_generic_reward_artillery_bonus_1 = {
 	fire_only_once = yes
 	
@@ -1107,11 +960,6 @@ sp_land_generic_reward_artillery_bonus_1 = {
 		max = 100
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -1137,7 +985,6 @@ sp_land_generic_reward_artillery_bonus_1 = {
 	}
 }
 
-#AT Hard Attack + AA Air Attack
 sp_land_generic_reward_artillery_bonus_2 = {
 	fire_only_once = yes
 	
@@ -1146,11 +993,6 @@ sp_land_generic_reward_artillery_bonus_2 = {
 		max = 100
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -1179,7 +1021,6 @@ sp_land_generic_reward_artillery_bonus_2 = {
 	}
 }
 
-#Arty Soft Attack + AT Hard Attack + AA Air Attack
 sp_land_generic_reward_artillery_bonus_3 = {
 	fire_only_once = yes
 	
@@ -1188,11 +1029,6 @@ sp_land_generic_reward_artillery_bonus_3 = {
 		max = 100
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = @base_reward_weight
 		modifier = {
@@ -1237,11 +1073,6 @@ sp_land_generic_reward_resource_scarcity = {
 		max = 80
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = 0.5
 	}
@@ -1272,11 +1103,6 @@ sp_land_generic_reward_critical_failure = {
 		max = 80
 	}
 
-	# ROOT is the project
-	# FROM is the Country
-	# var:facility_state is the State where the facility is (ensured to be set in this case)
-	# var:facility_province_id is the province ID where the facility is (ensured to be set in this case)
-	# var:scientist is the Scientist (ensured to be set in this case)
 	weight = {
 		base = 0.25
 	}
@@ -1308,16 +1134,3 @@ sp_land_generic_reward_critical_failure = {
 	}
 }
 
-
-#OBSOLETE translated strings: 
-#sp_land_generic_reward_scientist_xp_1_desc
-#sp_land_generic_reward_army_xp_1_desc
-#sp_land_generic_reward_major_progress_1_desc
-#sp_land_generic_reward_test_failure_1_desc
-#sp_land_generic_reward_resource_scarcity_desc
-
-#sp_land_generic_reward_armor_tech_1_desc
-#sp_land_generic_reward_armor_bonus_1_desc
-#sp_land_generic_reward_engine_bonus_1_desc
-
-#sp_land_generic_reward_artillery_tech_1_desc

@@ -31,7 +31,6 @@ Syntax:
 		
 		visible = {
 			# trigger visible, like decisions. Optional. Example :
-			original_tag = GER
 		}
 		
 		available = {

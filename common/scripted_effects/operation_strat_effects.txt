@@ -1,7 +1,5 @@
 
-
 update_operation_ai = {
-	# old target is no longer relevant
 	if = {
 		limit = {
 			NOT = { check_variable = { generic_operation_target = 0 } }
@@ -16,17 +14,11 @@ update_operation_ai = {
 		set_variable = { generic_operation_target = 0 }
 	}
 
-
-	# pick an operation target
 	get_highest_scored_country = {
 		scorer = ai_generic_operation_target_scorer
 		var = generic_operation_target
 	}
 	
-	# this variable will be our limiting factor for actually doing operations
-	
-	# check if we have any operatives that are captured
-	# find the captor so they can be rescued
 	set_temp_variable = { captor = 0 }
 	
 	every_operative = {
@@ -44,8 +36,6 @@ update_operation_ai = {
 		add_to_temp_variable = { min_needed_operative_for_operations = 2 }
 	}
 	
-	
-	# if we have too few of operatives clear operative target
 	set_temp_variable = { t = min_needed_operative_for_operations }
 	subtract_from_temp_variable = { t = 2 }
 	if = {
@@ -54,10 +44,8 @@ update_operation_ai = {
 	}
 	
 	if = {
-		# if found a target pick an operation
 		limit = { 
 			NOT = { check_variable = { generic_operation_target = 0 } }
-			# if we are already preparing for current one no need to recalc
 			OR = {
 				check_variable = { generic_operation_type_to_run = 0 }
 				NOT = { 
@@ -74,23 +62,19 @@ update_operation_ai = {
 				num_of_operatives > min_needed_operative_for_operations
 			}
 			
-			# these two arrays are filled with operation tokens and corresponding score
 			clear_temp_array = operation_types
 			clear_temp_array = operation_types_scores
 			
-			# civilian infiltration
 			set_temp_variable = { score = 100 }
 			add_to_temp_array = { operation_types = token:operation_infiltrate_civilian }
 			add_to_temp_array = { operation_types_scores = score }
 			
-			# army infiltration
 			set_temp_variable = { score = 50 }
 			add_to_temp_variable = { score = num_armies }
 			clamp_temp_variable = { var = score max = 180 }
 			add_to_temp_array = { operation_types = token:operation_infiltrate_armed_forces_army }
 			add_to_temp_array = { operation_types_scores = score }
 			
-			# air infiltration
 			set_temp_variable = { score = 50 }
 			add_to_temp_variable = { t = num_deployed_planes }
 			divide_temp_variable = { t = 10 }
@@ -99,7 +83,6 @@ update_operation_ai = {
 			add_to_temp_array = { operation_types = token:operation_infiltrate_armed_forces_airforce }
 			add_to_temp_array = { operation_types_scores = score }
 			
-			# navy infiltration
 			var:generic_operation_target = {
 				if = {
 					limit = { 
@@ -125,17 +108,13 @@ update_operation_ai = {
 				}
 			}
 			
-			# get token for boost resistance
 			var:generic_operation_target = {
-				# only do on fascist
 				if = {
 					limit = { 
 						PREV = {
-							NOT = { tag = ENG } # ENG already does it against GER
 							NOT = { has_government = fascism } 
 							NOT = {
 								has_operation_token = {
-									tag = var:generic_operation_target
 									token = token_resistance_contacts
 								}
 							}
@@ -145,7 +124,6 @@ update_operation_ai = {
 						has_added_tension_amount > 20
 					}
 					
-					# ~number of occupied_states
 					set_temp_variable = { t = 1 }
 					add_to_temp_variable = { t = num_controlled_states }
 					subtract_from_temp_variable = { t = num_owned_states }
@@ -160,11 +138,9 @@ update_operation_ai = {
 					add_to_temp_array = { operation_types_scores = score }
 				}
 			}
-			# boost resistance
 			if = {
 				limit = { 
 					has_operation_token = {
-						tag = var:generic_operation_target
 						token = token_resistance_contacts
 					}
 				}
@@ -176,7 +152,6 @@ update_operation_ai = {
 			for_each_loop = {
 				array = operation_types
 				
-				# randomization by half
 				set_temp_variable = { t = random }
 				multiply_temp_variable = { t = 0.5 }
 				add_to_temp_variable = { t = 0.5 }
@@ -190,10 +165,8 @@ update_operation_ai = {
 							value > 0
 						}
 						
-						# lower score if we have a finished operation
 						multiply_temp_variable = { operation_types_scores^i = 0.5 }
 								
-						# cancel if more than 1 is executed
 						if = {
 							limit = {
 								num_finished_operations = {
@@ -209,7 +182,6 @@ update_operation_ai = {
 				}
 			}
 			
-			# highest score will be selected
 			find_highest_in_array = {
 				array = operation_types_scores
 			}

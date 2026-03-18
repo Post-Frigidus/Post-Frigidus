@@ -4,12 +4,12 @@ state={
 	name="STATE_741"
 
 	history={
-		owner = SMI
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
-		add_core_of = SMI
-		add_core_of = MMG
+		add_core_of = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

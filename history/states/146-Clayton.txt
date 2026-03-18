@@ -2,12 +2,12 @@ state = {
 	id = 146
 	name = "STATE_146"
 	history = {
-		owner = SNM
+		owner = TST
 		buildings = {
 			infrastructure = 2
 		}
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		victory_points = {
 			6193

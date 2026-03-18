@@ -62,7 +62,6 @@ equipments = {
 		surface_detection = 1 # For airwing of 100 planes (Destroyer I: 20 surface detection)
 
 		resources = {
-			#oil = 1
 			aluminium = 8
 			rubber = 4
 		}

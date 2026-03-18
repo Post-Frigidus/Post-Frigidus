@@ -1,6 +1,5 @@
 leader_skills = {
 
-	### NAVY ###
 	1 = {
 		cost = 100
 		type = navy
@@ -82,7 +81,6 @@ leader_skills = {
 		}
 	}
 
-	### Corps Commander ###
 	1 = {
 		cost = 100
 		type = corps_commander
@@ -128,8 +126,6 @@ leader_skills = {
 		type = corps_commander
 	}
 	
-	
-	### Field Marshal ###
 	1 = {
 		cost = 100
 		type = field_marshal
@@ -175,8 +171,6 @@ leader_skills = {
 		type = field_marshal
 	}
 	
-
-	### Operative ###
 	1 = {
 		cost = 100
 		type = operative

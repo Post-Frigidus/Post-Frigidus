@@ -7,9 +7,9 @@ state={
 	}
 
 	history={
-		owner = SPA
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}		
 		buildings = {
 			infrastructure = 1
@@ -17,7 +17,7 @@ state={
 			arms_factory = 2
 
 		}
-		add_core_of = SPA
+		add_core_of = TST
 
 	}
 

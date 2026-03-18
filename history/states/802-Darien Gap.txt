@@ -9,8 +9,8 @@ state={
 		oil = 2.000
 	}
 	history = {
-		owner = PAN
-		add_core_of = PAN
+		owner = TST
+		add_core_of = TST
 		#No buildings
 	}
 	manpower=6500

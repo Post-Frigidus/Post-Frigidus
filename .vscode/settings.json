@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^Set-Content -Path \"\\.\\\\common\\\\country_tags\\\\zz_dynamic_countries\\.txt\" -Value \"dynamic_tags  = yes # any tags after this is used for temporary civil wars`r`n\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

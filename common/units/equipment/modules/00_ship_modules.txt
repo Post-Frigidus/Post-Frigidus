@@ -2,13 +2,6 @@ equipment_modules = {
 	limit = {
 		has_dlc = "Man the Guns" 
 	}
-#   ###  ##  #  # ###     ###   ##  ### ### ### ###  #   # 
-#    #  #    #  #  #      #  # #  #  #   #  #   #  #  # #  
-#    #  # ## ####  #      ###  ####  #   #  ##  ###    #   
-#    #  #  # #  #  #      #  # #  #  #   #  #   #  #   #   
-### ###  ##  #  #  #      ###  #  #  #   #  ### #  #   #   
-
-
 
 	ship_light_battery_1 = {
 		abbreviation = "saa"
@@ -252,16 +245,6 @@ equipment_modules = {
 		critical_parts = { damaged_light_guns }
 	}
 
-
-
-#  # ###  ##  #   # #   #     ###   ##  ### ### ### ###  #   # 
-#  # #   #  # #   #  # #      #  # #  #  #   #  #   #  #  # #  
-#### ##  ####  # #    #       ###  ####  #   #  ##  ###    #   
-#  # #   #  #  # #    #       #  # #  #  #   #  #   #  #   #   
-#  # ### #  #   #     #       ###  #  #  #   #  ### #  #   #   
-
-
-
 	ship_heavy_battery_1 = {
 		abbreviation = "sai"
 		category = ship_heavy_battery
@@ -411,14 +394,6 @@ equipment_modules = {
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
-
-
-#   # ### ###  ### #  # #   #     ###   ##  ### ### ### ###  #   # 
-## ## #   #  #  #  #  # ## ##     #  # #  #  #   #  #   #  #  # #  
-# # # ##  #  #  #  #  # # # #     ###  ####  #   #  ##  ###    #   
-#   # #   #  #  #  #  # #   #     #  # #  #  #   #  #   #  #   #   
-#   # ### ###  ###  ##  #   #     ###  #  #  #   #  ### #  #   #   
-
 
 	ship_medium_battery_1 = {
 		abbreviation = "san"
@@ -764,20 +739,11 @@ equipment_modules = {
 		critical_parts = { damaged_secondaries }
 	}
 
- ## ###  ##   ##  #  # ###   ##  ###  ### ###  ## 
-#   #   #  # #  # ## # #  # #  # #  #  #  #   #   
- #  ##  #    #  # # ## #  # #### ###   #  ##   #  
-  # #   #  # #  # #  # #  # #  # #  #  #  #     # 
-##  ###  ##   ##  #  # ###  #  # #  # ### ### ##  
-
-
-
 	ship_secondaries_1 = {
 		abbreviation = "sav"
 		category = ship_secondaries
 		sfx = sfx_ui_sd_module_turret
 
-		
 		add_stats = {
 			lg_attack = 3
 			build_cost_ic = 180
@@ -954,13 +920,6 @@ equipment_modules = {
 		critical_parts = { damaged_secondaries }
 	}
 
-
- ##  #  # ### ###      ##  ### ###  
-#  # ## #  #   #      #  #  #  #  # 
-#### # ##  #   #      ####  #  ###  
-#  # #  #  #   #      #  #  #  #  # 
-#  # #  #  #  ###     #  # ### #  # 
-
 	ship_anti_air_1 = {
 		abbreviation = "sbb"
 		category = ship_anti_air
@@ -1060,15 +1019,6 @@ equipment_modules = {
 		}
 	}
 
-
-### ### ###  ###      ##   ##  #  # ### ###   ##  #        ## #   #  ## ### ### #   # 
-#    #  #  # #       #  # #  # ## #  #  #  # #  # #       #    # #  #    #  #   ## ## 
-##   #  ###  ##      #    #  # # ##  #  ###  #  # #        #    #    #   #  ##  # # # 
-#    #  #  # #       #  # #  # #  #  #  #  # #  # #         #   #     #  #  #   #   # 
-#   ### #  # ###      ##   ##  #  #  #  #  #  ##  ###     ##    #   ##   #  ### #   # 
-
-
-
 	ship_fire_control_system_0 = {
 		abbreviation = "sbf"
 		category = ship_fire_control_system
@@ -1155,15 +1105,6 @@ equipment_modules = {
 		}
 	}
 
-
-###   ##  ###   ##  ###  
-#  # #  # #  # #  # #  # 
-###  #### #  # #### ###  
-#  # #  # #  # #  # #  # 
-#  # #  # ###  #  # #  # 
-
-
-
 	ship_radar_1 = {
 		abbreviation = "sbj"
 		category = ship_radar
@@ -1244,25 +1185,13 @@ equipment_modules = {
 		}
 	}
 
-
-### #  #  ##  ### #  # ### 
-#   ## # #     #  ## # #   
-##  # ## # ##  #  # ## ##  
-#   #  # #  #  #  #  # #   
-### #  #  ##  ### #  # ### 
-
-
-
 	light_ship_engine_1 = {
 		abbreviation = "sbn"
 		category = light_ship_engine
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 5
 			fuel_consumption = 7
-			#build_cost_ic = 90
 		}
 		
 		multiply_stats = {
@@ -1283,11 +1212,8 @@ equipment_modules = {
 		parent = light_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 5
 			fuel_consumption = 8
-			#build_cost_ic = 120
 		}
 		
 		multiply_stats = {
@@ -1312,11 +1238,8 @@ equipment_modules = {
 		parent = light_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 5
 			fuel_consumption = 10
-			#build_cost_ic = 150
 		}
 		
 		multiply_stats = {
@@ -1340,11 +1263,8 @@ equipment_modules = {
 		parent = light_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 5
 			fuel_consumption = 10
-			#build_cost_ic = 170
 		}
 
 		multiply_stats = {
@@ -1367,11 +1287,8 @@ equipment_modules = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 		
-		
 		add_stats = {
-			#naval_speed = 5
 			fuel_consumption = 7
-			#build_cost_ic = 90
 		}
 		
 		multiply_stats = {
@@ -1380,7 +1297,6 @@ equipment_modules = {
 
 		}
 
-		
 		can_convert_from = {
 			module_category = sub_ship_engine
 			convert_cost_ic = 250
@@ -1393,17 +1309,13 @@ equipment_modules = {
 		parent = sub_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 5
 			fuel_consumption = 8
-			#build_cost_ic = 120
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.1
 			build_cost_ic = 0.125
-			#sub_visibility = -0.05
 		}
 		
 		can_convert_from = {
@@ -1423,11 +1335,8 @@ equipment_modules = {
 		parent = sub_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 5
 			fuel_consumption = 10
-			#build_cost_ic = 150
 		}
 		
 		multiply_stats = {
@@ -1452,11 +1361,8 @@ equipment_modules = {
 		parent = sub_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 5
 			fuel_consumption = 10
-			#build_cost_ic = 170
 		}
 		
 		multiply_stats = {
@@ -1538,7 +1444,6 @@ equipment_modules = {
 		}
 
 		multiply_stats = {
-			#naval_range= -0.75
 			build_cost_ic = 0.35
 			sub_visibility = -0.2
 			naval_speed = 0.35
@@ -1558,11 +1463,7 @@ equipment_modules = {
 		category = sub_ship_nuclear_engine
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 5
-			#fuel_consumption = 10
-			#build_cost_ic = 170
 		}
 		
 		multiply_stats = {
@@ -1585,11 +1486,8 @@ equipment_modules = {
 		category = cruiser_ship_engine
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 5
 			fuel_consumption = 12
-			#build_cost_ic = 400
 		}
 		
 		multiply_stats = {
@@ -1609,11 +1507,8 @@ equipment_modules = {
 		parent = cruiser_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 6
 			fuel_consumption = 16
-			#build_cost_ic = 480
 		}
 		
 		multiply_stats = {
@@ -1638,11 +1533,8 @@ equipment_modules = {
 		parent = cruiser_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 7
 			fuel_consumption = 20
-			#build_cost_ic = 550
 		}
 		
 		multiply_stats = {
@@ -1666,11 +1558,8 @@ equipment_modules = {
 		parent = cruiser_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 7
 			fuel_consumption = 24
-			#build_cost_ic = 670
 		}
 		
 		multiply_stats = {
@@ -1693,11 +1582,8 @@ equipment_modules = {
 		category = heavy_ship_engine
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 7
 			fuel_consumption = 20
-			#build_cost_ic = 1800
 		}
 		
 		multiply_stats = {
@@ -1717,11 +1603,8 @@ equipment_modules = {
 		parent = heavy_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 10
 			fuel_consumption = 25
-			#build_cost_ic = 2200
 		}
 		
 		multiply_stats = {
@@ -1746,11 +1629,8 @@ equipment_modules = {
 		parent = heavy_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 11
 			fuel_consumption = 30
-			#build_cost_ic = 2800
 		}
 		
 		multiply_stats = {
@@ -1775,17 +1655,13 @@ equipment_modules = {
 		parent = heavy_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 12
 			fuel_consumption = 35
-			#build_cost_ic = 3200
 		}
 		
 		multiply_stats = {
 			naval_speed = 0.55
 			build_cost_ic = 0.25
-			
 			
 		}
 		
@@ -1804,11 +1680,7 @@ equipment_modules = {
 		category = heavy_ship_nuclear_engine
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 5
-			#fuel_consumption = 10
-			#build_cost_ic = 170
 		}
 		
 		multiply_stats = {
@@ -1831,11 +1703,8 @@ equipment_modules = {
 		category = carrier_ship_engine
 		sfx = sfx_ui_sd_module_engine
 		
-		
 		add_stats = {
-			#naval_speed = 5
 			fuel_consumption = 12
-			#build_cost_ic = 400
 		}
 		
 		multiply_stats = {
@@ -1856,11 +1725,8 @@ equipment_modules = {
 		parent = carrier_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 5
 			fuel_consumption = 16
-			#build_cost_ic = 480
 		}
 		
 		multiply_stats = {
@@ -1886,11 +1752,8 @@ equipment_modules = {
 		parent = carrier_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
 		
-		
 		add_stats = {
-			#naval_speed = 5
 			fuel_consumption = 20
-			#build_cost_ic = 550
 		}
 		
 		multiply_stats = {
@@ -1915,11 +1778,8 @@ equipment_modules = {
 		parent = carrier_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 5
 			fuel_consumption = 24
-			#build_cost_ic = 670
 		}
 		
 		multiply_stats = {
@@ -1942,11 +1802,7 @@ equipment_modules = {
 		category = carrier_ship_nuclear_engine
 		sfx = sfx_ui_sd_module_engine
 
-		
 		add_stats = {
-			#naval_speed = 5
-			#fuel_consumption = 10
-			#build_cost_ic = 170
 		}
 		
 		multiply_stats = {
@@ -1965,23 +1821,11 @@ equipment_modules = {
 		}
 	}
 
-	
-
-
-###  ##  ###  ###  ### ###   ##  
- #  #  # #  # #  # #   #  # #  # 
- #  #  # ###  ###  ##  #  # #  # 
- #  #  # #  # #    #   #  # #  # 
- #   ##  #  # #    ### ###   ##  
-
-
-
 	ship_torpedo_1 = {
 		abbreviation = "sch"
 		category = ship_torpedo
 		sfx = sfx_ui_sd_module_turret
 
-		
 		add_stats = {
 			torpedo_attack = 18
 			build_cost_ic = 90
@@ -2082,7 +1926,6 @@ equipment_modules = {
 		category = ship_torpedo_sub
 		sfx = sfx_ui_sd_module_turret
 
-		
 		add_stats = {
 			torpedo_attack = 13
 			build_cost_ic = 80
@@ -2198,15 +2041,6 @@ equipment_modules = {
 		critical_parts = { damaged_torpedoes }
 	}
 
-
-#   # ### #  # ###     #    ##  #   # ### ###  
-## ##  #  ## # #       #   #  #  # #  #   #  # 
-# # #  #  # ## ##      #   ####   #   ##  ###  
-#   #  #  #  # #       #   #  #   #   #   #  # 
-#   # ### #  # ###     ### #  #   #   ### #  # 
-
-
-
 	ship_mine_layer_1 = {
 		abbreviation = "scp"
 		category = ship_mine_layer
@@ -2234,15 +2068,6 @@ equipment_modules = {
 		}
 	}
 
-
-#   # ### #  # ###      ## #   # ### ### ###  ### ###  
-## ##  #  ## # #       #   #   # #   #   #  # #   #  # 
-# # #  #  # ## ##       #  # # # ##  ##  ###  ##  ###  
-#   #  #  #  # #         # # # # #   #   #    #   #  # 
-#   # ### #  # ###     ##   # #  ### ### #    ### #  # 
-
-
-
 	ship_mine_sweeper_1 = {
 		abbreviation = "scr"
 		category = ship_mine_warfare
@@ -2258,20 +2083,10 @@ equipment_modules = {
 		}
 	}
 
-
-###  ### ###  ### #  #      ##  #  #  ##  ###   ##  ### 
-#  # #   #  #  #  #  #     #  # #  # #  # #  # #    #   
-#  # ##  ###   #  ####     #    #### #### ###  # ## ##  
-#  # #   #     #  #  #     #  # #  # #  # #  # #  # #   
-###  ### #     #  #  #      ##  #  # #  # #  #  ##  ### 
-
-
-
 	ship_depth_charge_1 = {
 		abbreviation = "scs"
 		category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
-		
 		
 		add_stats = {
 			sub_attack = 8
@@ -2351,15 +2166,6 @@ equipment_modules = {
 		}
 	}
 
-
- ## #  #  ##  ###  # # ### #   
-#   ## # #  # #  # # # #   #   
- #  # ## #  # ###  ##  ##  #   
-  # #  # #  # #  # # # #   #   
-##  #  #  ##  #  # # # ### ### 
-
-
-
 	ship_sub_snorkel_1 = {
 		abbreviation = "scw"
 		category = ship_sub_snorkel
@@ -2392,13 +2198,6 @@ equipment_modules = {
 		}
 	}
 
- ##   ##   ##  ### ### #  #  ##  
-#  # #  # #  #  #   #  ## # #    
-#    #  # ####  #   #  # ## # ## 
-#  # #  # #  #  #   #  #  # #  # 
- ##   ##  #  #  #  ### #  #  ##  
-
-
 	ship_anechoic_tile = {
 		abbreviation = "scsat"
 		category = ship_sub_coating
@@ -2417,13 +2216,6 @@ equipment_modules = {
 		}
 	}
 
- ## #  # ###  #   #  ##  ###  ### #  # ###     ###   ##  ### ### ### ###  ### ###  ## 
-#   #  # #  # ## ## #  # #  #  #  ## # #       #  # #  #  #   #  #   #  #  #  #   #   
- #  #  # ###  # # # #### ###   #  # ## ##      ###  ####  #   #  ##  ###   #  ##   #  
-  # #  # #  # #   # #  # #  #  #  #  # #       #  # #  #  #   #  #   #  #  #  #     # 
-##   ##  ###  #   # #  # #  # ### #  # ###     ###  #  #  #   #  ### #  # ### ### ##  
-
-	
 	ship_light_battery_sub = {
 		abbreviation = "smg"
 		category = ship_light_battery_sub
@@ -2440,11 +2232,6 @@ equipment_modules = {
 		critical_parts = { damaged_light_guns }
 	}
 	
- ##  ### ###   ##  ###   ##  ### ###     #    ##  #  # #  #  ##  #  # ### ###  
-#  #  #  #  # #  # #  # #  # #    #      #   #  # #  # ## # #  # #  # #   #  # 
-####  #  ###  #    ###  #### ##   #      #   #### #  # # ## #    #### ##  ###  
-#  #  #  #  # #  # #  # #  # #    #      #   #  # #  # #  # #  # #  # #   #  # 
-#  # ### #  #  ##  #  # #  # #    #      ### #  #  ##  #  #  ##  #  # ### #  # 
 	ship_airplane_launcher_1 = {
 		abbreviation = "scy"
 		category = ship_airplane_launcher
@@ -2478,11 +2265,6 @@ equipment_modules = {
 		}
 	}
 
-###  ###  ##  # #      ## ###   ##   ##  ### 
-#  # #   #  # # #     #   #  # #  # #  # #   
-#  # ##  #    ##       #  ###  #### #    ##  
-#  # #   #  # # #       # #    #  # #  # #   
-###  ###  ##  # #     ##  #    #  #  ##  ### 
 	ship_deck_space = {
 		abbreviation = "sda"
 		category = ship_deck_space
@@ -2503,7 +2285,6 @@ equipment_modules = {
 		dismantle_cost_ic = 700
 	}
 
-	# HABAKKUK
 	big_ship_deck_space = {
 		abbreviation = "sdb"
 		category = big_ship_deck_space
@@ -2525,8 +2306,6 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 1000
 	}
-
-# Rocket Modules
 
 	sub_missile_launcher = {
 		abbreviation = "sml"
@@ -2560,16 +2339,9 @@ equipment_modules = {
 		dismantle_cost_ic = 1000 
 	}
 
-### #  # ### #       ###  ##  #  # # #  ## 
-#   #  # #   #        #  #  # ## # # # #   
-##  #  # ##  #        #  #### # ## ##   #  
-#   #  # #   #        #  #  # #  # # #   # 
-#    ##  ### ###      #  #  # #  # # # ##  
-
 	ship_extra_fuel_tank = {
 		abbreviation = "sdb"
 		category = ship_extra_fuel_tank
-		
 		
 		add_stats = {
 			naval_range = 1000
@@ -2579,12 +2351,6 @@ equipment_modules = {
 		}
 		dismantle_cost_ic = 700
 	}
- ##  ##  #  #  ##  ###  
-#   #  # ## # #  # #  # 
- #  #  # # ## #### ###  
-  # #  # #  # #  # #  # 
-##   ##  #  # #  # #  # 
-
 
 	ship_sonar_1 = {
 		abbreviation = "sdc"
@@ -2613,11 +2379,6 @@ equipment_modules = {
 			convert_cost_ic = 25
 		}
 	}
- ##  ###  #   #  ##  ###       ##  ##  #  # ### #   # ###  ## 
-#  # #  # ## ## #  # #  #     #   #  # #  # #   ## ## #   #   
-#### ###  # # # #  # ###       #  #    #### ##  # # # ##   #  
-#  # #  # #   # #  # #  #       # #  # #  # #   #   # #     # 
-#  # #  # #   #  ##  #  #     ##   ##  #  # ### #   # ### ##  
 
 	ship_armor_bb_1 = {
 		abbreviation = "sde"

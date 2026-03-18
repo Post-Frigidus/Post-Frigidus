@@ -1,4 +1,3 @@
-# category can be HIGH, MEDIUM, LOW
 
 alerts = {	
 	alert_hostile_troops = {
@@ -18,8 +17,6 @@ alerts = {
 	alert_losing_trains = {
 		category = HIGH
 	}
-
-
 
 	alert_naval_invasion = {
 		category = HIGH

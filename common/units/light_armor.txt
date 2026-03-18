@@ -21,7 +21,6 @@ sub_units = {
 			category_army
 		}
 
-
 		combat_width = 2
 
 		need = {
@@ -34,9 +33,6 @@ sub_units = {
 		max_strength = 2
 		weight = 1
 		supply_consumption = 0.22
-
-		#Tanks are awesome
-		# soft_attack = 0.5
 
 		breakthrough = 0.15
 

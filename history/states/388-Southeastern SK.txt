@@ -8,9 +8,9 @@ state={
 	}
 
 	history={
-		owner = PSK
+		owner = TST
 		1936.1.2 = {
-			owner = CAN
+			owner = TST
 
 		}
 		buildings = {
@@ -19,7 +19,7 @@ state={
 			arms_factory = 2
 
 		}
-		add_core_of = PSK
+		add_core_of = TST
 		victory_points = {
 			1820 25 
 		}

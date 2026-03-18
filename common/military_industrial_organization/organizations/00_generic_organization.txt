@@ -729,7 +729,7 @@ generic_mobile_tank_organization = {
 }
 
 
-# MEDIUM TANK DESIGNER - Based on Army Ordnance Department (USA)
+# MEDIUM TANK DESIGNER - Based on Army Ordnance Department (TST)
 generic_medium_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_2
 
@@ -2246,7 +2246,6 @@ generic_raider_ship_organization = {
 	allowed = {
 		AND = {
 			has_dlc = "Arms Against Tyranny"
-			original_tag = ICE
 		}
 		#always = no # Archetype only - countries using it have their own versions
 	}

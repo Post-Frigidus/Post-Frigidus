@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = ELS
-		add_core_of = ELS
+		owner = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2

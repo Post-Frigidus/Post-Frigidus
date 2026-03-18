@@ -7,9 +7,9 @@ state={
 		chromium = 23
 	}
 	history={
-		owner = SAK
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 1
@@ -17,7 +17,7 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = SAK
+		add_core_of = TST
 		victory_points = {
 			3364 15 
 		}

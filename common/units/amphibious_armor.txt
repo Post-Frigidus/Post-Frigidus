@@ -23,7 +23,6 @@ sub_units = {
 			category_amphibious_tanks
 		}
 
-
 		combat_width = 2
 
 		need = {
@@ -90,7 +89,6 @@ sub_units = {
 			category_army
 			category_amphibious_tanks
 		}
-
 
 		combat_width = 2
 
@@ -159,7 +157,6 @@ sub_units = {
 			category_amphibious_tanks
 		}
 
-
 		combat_width = 2
 
 		need = {
@@ -226,7 +223,6 @@ sub_units = {
 			category_army
 			category_amphibious_tanks
 		}
-
 
 		combat_width = 2
 

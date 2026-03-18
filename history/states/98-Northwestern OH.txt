@@ -4,11 +4,11 @@ state={
 	name="STATE_98"
 
 	history={
-		owner = SOH
-		add_core_of = SOH
-		# add_core_of = TOL
+		owner = TST
+		add_core_of = TST
+		# add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 1

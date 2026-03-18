@@ -8,11 +8,11 @@ state = {
 		7628 7629 
 	}
     history = {
-        owner = SOH
+        owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
-        add_core_of = SOH
+        add_core_of = TST
         victory_points = {
             7628 50
         }

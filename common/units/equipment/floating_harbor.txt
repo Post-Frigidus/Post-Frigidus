@@ -18,7 +18,6 @@ equipments = {
 		}
 
 		can_be_lend_leased = {
-			always = no
 		}
 
 		can_be_produced = {

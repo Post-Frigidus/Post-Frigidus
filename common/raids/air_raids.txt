@@ -1,13 +1,4 @@
 types = {
-################################################################
-
-###  ##   ##  ### #   ### ### #   #      ## ### ###  ### # # ###
-#   #  # #  #  #  #    #   #   # #      #    #  #  #  #  # # #
-##  #### #     #  #    #   #    #        #   #  ###   #  ##  ##
-#   #  # #  #  #  #    #   #    #         #  #  #  #  #  # # #
-#   #  #  ##  ### ### ###  #    #       ##   #  #  # ### # # ###
-
-################################################################
 
 	facility_strike = {
 		days_to_prepare = 90
@@ -23,7 +14,6 @@ types = {
 				date < 1939.5.1 # No one probably does anything interesting before this anyway :)
 			}
 			modifier = {
-				# Don't target anyone who is not a potential enemy
 				factor = 0
 				NOT = {
 					is_in_array = {
@@ -42,16 +32,13 @@ types = {
 			has_dlc = "Gotterdammerung"
 		}
 
-		# Raid Type is visible
 		visible = {
 
 		}
-		# Specific Target is visible
 		show_target = {
 			NOT = { is_in_faction_with = FROM }
 		}
 
-		# Can prepare
 		available = {
 
 		}
@@ -96,7 +83,6 @@ types = {
 			success = {
 				base = 0.65
 
-				# Raiding unit modifiers
 				experience = {
 					weight = 0.2
 					start_weight = -0.2
@@ -123,7 +109,6 @@ types = {
 					start_weight = -0.1
 				}
 
-				### Target Modifiers
 				anti_air = {
 					reference = 5
 					weight = -0.25
@@ -134,7 +119,6 @@ types = {
 				}
 				intel = {
 					weight = 0.3
-					#start_reference = 50
 					reference = 100
 				}
 			}
@@ -268,17 +252,6 @@ types = {
 		}
 	}
 
-###############################################################################
-
-#    ##   ##  # #     ###   ##  #   # ###  ### #  #  ##      ###   ##  ### ###
-#   #  # #  # # #     #  # #  # ## ## #  #  #  ## # #        #  # #  #  #  #  #
-#   #  # #    ##      ###  #  # # # # ###   #  # ## # ##     ###  ####  #  #  #
-#   #  # #  # # #     #  # #  # #   # #  #  #  #  # #  #     #  # #  #  #  #  #
-###  ##   ##  # #     ###   ##  #   # ###  ### #  #  ##      #  # #  # ### ###
-
-###############################################################################
-
-
 	lock_bombing_raid = {
 		days_to_prepare = 90
 
@@ -293,17 +266,14 @@ types = {
 		allowed = {
 			has_dlc = "Gotterdammerung"
 		}
-		# Raid Type is visible
 		visible = {
 
 		}
 
-		# Specific Target is visible
 		show_target = {
 			NOT = { is_in_faction_with = FROM }
 		}
 
-		# Can prepare
 		available = {
 			is_special_project_completed = sp:sp_air_bouncing_bomb
 			has_war_with = FROM
@@ -346,7 +316,6 @@ types = {
 			success = {
 				base = 0.65
 
-				# Raiding unit modifiers
 				experience = {
 					weight = 0.1
 					start_weight = -0.1
@@ -373,7 +342,6 @@ types = {
 					start_weight = -0.2
 				}
 
-				### Target Modifiers
 				anti_air = {
 					reference = 5
 					weight = -0.25
@@ -384,7 +352,6 @@ types = {
 				}
 				intel = {
 					weight = 0.3
-					#start_reference = 50
 					reference = 100
 				}
 			}
@@ -405,7 +372,6 @@ types = {
 					}
 				}
 				actor_effects = {
-					# Damage to raiding units
 					raid_damage_units = {
 						plane_loss = 0.85
 						ratio = yes
@@ -419,7 +385,6 @@ types = {
 			}
 			limited_success = {
 			    victim_effects = {
-					# Damage to Target
 					var:target_state = {
 						damage_building = {
 							tags = locks_building
@@ -429,13 +394,11 @@ types = {
 					}
 			    }
 				actor_effects = {
-					# Damage to raiding units
 					raid_damage_units = {
 						plane_loss = 0.45
 						ratio = yes
 					}
 
-					# XP etc
 					raid_add_unit_experience = 0.1
 				}
 				visual_effect = {
@@ -445,7 +408,6 @@ types = {
 			}
 			success = {
 			    victim_effects = {
-					# Damage to Target
 					var:target_state = {
 						damage_building = {
 							tags = locks_building
@@ -456,13 +418,11 @@ types = {
 					}
 			    }
 				actor_effects = {
-					# Damage to raiding units
 					raid_damage_units = {
 						plane_loss = 0.15
 						ratio = yes
 					}
 
-					# XP etc
 					raid_add_unit_experience = 0.2
 
 					var:actor_country = {
@@ -476,7 +436,6 @@ types = {
 			}
 			critical_success = {
 			    victim_effects = {
-					# Damage to Target
 					var:target_state = {
 						damage_building = {
 							tags = locks_building
@@ -487,13 +446,11 @@ types = {
 					}
 			    }
 				actor_effects = {
-					# Damage to raiding units
 					raid_damage_units = {
 						plane_loss = 0.05
 						ratio = yes
 					}
 
-					# XP etc
 					raid_add_unit_experience = 0.35
 
 					var:actor_country = {
@@ -509,18 +466,6 @@ types = {
 
 	}
 
-	
-
-###################################################
-
-###   ##  #   #     ###  #  #  ## ### ### #  #  ##
-#  # #  # ## ##     #  # #  # #    #   #  ## # #
-#  # #### # # #     ###  #  #  #   #   #  # ## # ##
-#  # #  # #   #     #  # #  #   #  #   #  #  # #  #
-###  #  # #   #     ###   ##  ##   #  ### #  #  ##
-
-###################################################
-
 	dam_bombing_raid = {
 		days_to_prepare = 45
 
@@ -532,25 +477,21 @@ types = {
 			base = 1
 			modifier = {
 				factor = 3
-				original_tag = ENG # Just for historical reasons
 			}
 		}
 
 		allowed = {
 			has_dlc = "Gotterdammerung"
 		}
-		# Raid Type is visible
 		visible = {
 
 		}
-		# Specific Target is visible
 		show_target = {
 			NOT = {
 				is_in_faction_with = FROM
 			}
 		}
 
-		# Can prepare
 		available = {
 			is_special_project_completed = sp:sp_air_bouncing_bomb
 
@@ -590,7 +531,6 @@ types = {
 			success = {
 				base = 0.65
 
-				# Raiding unit modifiers
 				experience = {
 					weight = 0.1
 					start_weight = -0.1
@@ -617,7 +557,6 @@ types = {
 					start_weight = -0.2
 				}
 
-				### Target Modifiers
 				anti_air = {
 					reference = 5
 					weight = -0.25
@@ -628,7 +567,6 @@ types = {
 				}
 				intel = {
 					weight = 0.3
-					#start_reference = 50
 					reference = 100
 				}
 			}
@@ -638,8 +576,6 @@ types = {
 
 			}
 		}
-
-
 
 		success_levels = {
 			failure = {
@@ -653,7 +589,6 @@ types = {
 					}
 				}
 				actor_effects = {
-					# Damage to raiding units
 					raid_damage_units = {
 						plane_loss = 0.65
 						ratio = yes
@@ -667,7 +602,6 @@ types = {
 			}
 			limited_success = {
 			    victim_effects = {
-					# Damage to Target
 					var:target_state = {
 						damage_building = {
 							tags = dam_building
@@ -681,13 +615,11 @@ types = {
 					}
 			    }
 				actor_effects = {
-					# Damage to raiding units
 					raid_damage_units = {
 						plane_loss = 0.45
 						ratio = yes
 					}
 
-					# XP etc
 					raid_add_unit_experience = 0.1
 
 					var:actor_country = {
@@ -710,7 +642,6 @@ types = {
 			}
 			success = {
 			    victim_effects = {
-					# Damage to Target
 					var:target_state = {
 						damage_building = {
 							tags = dam_building
@@ -725,13 +656,11 @@ types = {
 					}
 			    }
 				actor_effects = {
-					# Damage to raiding units
 					raid_damage_units = {
 						plane_loss = 0.15
 						ratio = yes
 					}
 
-					# XP etc
 					raid_add_unit_experience = 0.2
 
 					var:actor_country = {
@@ -755,7 +684,6 @@ types = {
 			}
 			critical_success = {
 			    victim_effects = {
-					# Damage to Target
 					var:target_state = {
 						damage_building = {
 							tags = dam_building
@@ -770,13 +698,11 @@ types = {
 					}
 			    }
 				actor_effects = {
-					# Damage to raiding units
 					raid_damage_units = {
 						plane_loss = 0.05
 						ratio = yes
 					}
 
-					# XP etc
 					raid_add_unit_experience = 0.35
 
 					var:actor_country = {
@@ -801,27 +727,12 @@ types = {
 		}
 	}
 
-	
-	
-
-########################################################
-
- ##  ### #   ### ### ### #   ###      ###   ##  ### ###
-#  #  #  #   #    #  #   #   #  #     #  # #  #  #  #  #
-#  #  #  #   ##   #  ##  #   #  #     ###  ####  #  #  #
-#  #  #  #   #    #  #   #   #  #     #  # #  #  #  #  #
- ##  ### ### #   ### ### ### ###      #  # #  # ### ###
-
-########################################################
-
-
 	oilfield_raid = {
 		days_to_prepare = 90
 
 		ai_will_do = {
 			base = 1
 			modifier = {
-				# Don't target anyone who is not a potential enemy
 				factor = 0
 				NOT = {
 					is_in_array = {
@@ -831,7 +742,6 @@ types = {
 				}
 			}
 			modifier = {
-				# Don't target anyone who is not a potential enemy
 				factor = 0.25
 				NOT = {
 					has_war_with = FROM
@@ -846,33 +756,26 @@ types = {
 		allowed = {
 			has_dlc = "Gotterdammerung"
 		}
-		# Raid Type is visible
 		visible = {
 
 		}
-		# Specific Target is visible
 		show_target = {
 			NOT = {
 				is_in_faction_with = FROM
 			}
 		}
 
-		# Can prepare
 		available = {
 
 		}
 
-
-		# Can launch a raid
 		launchable = {
 			has_war_with = FROM
 		}
 
 		target_type = {
 			state = {
-				# Resouce amount needed to be eligible as raid target
 				oil > 24
-				# If the site has been hit recently you can't target it again
 				NOT = {
 					OR = {
 						has_dynamic_modifier = {
@@ -913,7 +816,6 @@ types = {
 			success = {
 				base = 0.65
 
-				# Raiding unit modifiers
 				experience = {
 					weight = 0.1
 					start_weight = -0.1
@@ -940,7 +842,6 @@ types = {
 					start_weight = -0.2
 				}
 
-				### Target Modifiers
 				anti_air = {
 					reference = 5
 					weight = -0.25
@@ -966,7 +867,6 @@ types = {
 
 			    }
 				actor_effects = {
-					# Damage to raiding units
 					raid_damage_units = {
 						plane_loss = 0.95
 						ratio = yes
@@ -984,7 +884,6 @@ types = {
 			}
 			limited_success = {
 			    victim_effects = {
-					# Damage to Target
 					var:target_state = {
 						add_dynamic_modifier = {
 							modifier = refinery_lightly_damaged_modifier
@@ -993,13 +892,11 @@ types = {
 					}
 			    }
 				actor_effects = {
-					# Damage to raiding units
 					raid_damage_units = {
 						plane_loss = 0.65
 						ratio = yes
 					}
 
-					# XP etc
 					raid_add_unit_experience = 0.1
 				}
 				visual_effect = {
@@ -1009,7 +906,6 @@ types = {
 			}
 			success = {
 			    victim_effects = {
-					# Damage to Target
 					var:target_state = {
 						add_dynamic_modifier = {
 							modifier = refinery_damaged_modifier
@@ -1018,13 +914,11 @@ types = {
 					}
 			    }
 				actor_effects = {
-					# Damage to raiding units
 					raid_damage_units = {
 						plane_loss = 0.25
 						ratio = yes
 					}
 
-					# XP etc
 					raid_add_unit_experience = 0.2
 
 					var:actor_country = {
@@ -1038,7 +932,6 @@ types = {
 			}
 			critical_success = {
 			    victim_effects = {
-					# Damage to Target
 					var:target_state = {
 						add_dynamic_modifier = {
 							modifier = refinery_critically_damaged_modifier
@@ -1047,13 +940,11 @@ types = {
 					}
 			    }
 				actor_effects = {
-					# Damage to raiding units
 					raid_damage_units = {
 						plane_loss = 0.1
 						ratio = yes
 					}
 
-					# XP etc
 					raid_add_unit_experience = 0.35
 
 					var:actor_country = {
@@ -1069,23 +960,12 @@ types = {
 
 	}
 
-###################################################################################################
-
- ##  #  # #  #     ### #   # ###  #    ##   ##  ### #   # ### #  # ###      ## ### ###  ### # # ###
-#    #  # ## #     #   ## ## #  # #   #  # #  # #   ## ## #   ## #  #      #    #  #  #  #  # # #
-# ## #  # # ##     ##  # # # ###  #   #### #    ##  # # # ##  # ##  #       #   #  ###   #  ##  ##
-#  # #  # #  #     #   #   # #    #   #  # #  # #   #   # #   #  #  #        #  #  #  #  #  # # #
- ##   ##  #  #     ### #   # #    ### #  #  ##  ### #   # ### #  #  #      ##   #  #  # ### # # ###
-
-###################################################################################################
-
 	mega_gun_emplacement_strike = {
 		days_to_prepare = 90
 
 		ai_will_do = {
 		    base = 1
 		    modifier = {
-				# Don't target anyone who is not a potential enemy
 				factor = 0
 				NOT = {
 					is_in_array = {
@@ -1105,16 +985,13 @@ types = {
 			has_dlc = "By Blood Alone"
 		}
 
-		# Raid Type is visible
 		visible = {
 
 		}
-		# Specific Target is visible
 		show_target = {
 			NOT = { is_in_faction_with = FROM }
 		}
 
-		# Can prepare
 		available = {
 			is_special_project_completed = sp:sp_air_earthshaker_bomb
 		}
@@ -1145,7 +1022,6 @@ types = {
 			}
 		}
 
-
 		starting_point = {
 		    types = { air_base }
 		}
@@ -1154,7 +1030,6 @@ types = {
 			success = {
 				base = 0.65
 
-				# Raiding unit modifiers
 				experience = {
 					weight = 0.2
 					start_weight = -0.2
@@ -1181,7 +1056,6 @@ types = {
 					start_weight = -0.1
 				}
 
-				### Target Modifiers
 				anti_air = {
 					reference = 5
 					weight = -0.25
@@ -1192,7 +1066,6 @@ types = {
 				}
 				intel = {
 					weight = 0.3
-					#start_reference = 50
 					reference = 100
 				}
 			}
@@ -1311,7 +1184,6 @@ types = {
 		ai_will_do = {
 			base = 1
 			modifier = {
-				# Don't target anyone who is not a potential enemy
 				factor = 0
 				NOT = {
 					is_in_array = {
@@ -1331,16 +1203,13 @@ types = {
 			NOT = { has_dlc = "By Blood Alone" }
 		}
 
-		# Raid Type is visible
 		visible = {
 			is_special_project_completed = sp:sp_air_earthshaker_bomb
 		}
-		# Specific Target is visible
 		show_target = {
 			NOT = { is_in_faction_with = FROM }
 		}
 
-		# Can prepare
 		available = {
 
 		}
@@ -1370,7 +1239,6 @@ types = {
 			}
 		}
 
-
 		starting_point = {
 		    types = { air_base }
 		}
@@ -1379,7 +1247,6 @@ types = {
 			success = {
 				base = 0.65
 
-				# Raiding unit modifiers
 				experience = {
 					weight = 0.2
 					start_weight = -0.2
@@ -1406,7 +1273,6 @@ types = {
 					start_weight = -0.1
 				}
 
-				### Target Modifiers
 				anti_air = {
 					reference = 5
 					weight = -0.25
@@ -1417,7 +1283,6 @@ types = {
 				}
 				intel = {
 					weight = 0.3
-					#start_reference = 50
 					reference = 100
 				}
 			}
@@ -1529,7 +1394,4 @@ types = {
 		}
 	}
 
-
-
-# END OF TYPES
 }

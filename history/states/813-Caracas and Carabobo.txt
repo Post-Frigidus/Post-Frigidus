@@ -7,7 +7,7 @@ state={
 		steel=3.000
 	}
 	history={
-		owner = VEN
+		owner = TST
 		buildings = {
 			arms_factory = 2
 			infrastructure = 2
@@ -18,7 +18,7 @@ state={
 			}
 
 		}
-		add_core_of = VEN
+		add_core_of = TST
 		victory_points = {
 			8347 40
 		}

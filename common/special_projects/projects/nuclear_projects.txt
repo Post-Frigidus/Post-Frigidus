@@ -130,7 +130,6 @@ sp_nuclear_reactor = {
 				
 				iteration_output = {
 					country_effects = {
-						#Do nothing, this is the default option
 					}
 				}
 			}
@@ -146,7 +145,6 @@ sp_nuclear_reactor = {
 								popup = no
 							}
 						}
-						#custom_effect_tooltip = sp_nuclear_isotope_separation_choice_reward_tt
 						add_timed_idea = {
 							idea = special_project_consumer_costs_high
 							days = 365
@@ -157,7 +155,6 @@ sp_nuclear_reactor = {
 			}
 		}
 
-		# First Successful Test of a Nuclear Reactor
 		sp_nuclear_reactor_tested_reward = {
 			fire_only_once = yes
 
@@ -243,7 +240,6 @@ sp_nuclear_reactor = {
 			option = {
 				token = ssp_nuclear_major_breakthrough_reward_option
 				
-				
 				iteration_output = {
 					country_effects = {
 						FROM = { add_project_progress_ratio = constant:sp_progress.gain.medium }
@@ -255,8 +251,6 @@ sp_nuclear_reactor = {
 	}
 }
 
-
-# ADVANDED NUCLEAR USAGE
 sp_commercial_nuclear_reactor = {
 	specialization = specialization_nuclear	
 	icon = GFX_sp_commercial_nuclear_reactor
@@ -399,7 +393,6 @@ sp_commercial_nuclear_reactor = {
 	}
 }
 
-
 sp_nuclear_engines = {
 	specialization = specialization_nuclear	
 	icon = GFX_sp_nuclear_engines
@@ -454,9 +447,6 @@ sp_nuclear_engines = {
 	}
 }
 
-
-
-# ATOMIC BOMBS
 sp_nuclear_bomb = {
 	specialization = specialization_nuclear	
 	icon = GFX_sp_nuclear_bomb
@@ -785,7 +775,6 @@ sp_nuclear_warheads = {
 
 	special_project_parent = {
 		sp_nuclear_bomb
-		# Country must have Medium range ballistic missiles to be able to start this project
 		sp_rockets_medium_range_ballistic_missile
 	}
 	allowed = {

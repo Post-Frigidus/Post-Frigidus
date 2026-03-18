@@ -4,11 +4,11 @@ state={
 	name="STATE_715"
 
 	history={
-		owner = SIN
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
-		add_core_of = SIN
+		add_core_of = TST
 		buildings = {
 			infrastructure = 3
 			#industrial_complex = 1

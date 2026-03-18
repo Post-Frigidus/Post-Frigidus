@@ -5,9 +5,9 @@ state={
 		tungsten=4.000
 	}
 	history={
-		owner = SWA
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 1
@@ -15,8 +15,8 @@ state={
 			industrial_complex = 0
 			air_base = 4
 		}
-		add_core_of = SWA
-		add_core_of = LIN
+		add_core_of = TST
+		add_core_of = TST
 		victory_points = {
 			2855 1 
 		}

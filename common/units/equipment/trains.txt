@@ -1,5 +1,4 @@
 equipments = {
-	#archetype
 	train_equipment = {
 		year = 1910
 
@@ -22,7 +21,6 @@ equipments = {
 			steel = 1
 		}
 	}
-	# regular trains
 	train_equipment_1 = {
 		year = 1910
 
@@ -36,7 +34,6 @@ equipments = {
 			steel = 1
 		}
 	}
-	# cheap trains
 	train_equipment_2 = {
 		year = 1940
 
@@ -49,7 +46,6 @@ equipments = {
 			steel = 1
 		}
 	}
-	# armored trains
 	train_equipment_3 = {
 		year = 1936
 

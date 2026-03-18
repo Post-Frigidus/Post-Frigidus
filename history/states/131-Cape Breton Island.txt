@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = PNS
+		owner = TST
 		buildings = {
 			infrastructure = 3
 			
@@ -16,9 +16,9 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = PNS
+		add_core_of = TST
 		1936.1.2 = {
-			owner = CAN
+			owner = TST
 		}
 
 	}

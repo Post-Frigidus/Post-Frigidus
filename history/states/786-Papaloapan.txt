@@ -5,13 +5,13 @@ state={
 		4331 4341 4346 4349 4354 4355 4360 4362 5671 
 	}
 	history = {
-		owner = MEX
+		owner = TST
 		1936.1.2 = {
-			owner = MEX
+			owner = TST
 
 		}
-		add_core_of = MEX
-		add_core_of = MVE
+		add_core_of = TST
+		add_core_of = TST
 
 		victory_points = {
 			4354 15 

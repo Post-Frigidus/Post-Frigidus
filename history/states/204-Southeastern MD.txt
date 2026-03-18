@@ -4,10 +4,10 @@ state={
 	name="STATE_204"
 
 	history={
-		owner = SMD
-		add_core_of = SMD
+		owner = TST
+		add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 2
@@ -20,9 +20,9 @@ state={
 				province = 5106
 			level = 1
 		}
-		#add_core_of = SMD
+		#add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		victory_points = {
 			5106 3

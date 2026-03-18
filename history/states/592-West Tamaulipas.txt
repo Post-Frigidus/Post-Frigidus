@@ -4,10 +4,10 @@ state={
 	name="STATE_592"
 
 	history={
-		owner = MTA
-		add_core_of = MTA	
+		owner = TST
+		add_core_of = TST	
 		1936.1.2 = {
-			owner = MEX
+			owner = TST
 		}
 		victory_points = {
 			4567 20 

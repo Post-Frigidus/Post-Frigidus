@@ -7,14 +7,14 @@ state={
 	}
 
 	history={
-		owner = MQR
-		add_core_of = MQR
-		add_core_of = COZ
+		owner = TST
+		add_core_of = TST
+		add_core_of = TST
 		victory_points = {
 			4164 5
 		}
 		1936.1.2 = {
-			owner = MEX
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 1

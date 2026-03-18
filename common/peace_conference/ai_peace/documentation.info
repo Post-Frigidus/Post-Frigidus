@@ -25,7 +25,6 @@
 #
 #            ROOT = { has_government = democratic }  # checks if negotiator is democratic
 #
-#            ROOT.FROM = { tag = AUS }  # Checks if the taker is Austria
 #
 #            ROOT.FROM.FROM.FROM = { is_core_of = AUS }  # Checks if the state targeted by the peace action is a core of Austria
 #

@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = GUA
-		add_core_of = GUA
+		owner = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

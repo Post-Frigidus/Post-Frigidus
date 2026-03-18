@@ -8,9 +8,9 @@ state={
 	}
 
 	history={
-		owner = SNY
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 
 		}
 		buildings = {
@@ -19,7 +19,7 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = SNY
+		add_core_of = TST
 		victory_points = {
 			5731 30 
 		}

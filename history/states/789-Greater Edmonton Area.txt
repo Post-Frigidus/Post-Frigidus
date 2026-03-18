@@ -4,9 +4,9 @@ state={
 	name="STATE_789"
 
 	history={
-		owner = PAB
+		owner = TST
 		1936.1.2 = {
-			owner = CAN
+			owner = TST
 
 		}
 		buildings = {

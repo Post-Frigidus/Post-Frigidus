@@ -1,6 +1,5 @@
 leader_coordination_skills = {
 
-	### NAVY ###
 	1 = {
 		cost = 100
 		type = navy

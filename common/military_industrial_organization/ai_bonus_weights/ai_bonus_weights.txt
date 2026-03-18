@@ -1,7 +1,5 @@
 default = {
 
-	# Equipment stats
-	
 	air_agility = 1
 	air_attack = 1
 	air_bombing = 1
@@ -53,7 +51,6 @@ default = {
 	torpedo_attack = 1
 	weight = 1
 
-	#Need to confirm by coder
 	default_morale = 1
 	recon = 1
 	initiative = 1
@@ -76,8 +73,6 @@ default = {
 	acclimatization_hot_climate_gain_factor = 1
 	acclimatization_cold_climate_gain_factor = 1
 	
-	# Production bonuses
-
 	production_capacity_factor = 1
 	production_conversion_speed_factor = 1
 	production_cost_factor = 1
@@ -85,8 +80,6 @@ default = {
 	production_efficiency_gain_factor = 1
 	production_resource_need_factor = 1
 	production_resource_penalty_factor = 1
-	
-	# Organisation modifiers
 	
 	military_industrial_organization_design_team_assign_cost = 1
 	military_industrial_organization_design_team_change_cost = 1

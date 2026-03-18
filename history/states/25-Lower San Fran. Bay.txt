@@ -2,7 +2,7 @@ state = {
 	id = 25
 	name = "STATE_25"
 	history = {
-		owner = SCA
+		owner = TST
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
@@ -14,7 +14,7 @@ state = {
 				naval_base = 8
 			}
 		}
-		add_core_of = SCA
+		add_core_of = TST
 		victory_points = {
 			1779
 			40
@@ -32,7 +32,7 @@ state = {
 			10
 		}
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 	}
 	provinces = {

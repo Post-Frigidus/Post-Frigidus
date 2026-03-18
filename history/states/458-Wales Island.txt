@@ -5,7 +5,7 @@ state = {
 		6729
 	}
 	history = {
-		owner = PNT
+		owner = TST
 	}
 	manpower = 10
 	buildings_max_level_factor = 1

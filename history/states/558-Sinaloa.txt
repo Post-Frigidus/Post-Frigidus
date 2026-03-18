@@ -4,10 +4,10 @@ state={
 	name="STATE_558"
 
 	history={
-		owner = MSI
-		add_core_of = MSI
+		owner = TST
+		add_core_of = TST
 		1936.1.2 = {
-			owner = MEX
+			owner = TST
 		}
 		victory_points = {
 			634 30 

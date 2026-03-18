@@ -8,9 +8,9 @@ state={
 	}
 
 	history={
-		owner = SID
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 3
@@ -19,7 +19,7 @@ state={
 			air_base = 3
 
 		}
-		add_core_of = SID
+		add_core_of = TST
 		#add_claim_by = PCA
 		#victory_points = { #Burley
 		#	3725 2 

@@ -8,8 +8,8 @@ state={
 		366 433 2605 2950 
 	}
 	history={
-		owner = SRO
-		add_core_of = SRO
+		owner = TST
+		add_core_of = TST
 		add_claim_by = SOR
 		buildings = {
 			infrastructure = 2
@@ -22,7 +22,7 @@ state={
 			2605 2
                 }
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		add_claim_by = SRO
 	}

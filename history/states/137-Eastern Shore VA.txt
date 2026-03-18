@@ -4,7 +4,7 @@ state={
 	name="STATE_137"
 
 	history={
-		owner = VES
+		owner = TST
 		buildings = {
 			infrastructure = 3
 			1782 = {
@@ -13,10 +13,10 @@ state={
 			}
 
 		}
-		add_core_of = SVA
-		add_core_of = VES
+		add_core_of = TST
+		add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 
 		}
 

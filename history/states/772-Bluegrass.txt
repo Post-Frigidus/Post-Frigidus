@@ -7,11 +7,11 @@ state={
 		aluminium = 1.000
 	} 
 	history={
-		owner = SKY
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
-		add_core_of = SKY
+		add_core_of = TST
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 3

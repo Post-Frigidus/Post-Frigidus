@@ -7,9 +7,9 @@ state={
 	}
 
 	history={
-		owner = PEI
+		owner = TST
 		1936.1.2 = {
-			owner = CAN
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 3
@@ -21,7 +21,7 @@ state={
 			}
 
 		}
-		add_core_of = PEI
+		add_core_of = TST
 
 	}
 

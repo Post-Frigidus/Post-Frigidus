@@ -8,13 +8,13 @@ state={
 	}
 
 	history={
-		owner = LMO
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 
 		}
-		add_core_of = SMO
-		add_core_of = LMO
+		add_core_of = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

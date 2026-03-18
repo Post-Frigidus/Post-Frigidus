@@ -5,8 +5,8 @@ state={
 		8357 
 	}
 	history = {
-		owner = UAF
-		add_core_of = UAF
+		owner = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 1
 			8357 = {

@@ -8,8 +8,8 @@ state = {
         steel = 38
     }
     history = {
-		owner = DOM
-		add_core_of = DOM
+		owner = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2

@@ -5,7 +5,7 @@ state={
 		aluminium = 12
 	}
 	history={
-		owner = PBC
+		owner = TST
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -13,8 +13,8 @@ state={
 				naval_base = 5
 			}
 		}
-		add_core_of = PBC
-		add_core_of = PVC
+		add_core_of = TST
+		add_core_of = TST
 		victory_points = {
 			2938 20
 		}
@@ -22,7 +22,7 @@ state={
 			3923 5
 		}
 		1936.1.2 = {
-			owner = CAN
+			owner = TST
 		}
 	}
 	provinces={

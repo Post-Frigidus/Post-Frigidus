@@ -20,7 +20,6 @@ forming_category = {
 			}
 		}
 		visible = {
-			original_tag = TST
 			NOT = { has_global_flag = form_test_flag }
 			NOT = { has_country_flag = created_country }
 		}

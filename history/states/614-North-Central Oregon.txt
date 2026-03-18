@@ -8,11 +8,11 @@ state={
 		steel=16
 	}
 	history={
-		owner = SOR
-		add_core_of = SOR
+		owner = TST
+		add_core_of = TST
 		add_claim_by = SRO
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 3

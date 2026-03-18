@@ -7,9 +7,9 @@ state={
 	}
 	
 	history={
-		owner = SOH
-		add_core_of = SOH
-		add_core_of = TOL
+		owner = TST
+		add_core_of = TST
+		add_core_of = TST
 		add_claim_by = SMI
 		buildings = {
 			infrastructure = 3
@@ -25,7 +25,7 @@ state={
 			2310 25 
 		}
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 			set_demilitarized_zone = no
 		}
 	

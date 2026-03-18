@@ -4,7 +4,6 @@ technologies = {
 	
 		production_factory_max_efficiency_factor = 0.1
 
-		
 		path = {
 			leads_to_tech = improved_machine_tools 
 			research_cost_coeff = 1
@@ -37,7 +36,6 @@ technologies = {
 		}
 	}
 
-	#Machine tools branch	
 	improved_machine_tools = {
 	
 		production_factory_max_efficiency_factor = 0.1
@@ -111,11 +109,6 @@ technologies = {
 	
 		production_factory_max_efficiency_factor = 0.1
 		
-		#path = {
-		#	leads_to_tech = improved_machine_tools 
-		#	research_cost_coeff = 1
-		#}
-		
 		path = {
 			leads_to_tech = flexible_line
 			research_cost_coeff = 1
@@ -125,7 +118,6 @@ technologies = {
 			leads_to_tech = streamlined_line
 			research_cost_coeff = 1
 		}
-		
 		
 		research_cost = 2
 		start_year = 1941
@@ -215,7 +207,6 @@ technologies = {
 		}
 	}
 
-	#Conversion branch - Enabled in DoD
 	improved_equipment_conversion = {
 	
 		equipment_conversion_speed = 0.40
@@ -289,7 +280,6 @@ technologies = {
 		}
 	}
 
-	###############
 	concentrated_industry = {
 
 		industrial_capacity_factory = 0.15
@@ -680,7 +670,6 @@ technologies = {
 		industry_air_damage_factor = -0.10
 		global_building_slots_factor = 0.2
 		
-		
 		research_cost = 2
 		start_year = 1943
 		
@@ -691,7 +680,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 15
-			
 			
 			modifier = {
 				factor = 10
@@ -830,7 +818,6 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				tag = USA
 				factor = 0.5
 			}
 			modifier = {
@@ -895,7 +882,6 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				tag = USA
 				factor = 0.5
 			}	
 			modifier = {
@@ -951,7 +937,6 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				tag = USA
 				factor = 0.5
 			}	
 			modifier = {
@@ -998,7 +983,6 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				tag = USA
 				factor = 0.5
 			}	
 			modifier = {
@@ -1041,7 +1025,6 @@ technologies = {
 		ai_will_do = {
 			factor = 5
 			modifier = {
-				tag = USA
 				factor = 0.5
 			}
 			modifier = {
@@ -1318,7 +1301,6 @@ technologies = {
 		show_effect_as_desc = yes
 	}
 
-	#####################################
 	rubber_processing = {
 
 		on_research_complete = {
@@ -1533,7 +1515,6 @@ technologies = {
 		
 		show_effect_as_desc = yes
 	}
-	#####################################
 	
 	construction1 = {
 		
@@ -1675,7 +1656,6 @@ technologies = {
 			excavation_tech
 		}
 
-		
 		folder = {
 			name = industry_folder
 			position = { x = 2 y = 2 }
@@ -1756,7 +1736,6 @@ technologies = {
 			}
 		}
 	}
-
 
 	excavation3 = {
 		
@@ -1914,7 +1893,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		
 		research_cost = 2
 		start_year = 1943
 		
@@ -1937,7 +1915,6 @@ technologies = {
 			}
 		}
 	}
-
 
 	excavation5 = {
 		

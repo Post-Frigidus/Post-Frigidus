@@ -5,8 +5,8 @@ state={
 		258 486 525 546 559 592 644 
 	}
 	history = {
-		owner = ELS
-		add_core_of = ELS
+		owner = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 2
 			dockyard = 2

@@ -4,7 +4,7 @@ state={
 	name="STATE_203"
 
 	history={
-		owner = SNJ
+		owner = TST
 		buildings = {
 			
 			infrastructure = 2
@@ -16,9 +16,9 @@ state={
 			}
 
 		}
-		add_core_of = SNJ
+		add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		victory_points = {
 			3424 3 

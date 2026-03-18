@@ -6,7 +6,7 @@ state={
 		steel=18.000
 	}
 	history={
-		owner = SMD
+		owner = TST
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -18,10 +18,10 @@ state={
 		victory_points = {
 			5145 8 
 		}
-		add_core_of = SMD
+		add_core_of = TST
 
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 	}
 	provinces={

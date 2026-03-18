@@ -9,7 +9,6 @@ autonomy_state = {
 	
 	manpower_influence = 1.0
 	
-	#Entirely diplomatically dependent on their overlord, but fairly autonomous in industry
 	rule = {
 		desc = "RULE_DESC_IS_A_SUBJECT"
 		
@@ -51,6 +50,5 @@ autonomy_state = {
 	}
 	
 	can_lose_level = {
-		always = no
 	}
 }

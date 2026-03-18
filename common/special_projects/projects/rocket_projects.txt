@@ -1,12 +1,4 @@
 
-
-### #   #   # ### #  #  ##      ###   ##  #   # ###   ## 
-#   #    # #   #  ## # #        #  # #  # ## ## #  # #   
-##  #     #    #  # ## # ##     ###  #  # # # # ###   #  
-#   #     #    #  #  # #  #     #  # #  # #   # #  #   # 
-#   ###   #   ### #  #  ##      ###   ##  #   # ###  ##  
-
-
 sp_rockets_flying_bomb = {
 	specialization = specialization_air 
 	icon = GFX_sp_rockets_flying_bomb
@@ -48,7 +40,6 @@ sp_rockets_flying_bomb = {
 		}
 	}
 
-	
 	prototype_time = sp_time.prototype.medium
 
 	project_output = {
@@ -94,7 +85,6 @@ sp_rockets_flying_bomb = {
 
 	unique_prototype_rewards = {
 		
-		# Design Choice
 		sp_rocket_design_choice_reward = {
 			fire_only_once = yes
 
@@ -143,7 +133,6 @@ sp_rockets_flying_bomb = {
 
 		}
 
-		# Pulsejet Design
 		sp_rockets_flying_bomb_technical_breakthrough_in_pulsejet_design_reward = {
 			fire_only_once = yes
 			
@@ -170,7 +159,6 @@ sp_rockets_flying_bomb = {
 			}
 		}
 
-		# Launch ramp innovations
 		sp_rockets_flying_bomb_launch_ramp_innovations_reward = {
 			fire_only_once = yes
 			
@@ -194,7 +182,6 @@ sp_rockets_flying_bomb = {
 			}
 		}
 
-		# Mass Production
 		sp_rockets_flying_bomb_mass_production_scaling_reward = {
 			fire_only_once = yes
 			
@@ -220,7 +207,6 @@ sp_rockets_flying_bomb = {
 			}
 		}
 
-		# Engine Optimization
 		sp_rockets_flying_bomb_engine_optimization_breakthrough_reward = {
 			fire_only_once = yes
 			
@@ -246,7 +232,6 @@ sp_rockets_flying_bomb = {
 			}
 		}
 
-		# Technological Innovations
 		sp_rockets_flying_bomb_technological_innovation_in_guidance_systems_reward = {
 			fire_only_once = yes
 			
@@ -272,7 +257,6 @@ sp_rockets_flying_bomb = {
 				}
 			}
 		}
-		# Test Flight Failures
 		sp_rockets_flying_bomb_test_flight_failures_reward = {
 			fire_only_once = yes
 			
@@ -304,15 +288,6 @@ sp_rockets_flying_bomb = {
 	}
 }
 
-
-###   ##  #   #   ###  ## ### ###  ##      #   # ###  ##  ## ### #   ###  ## 
-#  # #  # #   #    #  #    #   #  #  #     ## ##  #  #   #    #  #   #   #   
-###  #### #   #    #   #   #   #  #        # # #  #   #   #   #  #   ##   #  
-#  # #  # #   #    #    #  #   #  #  #     #   #  #    #   #  #  #   #     # 
-###  #  # ### ### ### ##   #  ###  ##      #   # ### ##  ##  ### ### ### ##  
-
-
-# Ballistic Missiles - The V2 programme
 sp_rockets_ballistic_missile = {
 	specialization = specialization_air 
 	breakthrough_cost = {
@@ -511,8 +486,6 @@ sp_rockets_ballistic_missile = {
 	}
 }
 
-
-# Medium range Missiles
 sp_rockets_medium_range_ballistic_missile = {
 	specialization = specialization_air 
 	
@@ -646,7 +619,6 @@ sp_rockets_medium_range_ballistic_missile = {
 	}
 }
 
-# Long range Missiles
 sp_rockets_long_range_ballistic_missile = {
 	specialization = specialization_air 
 	
@@ -671,7 +643,6 @@ sp_rockets_long_range_ballistic_missile = {
 
 	special_project_parent = {
 		sp_rockets_medium_range_ballistic_missile
-		# ICBMs are intended to be only nuclear warhead carriers, so need to be able to do create these in order to complete project
 		sp_nuclear_warheads
 	}
 
@@ -685,7 +656,6 @@ sp_rockets_long_range_ballistic_missile = {
 
 	project_output = {
 		enable_equipments = {
-			#ballistic_missile_equipment_3
 			nuclear_missile_equipment_2
 		}
 		
@@ -752,7 +722,6 @@ sp_rockets_long_range_ballistic_missile = {
 				
 				iteration_output = {
 					country_effects = {
-						#Do nothing, this is the default option
 						FROM = { add_project_progress_ratio = constant:sp_progress.loss.low }
 					}
 				}
@@ -793,14 +762,6 @@ sp_rockets_long_range_ballistic_missile = {
 	}
 }
 
- ##  ###   ##  #  # #  # ###      ###  ##       ##  ### ###  
-#    #  # #  # #  # ## # #  #      #  #  #     #  #  #  #  # 
-# ## ###  #  # #  # # ## #  #      #  #  #     ####  #  ###  
-#  # #  # #  # #  # #  # #  #      #  #  #     #  #  #  #  # 
- ##  #  #  ##   ##  #  # ###       #   ##      #  # ### #  # 
-
-
-# Ground to Air Missiles - The Wasserfall Project
 sp_rockets_ground_to_air_missile = {
 	specialization = specialization_air 
 	breakthrough_cost = {
@@ -870,7 +831,6 @@ sp_rockets_ground_to_air_missile = {
 	}
 
 	unique_prototype_rewards = {
-		# Ground control improvements
 		sp_rockets_ground_control_improvements_reward = {
 			fire_only_once = yes
 			
@@ -894,7 +854,6 @@ sp_rockets_ground_to_air_missile = {
 			}
 		}
 
-		# Ground control improvements
 		sp_rockets_vertical_launch_reward = {
 			fire_only_once = yes
 			
@@ -925,7 +884,6 @@ sp_rockets_ground_to_air_missile = {
 			}
 		}
 
-		# High Speed Flight Control
 		sp_rockets_high_speed_flight_control_reward = {
 			fire_only_once = yes
 			
@@ -954,7 +912,6 @@ sp_rockets_ground_to_air_missile = {
 			}
 		}
 
-		# Warhead Detonation Mechanisms
 		sp_rockets_warhead_detonation_mechanisms_reward = {
 			fire_only_once = yes
 			
@@ -993,7 +950,6 @@ sp_rockets_ground_to_air_missile = {
 		}
 	}
 }
-
 
 sp_rocket_interceptor = {
 	specialization = specialization_air 
@@ -1079,8 +1035,4 @@ sp_rocket_interceptor = {
 		sp_air_generic_reward_test_failure_3		
 	}
 }
-
-
-	
-
 

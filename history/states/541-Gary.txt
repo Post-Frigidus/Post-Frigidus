@@ -7,9 +7,9 @@ state={
 	}
 
 	history={
-		owner = SIN # finish making the focus tree and updating said focus trees first before adding new nations. Nobody can declare war on them through focus trees, thus locking the AI out.
-		add_core_of = SIN
-		add_core_of = IRS
+		owner = TST # finish making the focus tree and updating said focus trees first before adding new nations. Nobody can declare war on them through focus trees, thus locking the AI out.
+		add_core_of = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
@@ -25,9 +25,9 @@ state={
 		victory_points = {
 			3913 20
 		}
-		add_core_of = CHI
+		add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 	}
 

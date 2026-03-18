@@ -110,7 +110,6 @@ equipments = {
 
 		armor_value = 0
 
-
 		surface_detection = 26
 		sub_detection = 5
 		surface_visibility = 30
@@ -121,10 +120,8 @@ equipments = {
 
 		max_strength = 250
 
-
 		fuel_consumption = 87
 
-		# (Describes combat behaviour - hidden stat)
 		offensive_weapons = no
 
 		build_cost_ic = 2094
@@ -137,8 +134,6 @@ equipments = {
 
 		naval_supremacy_factor = 2.4
 		naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
-		#MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.
-		# change this from 1 at your own risk
 	}
 
 	ship_hull_carrier_1 = {
@@ -207,8 +202,6 @@ equipments = {
 		naval_range = 4000
 		reliability = 0.75
 		max_strength = 325
-
-
 
 		build_cost_ic = 2600
 		resources = {
@@ -279,8 +272,6 @@ equipments = {
 		reliability = 0.8
 		max_strength = 350
 
-
-
 		build_cost_ic = 3250
 		resources = {
 			steel = 4
@@ -289,7 +280,6 @@ equipments = {
 		manpower = 5500
 	}
 
-	#MODERN CARRIER
 	ship_hull_carrier_modern = {
 		abbreviation = "hacm"
 		year = 1948
@@ -368,7 +358,6 @@ equipments = {
 		manpower = 6500
 	}
 	
-	# TODO MANU HABAKKUK
 	ship_hull_mega_carrier = {
 		abbreviation = "hamc"
 		year = 1944
@@ -488,7 +477,6 @@ equipments = {
 		max_strength = 325
 		naval_speed = 25
 
-
 		build_cost_ic = 2700
 		resources = {
 			steel = 4
@@ -537,8 +525,6 @@ equipments = {
 		}
 		manpower = 1000
 	}
-
-###Prescripted designs for people without MtG
 
 	carrier_1 = {
 		year = 1922
@@ -607,7 +593,6 @@ equipments = {
 
 		armor_value = 7
 
-
 		surface_detection = 10
 		sub_detection = 5
 		surface_visibility = 30
@@ -618,15 +603,12 @@ equipments = {
 
 		max_strength = 250§
 
-
 		fuel_consumption = 87
 
-		# (Describes combat behaviour - hidden stat)
 		offensive_weapons = no
 
 		build_cost_ic = 3750
 		resources = {
-			#oil = 1
 			steel = 3
 			chromium = 1
 		}
@@ -701,7 +683,6 @@ equipments = {
 
 		armor_value = 9
 
-
 		surface_detection = 10
 		sub_detection = 5
 		surface_visibility = 30
@@ -712,11 +693,8 @@ equipments = {
 
 		max_strength = 325
 
-
-
 		build_cost_ic = 4500
 		resources = {
-			#oil = 1
 			steel = 4
 			chromium = 1
 		}
@@ -748,7 +726,6 @@ equipments = {
 
 		armor_value = 11
 
-
 		surface_detection = 20
 		sub_detection = 5
 		surface_visibility = 30
@@ -759,11 +736,8 @@ equipments = {
 
 		max_strength = 350
 
-
-
 		build_cost_ic = 5250
 		resources = {
-			#oil = 2
 			steel = 4
 			chromium = 2
 		}
@@ -795,7 +769,6 @@ equipments = {
 
 		armor_value = 13
 
-
 		surface_detection = 30
 		sub_detection = 5
 		surface_visibility = 30
@@ -806,11 +779,8 @@ equipments = {
 
 		max_strength = 400
 
-
-
 		build_cost_ic = 6000
 		resources = {
-			#oil = 2
 			steel = 5
 			chromium = 2
 		}
@@ -918,7 +888,6 @@ equipments = {
 
 		armor_value = 13
 
-
 		surface_detection = 30
 		sub_detection = 5
 		surface_visibility = 30
@@ -930,10 +899,8 @@ equipments = {
 		max_strength = 475
 		fuel_consumption = 94
 
-
 		build_cost_ic = 6500
 		resources = {
-			#oil = 2
 			steel = 5
 			chromium = 2
 		}
@@ -1049,6 +1016,5 @@ equipments = {
 		}
 		manpower = 6000
 	}
-
 
 }

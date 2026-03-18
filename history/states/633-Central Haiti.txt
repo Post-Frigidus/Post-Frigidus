@@ -10,8 +10,8 @@ state={
 		aluminium = 2
 	}
     history = {
-		owner = HAI
-		add_core_of = HAI
+		owner = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 1
             industrial_complex = 2

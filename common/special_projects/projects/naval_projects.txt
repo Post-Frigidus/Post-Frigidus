@@ -1,16 +1,4 @@
 
-
-###################################################################################
-
- ## #  # ###  #   #  ##  ###  ### #  # ###     ###  ###   ##   ### ###  ##  ###  ## 
-#   #  # #  # ## ## #  # #  #  #  ## # #       #  # #  # #  #    # #   #  #  #  #   
- #  #  # ###  # # # #### ###   #  # ## ##      ###  ###  #  #    # ##  #     #   #  
-  # #  # #  # #   # #  # #  #  #  #  # #       #    #  # #  # #  # #   #  #  #    # 
-##   ##  ###  #   # #  # #  # ### #  # ###     #    #  #  ##   ##  ###  ##   #  ##  
-
-###################################################################################
-
-# Cruiser Submarine
 sp_naval_cruiser_submarine = {
 	specialization = specialization_naval 
 
@@ -19,7 +7,6 @@ sp_naval_cruiser_submarine = {
 	complexity = sp_complexity.medium
 	prototype_time = sp_time.prototype.medium 
 	allowed = {
-		#FREE PROJECT
 	}
 
 	special_project_parent = {
@@ -172,15 +159,12 @@ sp_naval_cruiser_submarine = {
 	
 }
 
-#Fleet Submarine
 sp_naval_fleet_submarine = {
 	specialization = specialization_naval
 	
-
 	project_tags = sp_tag_submarine
 
 	allowed = {
-		#FREE PROJECT
 	}
 
 	complexity = sp_complexity.medium
@@ -200,7 +184,6 @@ sp_naval_fleet_submarine = {
 
 		}
 	}
-
 
 	special_project_parent = {
 		sp_naval_cruiser_submarine
@@ -353,7 +336,6 @@ sp_naval_fleet_submarine = {
 	
 }
 
-# Nuclear Powered Submarine
 sp_naval_nuclear_submarine = {
 	specialization = specialization_naval  
 	
@@ -536,7 +518,6 @@ sp_naval_nuclear_submarine = {
 	}	
 }
 
-# Rocket Launching Submarine
 sp_naval_rocket_launching_submarine = {
 	specialization = specialization_naval 
 
@@ -571,8 +552,6 @@ sp_naval_rocket_launching_submarine = {
 		specialization_naval = 2
 	}
 	
-	 
-
 	project_output = {
 		country_effects = {
 			
@@ -685,8 +664,6 @@ sp_naval_rocket_launching_submarine = {
 						}
 					}
 					
-					 
-
 				}
 			}
 
@@ -728,7 +705,6 @@ sp_naval_rocket_launching_submarine = {
 
 }
 
-# Nuclear Missile Submarine
 sp_naval_nuclear_missile_submarine = {
 	specialization = specialization_naval 
 	
@@ -761,8 +737,6 @@ sp_naval_nuclear_missile_submarine = {
 	breakthrough_cost = {
 		specialization_naval = 2
 	}
-	
-	
 	
 	project_output = {
 		country_effects = {
@@ -901,10 +875,8 @@ sp_naval_nuclear_missile_submarine = {
 
 }
 
-#Nuclear Torpedo
 sp_naval_nuclear_torpedo = {
 	specialization = specialization_naval
-
 
 	project_tags = {
 		sp_tag_submarine
@@ -1032,17 +1004,14 @@ sp_naval_nuclear_torpedo = {
 
 }
 
-#Midget Submarine
 sp_naval_midget_submarine = {
 	specialization = specialization_naval
-
 
 	project_tags = {
 		sp_tag_submarine
 	}
 
 	allowed = {
-		#FREE
 	}
 	
 	available = { 
@@ -1063,7 +1032,6 @@ sp_naval_midget_submarine = {
 	complexity = sp_complexity.medium
 	prototype_time = sp_time.prototype.short
 	
-
 	resource_cost = {
 		resources = {
 			steel = 6
@@ -1231,7 +1199,6 @@ sp_naval_midget_submarine = {
 	}	
 }
 
-#Air-Independent Propulsion
 sp_naval_aip_engine = {
 	specialization = specialization_naval
 
@@ -1403,10 +1370,8 @@ sp_naval_aip_engine = {
 
 }
 
-#ANECHOIC TILES
 sp_naval_anechoic_tiles = {
 	specialization = specialization_naval
-
 
 	project_tags = sp_tag_submarine
 
@@ -1466,8 +1431,6 @@ sp_naval_anechoic_tiles = {
 				
 			}
 		
-		
-
 		enable_subunits = { 
 			
 		}
@@ -1562,19 +1525,8 @@ sp_naval_anechoic_tiles = {
 
 }
 
-#########################################################
-
- ## #  # ###  ###  ##   ##  ###      ## #  # ### ###   ## 
-#   #  # #  # #   #  # #  # #       #   #  #  #  #  # #   
- #  #  # ###  ##  #### #    ##       #  ####  #  ###   #  
-  # #  # #  # #   #  # #  # #         # #  #  #  #      # 
-##   ##  #  # #   #  #  ##  ###     ##  #  # ### #    ##  
-
-#########################################################
-#Torpedo Cruiser
 sp_naval_torpedo_cruiser = {
 	specialization = specialization_naval
-
 
 	project_tags = sp_tag_surface_ship
 
@@ -1583,7 +1535,6 @@ sp_naval_torpedo_cruiser = {
 	}
 
 	allowed = {
-		#FREE
 	}
 	available = {
 		FROM = {
@@ -1630,8 +1581,6 @@ sp_naval_torpedo_cruiser = {
 			}
 		}
 
-	
-
 		enable_equipments = {	
 			limit = {
 				has_dlc = "Man the Guns"
@@ -1639,7 +1588,6 @@ sp_naval_torpedo_cruiser = {
 			ship_hull_torpedo_cruiser
 		}	
 			
-
 		enable_equipments = {	
 			limit = {
 				not = {has_dlc = "Man the Guns"}
@@ -1763,12 +1711,9 @@ sp_naval_torpedo_cruiser = {
 
 }
 
-
-#Super Heavy Battleship
 sp_naval_super_heavy_battleship = {
 	specialization = specialization_naval
  
-
 	project_tags = sp_tag_surface_ship
 
 	ai_will_do = {
@@ -1776,7 +1721,6 @@ sp_naval_super_heavy_battleship = {
 	}
 
 	allowed = {
-		#FREE
 	}
 
 	available = {
@@ -1797,7 +1741,6 @@ sp_naval_super_heavy_battleship = {
 	complexity = sp_complexity.medium
 	prototype_time = sp_time.prototype.medium
 	
-
 	resource_cost = {
 		resources = { 
 			steel = 12
@@ -1853,7 +1796,6 @@ sp_naval_super_heavy_battleship = {
 			
 		}
 
-		
 	}
 	generic_prototype_rewards = {
 		sp_naval_generic_reward_scientist_xp_1
@@ -2115,10 +2057,8 @@ sp_naval_super_heavy_battleship = {
 	
 }
 
-#Advanced Modern Super Battleship
 sp_naval_modern_battleship = {
 	specialization = specialization_naval 
-
 
 	project_tags = sp_tag_surface_ship
 
@@ -2147,7 +2087,6 @@ sp_naval_modern_battleship = {
 	
 	complexity = sp_complexity.large
 	prototype_time = sp_time.prototype.long
-	
 	
 	resource_cost = {
 		resources = { 
@@ -2196,7 +2135,6 @@ sp_naval_modern_battleship = {
 			
 		}
 
-		
 	}
 
 	generic_prototype_rewards = {
@@ -2457,10 +2395,8 @@ sp_naval_modern_battleship = {
 	}
 }
 
-#Super Naval Carrier
 sp_naval_modern_carrier = {
 	specialization = specialization_naval
-
 
 	project_tags = sp_tag_surface_ship
 
@@ -2492,7 +2428,6 @@ sp_naval_modern_carrier = {
 		specialization_naval = 2
 	}
 	
-
 	resource_cost = {
 		resources = { 
 			steel = 24
@@ -2791,7 +2726,6 @@ unique_prototype_rewards = {
 	}
 }
 
-#Underway Replenishment
 sp_naval_underway_replenishment = {
 	specialization = specialization_naval
 
@@ -2898,7 +2832,6 @@ sp_naval_underway_replenishment = {
 				
 				iteration_output = {
 					country_effects = { 
-						#BASE UNDERWAY REPLENISHMENT
 					}					 
 
 				}
@@ -2921,16 +2854,12 @@ sp_naval_underway_replenishment = {
 				}
 			}
 
-			
 		}	
 	}	
 }
 
-#PROXIMITY FUZE
-
 sp_naval_proximity_fuze = {
 	specialization = specialization_naval
-
 
 	project_tags = sp_tag_surface_ship
 

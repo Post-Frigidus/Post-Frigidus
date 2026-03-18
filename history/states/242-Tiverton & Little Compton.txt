@@ -7,14 +7,14 @@ state={
 	}
 	
 	history={
-		owner = SRI
+		owner = TST
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = SRI
+		add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		victory_points = {
 			3492 2

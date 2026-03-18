@@ -2,8 +2,8 @@ state = {
 	id = 405
 	name = "STATE_405"
 	history = {
-		owner = GAY
-		add_core_of = GRE
+		owner = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 1
 		}

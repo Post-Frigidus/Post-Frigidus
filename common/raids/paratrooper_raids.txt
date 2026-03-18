@@ -1,16 +1,5 @@
 types = {
 
-#################################################################
-
- ## ### ### ### #       #   # ### #  # ###     ###   ##  ### ###
-#    #  #   #   #       ## ##  #  ## # #       #  # #  #  #  #  #
- #   #  ##  ##  #       # # #  #  # ## ##      ###  ####  #  #  #
-  #  #  #   #   #       #   #  #  #  # #       #  # #  #  #  #  #
-##   #  ### ### ###     #   # ### #  # ###     #  # #  # ### ###
-
-#################################################################
-
-
 	mine_sabotage_raid = {
 		days_to_prepare = 90
 
@@ -19,7 +8,6 @@ types = {
 		ai_will_do = {
 			base = 0.5 # Don't plan these unless you have nothing better to do
 			modifier = {
-				# Don't target anyone who is not a potential enemy
 				factor = 0
 				NOT = {
 					is_in_array = {
@@ -35,18 +23,15 @@ types = {
 		allowed = {
 			has_dlc = "Gotterdammerung"
 		}
-		# Raid Type is visible
 		visible = {
 			has_tech = paratroopers
 		}
-		# Specific Target is visible
 		show_target = {
 			NOT = {
 				is_in_faction_with = FROM
 			}
 		}
 
-		# Can prepare
 		available = {
 
 		}
@@ -63,7 +48,6 @@ types = {
 			transport_plane_equipment = 10
 		}
 		additional_equipment = {
-			# list of equipment archetypes and numbers
 			support_equipment = 200
 		}
 
@@ -105,7 +89,6 @@ types = {
 			success = {
 				base = 0.6
 
-				# Raiding unit modifiers
 				experience = {
 					weight = 0.05
 					start_weight = -0.05
@@ -127,8 +110,6 @@ types = {
 					reference = 10
 				}
 
-				### Target Modifiers
-
 				resistance = {
 					reference = 100
 					start_reference = 20 # Resistance below 20 doesn't help
@@ -139,7 +120,6 @@ types = {
 					weight = 0.25
 					start_weight = -0.25
 				}
-
 
 				anti_air = {
 					reference = 5
@@ -155,7 +135,6 @@ types = {
 				}
 				intel = {
 					weight = 0.2
-					#start_reference = 50
 					reference = 100
 				}
 			}
@@ -168,27 +147,17 @@ types = {
 		success_levels = {
 			failure = {
 			    victim_effects = {
-					# Effects on target
-					#var:target_state = {
-					#	add_dynamic_modifier = {
-					#		modifier = steel_mines_lightly_damaged_modifier
-					#		days = 30
-					#	}
-					#}
 			    }
 				actor_effects = {
-					# Damage to unit
 					raid_damage_units = {
 						org_damage = 30
 						str_damage = 10
 					}
 
-					# Unit Experience
 					raid_add_unit_experience = 0.05
                     add_raid_history_entry = yes
 
 				}
-				# Other unit effects
 				division_effects = {
 					add_divisional_commander_xp = 50
 				}
@@ -207,13 +176,11 @@ types = {
 					}
 			    }
 				actor_effects = {
-					# Damage to unit
 					raid_damage_units = {
 						org_damage = 20
 						str_damage = 5
 					}
 
-					# Unit Experience
 					raid_add_unit_experience = 0.1
                     add_raid_history_entry = yes
 				}
@@ -235,17 +202,14 @@ types = {
 					}
 			    }
 				actor_effects = {
-					# Damage to unit
 					raid_damage_units = {
 						org_damage = 20
 						str_damage = 0.5
 					}
 
-					# Unit Experience
 					raid_add_unit_experience = 0.2
                     add_raid_history_entry = yes
 				}
-				# Other unit effects
 				division_effects = {
 					add_divisional_commander_xp = 250
 				}
@@ -264,18 +228,14 @@ types = {
 					}
 			    }
 				actor_effects = {
-					# Damage to unit
 					raid_damage_units = {
 						org_damage = 10
 						str_damage = 0
 					}
 
-
-					# Unit Experience
 					raid_add_unit_experience = 0.35
                     add_raid_history_entry = yes
 				}
-				# Other unit effects
 				division_effects = {
 					add_divisional_commander_xp = 500
 				}
@@ -286,16 +246,6 @@ types = {
 			}
 		}
 	}
-
-####################################################################
-
-###   ##  ### #  # ### ### #  # ###  ### ###      ###   ##  ### ###
-#  # #  #  #  #  # #    #  ## # #  # #   #  #     #  # #  #  #  #  #
-###  ####  #  #### ##   #  # ## #  # ##  ###      ###  ####  #  #  #
-#    #  #  #  #  # #    #  #  # #  # #   #  #     #  # #  #  #  #  #
-#    #  #  #  #  # #   ### #  # ###  ### #  #     #  # #  # ### ###
-
-####################################################################
 
 	pathfinder_raid = {
 		days_to_prepare = 30
@@ -322,17 +272,14 @@ types = {
 		allowed = {
 			has_dlc = "Gotterdammerung"
 		}
-		# Raid Type is visible
 		visible = {
 			has_tech = paratroopers
 		}
-		# Specific Target is visible
 		show_target = {
 			has_war_with = FROM
 			has_naval_invasion_against_state = var:target_state
 		}
 
-		# Can prepare
 		available = {
 
 			has_naval_invasion_against_state = {
@@ -356,7 +303,6 @@ types = {
 			transport_plane_equipment = 10
 		}
 		additional_equipment = {
-			# list of equipment archetypes and numbers
 			support_equipment = 200
 		}
 
@@ -384,7 +330,6 @@ types = {
 			success = {
 				base = 0.6
 
-				# Raiding unit modifiers
 				experience = {
 					weight = 0.05
 					start_weight = -0.05
@@ -406,8 +351,6 @@ types = {
 					reference = 10
 				}
 
-				### Target Modifiers
-
 				resistance = {
 					reference = 100
 					start_reference = 20 # Resistance below 20 doesn't help
@@ -428,7 +371,6 @@ types = {
 				}
 				intel = {
 					weight = 0.2
-					#start_reference = 50
 					reference = 100
 				}
 			}
@@ -441,27 +383,17 @@ types = {
 		success_levels = {
 			failure = {
 			    victim_effects = {
-					# Effects on target
-					#var:target_state = {
-					#	add_dynamic_modifier = {
-					#		modifier = steel_mines_lightly_damaged_modifier
-					#		days = 30
-					#	}
-					#}
 			    }
 				actor_effects = {
-					# Damage to unit
 					raid_damage_units = {
 						org_damage = 100
 						str_damage = 50
 					}
 
-					# Unit Experience
 					raid_add_unit_experience = 0.05
                     add_raid_history_entry = yes
 
 				}
-				# Other unit effects
 				division_effects = {
 					add_divisional_commander_xp = 50
 				}
@@ -480,13 +412,11 @@ types = {
 					}
 			    }
 				actor_effects = {
-					# Damage to unit
 					raid_damage_units = {
 						org_damage = 80
 						str_damage = 30
 					}
 
-					# Unit Experience
 					raid_add_unit_experience = 0.1
                     add_raid_history_entry = yes
 				}
@@ -508,17 +438,14 @@ types = {
 					}
 			    }
 				actor_effects = {
-					# Damage to unit
 					raid_damage_units = {
 						org_damage = 60
 						str_damage = 20
 					}
 
-					# Unit Experience
 					raid_add_unit_experience = 0.2
                     add_raid_history_entry = yes
 				}
-				# Other unit effects
 				division_effects = {
 					add_divisional_commander_xp = 250
 				}
@@ -537,19 +464,15 @@ types = {
 					}
 			    }
 				actor_effects = {
-					# Damage to unit
 					raid_damage_units = {
 						org_damage = 40
 						str_damage = 10
 					}
 
-
-					# Unit Experience
 					raid_add_unit_experience = 0.35
                     add_raid_history_entry = yes
 
 				}
-				# Other unit effects
 				division_effects = {
 					add_divisional_commander_xp = 500
 				}

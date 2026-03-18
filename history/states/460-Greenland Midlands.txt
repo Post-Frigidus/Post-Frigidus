@@ -5,7 +5,7 @@ state = {
 		6996
 	}
 	history = {
-		owner = GAY
+		owner = TST
 	}
 	manpower = 10
 	buildings_max_level_factor = 1

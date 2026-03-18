@@ -2,13 +2,13 @@ state={
 	id=604
 	name="STATE_604"
 	history={
-		owner = SNE
+		owner = TST
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = SNE
+		add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		victory_points = {
 			8319 3

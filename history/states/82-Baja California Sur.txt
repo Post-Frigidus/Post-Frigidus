@@ -5,14 +5,14 @@ state = {
 		oil = 2
 	}
 	history = {
-		owner = BAJ
+		owner = TST
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = BAJ
-		#		add_core_of = SDL
+		add_core_of = TST
+		#		add_core_of = TST
 		1936.1.2 = {
-			owner = MEX
+			owner = TST
 		}
 		victory_points = {
 			742

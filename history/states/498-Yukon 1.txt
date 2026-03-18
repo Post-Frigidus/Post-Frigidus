@@ -5,16 +5,16 @@ state={
 		chromium=6.000
 	}
 	history={
-		owner = PYT
+		owner = TST
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = PYT
+		add_core_of = TST
 		victory_points = {
 			7282 10
 		}
 		1936.1.2 = {
-			owner = CAN
+			owner = TST
 		}
 	}
 	provinces={

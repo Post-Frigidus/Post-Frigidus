@@ -4,15 +4,15 @@ state={
 	name="STATE_85"
 
 	history={
-		owner = SCA
+		owner = TST
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 
 		}
-		add_core_of = SCA
+		add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 
 	}

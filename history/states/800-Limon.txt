@@ -5,8 +5,8 @@ state={
 		141 872 991 1189 2090 2158 
 	}
 	history = {
-		owner = COS
-		add_core_of = COS
+		owner = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1

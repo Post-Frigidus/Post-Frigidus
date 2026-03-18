@@ -1,5 +1,3 @@
-#check resistance_modifiers.txt for example
-
 
 compliance_15 = {
 	type = core_compliance_modifier

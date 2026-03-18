@@ -1,6 +1,5 @@
 leader_defense_skills = {
 
-	### NAVY ###
 	1 = {
 		cost = 100
 		type = navy
@@ -81,7 +80,6 @@ leader_defense_skills = {
 		}
 	}
 
-	### Corps Commander ###
 	1 = {
 		cost = 100
 		type = corps_commander
@@ -97,7 +95,6 @@ leader_defense_skills = {
 			defence = 0.05
 		}
 	}
-	
 	
 	3 = {
 		cost = 400
@@ -163,7 +160,6 @@ leader_defense_skills = {
 		}
 	}
 	
-	### Field Marshal ###
 	1 = {
 		cost = 100
 		type = field_marshal
@@ -172,7 +168,6 @@ leader_defense_skills = {
 		}
 	}
 	
-	
 	2 = {
 		cost = 200
 		type = field_marshal
@@ -180,7 +175,6 @@ leader_defense_skills = {
 			defence = 0.05
 		}
 	}
-	
 	
 	3 = {
 		cost = 400

@@ -8,11 +8,11 @@ state={
 	}
 
 	history={
-		owner = MEX
-		add_core_of = MEX
-		add_core_of = MVE
+		owner = TST
+		add_core_of = TST
+		add_core_of = TST
 		1936.1.2 = {
-			owner = MEX
+			owner = TST
 
 		}
 		victory_points = {

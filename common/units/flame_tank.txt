@@ -25,14 +25,12 @@ sub_units = {
 
 		combat_width = 0
 
-		#Size Definitions
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
 		manpower = 300
 		training_time = 120
 
-		#Misc Abilities
 		weight = 0.1
 		supply_consumption = 0.02
 		can_be_parachuted = yes
@@ -42,7 +40,6 @@ sub_units = {
 			breakthrough = 0.05
 		}
 
-		# Support nerfs to combat abilities
 		soft_attack = -0.5 #Was -0.75
 		breakthrough = -0.5 #Was -0.75
 		hard_attack = -0.75
@@ -116,19 +113,16 @@ sub_units = {
 			breakthrough = 0.05
 		}
 		
-		#Size Definitions
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
 		manpower = 300
 		training_time = 120
 
-		#Misc Abilities
 		weight = 0.1
 		supply_consumption = 0.025
 		can_be_parachuted = no
 
-		# Support nerfs to combat abilities
 		soft_attack = -0.45 #Was -0.7
 		breakthrough = -0.45 #Was -0.7
 		hard_attack = -0.7
@@ -202,25 +196,21 @@ sub_units = {
 
 		combat_width = 0
 
-		#Size Definitions
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
 		manpower = 300
 		training_time = 120
 
-		#Misc Abilities
 		weight = 0.1
 		supply_consumption = 0.03
 		can_be_parachuted = no
 
-		# Support nerfs to combat abilities
 		breakthrough = -0.4 #Was -0.625
 		soft_attack = -0.4 #Was -0.625
 		hard_attack = -0.625
 		defense = -0.625
 		armor_value = -0.625
-
 
 		need = {
 			heavy_tank_flame_chassis = 15

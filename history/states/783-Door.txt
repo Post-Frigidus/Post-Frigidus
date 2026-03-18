@@ -6,10 +6,10 @@ state={
 		2594 6494 6495 6501 
 	}
 	history={
-		owner = SWI
-		add_core_of = SWI
+		owner = TST
+		add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 
 		}
 		buildings = {

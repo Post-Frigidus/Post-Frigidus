@@ -7,12 +7,12 @@ state={
 	}
 
 	history={
-		owner = SOH
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 
 		}
-		add_core_of = SOH
+		add_core_of = TST
 		buildings = {
 			infrastructure = 1
 			air_base = 1

@@ -7,14 +7,14 @@ state = {
 		tungsten = 4
 	}
 	history = {
-		owner = SNM
+		owner = TST
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = SNM
+		add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		victory_points = {
 			6179

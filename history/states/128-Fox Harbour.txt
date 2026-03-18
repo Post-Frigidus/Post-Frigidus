@@ -5,7 +5,7 @@ state = {
 		steel = 6
 	}
 	history = {
-		owner = PNL
+		owner = TST
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
@@ -13,11 +13,11 @@ state = {
 				naval_base = 1
 			}
 		}
-		add_core_of = PNL
-		add_core_of = LAB
-		add_core_of = PQC
+		add_core_of = TST
+		add_core_of = TST
+		add_core_of = TST
 		1936.1.2 = {
-			owner = CAN
+			owner = TST
 		}
 	}
 	provinces = {

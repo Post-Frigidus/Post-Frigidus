@@ -8,11 +8,11 @@ state={
 
 	history={
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 
 		}
-		owner = SNY
-		add_core_of = SNY
+		owner = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

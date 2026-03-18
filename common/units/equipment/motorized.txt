@@ -7,7 +7,6 @@ equipments = {
 		picture = archetype_motorized_equipment		
 		is_buildable = no
 		type = {
-			#infantry #Removing inf type 
 			motorized
 		}
 		group_by = archetype
@@ -20,12 +19,10 @@ equipments = {
 
 		breakthrough = 5
 
-		#Space taken in convoy
 		lend_lease_cost = 5
 
 		build_cost_ic = 2.5
 		resources = {
-			#oil = 1
 			rubber = 1
 			steel = 1
 		}
@@ -52,7 +49,6 @@ equipments = {
 		priority = 30			
 	}
 
-
 	motorbike_equipment = {
 		year = 1938
 
@@ -69,16 +65,13 @@ equipments = {
 		
 		maximum_speed = 12
 		reliability = 0.9
-		#hardness = 0
 
 		breakthrough = 1
 
-		#Space taken in convoy
 		lend_lease_cost = 2
 
 		build_cost_ic = 1.5
 		resources = {
-			#oil = 1
 			rubber = 1
 			steel = 1
 		}

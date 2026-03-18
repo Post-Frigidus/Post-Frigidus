@@ -22,17 +22,14 @@ sub_units = {
 			category_army
 		}
 
-	
 		combat_width = 0
 	
-		#Size Definitions
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
 		manpower = 300
 		training_time = 120
 
-		#Misc Abilities
 		weight = 0.1
 		supply_consumption = 0.02
 		
@@ -44,11 +41,9 @@ sub_units = {
 			add = yes
 		}
 
-				
 		defense = 0.1
 		breakthrough = 0.5
 
-		# Support nerfs to combat abilities
 		soft_attack = -0.5
 
 		essential = {
@@ -119,17 +114,14 @@ sub_units = {
 			category_marines
 		}
 
-	
 		combat_width = 0
 	
-		#Size Definitions
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
 		manpower = 300
 		training_time = 120
 
-		#Misc Abilities
 		weight = 0.1
 		supply_consumption = 0.02
 		
@@ -138,15 +130,12 @@ sub_units = {
 		battalion_mult = {
 			category = category_marines
 			breakthrough = 0.15
-			#add = yes
 		}
 
-		
 		entrenchment = 2.5
 		defense = 0.1
 		breakthrough = 0.5
 
-		# Support nerfs to combat abilities
 		soft_attack = -0.5
 
 		essential = {
@@ -201,24 +190,19 @@ sub_units = {
 			category_army
 		}
 
-	
 		combat_width = 0
 	
-		#Size Definitions
 		max_strength = 1
 		max_organisation = 30
 		default_morale = 0.3
 		manpower = 500
 		training_time = 120
 
-		#Misc Abilities
 		weight = 0.1
 		supply_consumption = 0.1
 		can_be_parachuted = yes
 		acclimatization_hot_climate_gain_factor = 3
 
-		# Support nerfs to combat abilities
-		
 		entrenchment = 2
 		breakthrough = 0.3
 		defense = 0.05
@@ -251,16 +235,9 @@ sub_units = {
 			movement = 0.25
 		}
 
-
 		same_support_type = engineer
 	}
 
-
-	########################
-	### SPECIAL PROJECTS ###
-	########################
-
-	# WW - SP - Assault Engineers - Using Armored Engineering Vehicle -> Bridge Layer Tanks (also mine-clearing tanks, carpet-laying tanks, fascine-laying tanks)
 	assault_engineer = {
 		abbreviation = "ASEC"
 		sprite = assault_engineer
@@ -285,33 +262,27 @@ sub_units = {
 			category_army
 		}
 
-	
 		combat_width = 0
 	
-		#Size Definitions
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
 		manpower = 300
 		training_time = 120
 
-		#Misc Abilities
 		weight = 0.1
 		supply_consumption = 0.025 # like M Flame Tank
 		
 		entrenchment = 2 # same as reg engineers
-		
 		
 		battalion_mult = {
 			category = category_light_infantry
 			breakthrough = 0.1
 		}
 
-				
 		defense = 0.1 # like reg engineers
 		breakthrough = 1.5 # more than reg engineers (0.5)
 
-		# Support nerfs to combat abilities
 		soft_attack = -0.5
 
 		can_be_parachuted = no
@@ -370,7 +341,6 @@ sub_units = {
 		same_support_type = engineer
 	}
 
-	# WW - SP tech - Armored Engineers - Using Armored Engineering Vehicle -> Bridge Layer Tanks (also mine-clearing tanks, carpet-laying tanks, fascine-laying tanks)
 	armored_engineer = {
 		abbreviation = "AREC"
 		sprite = armored_engineer
@@ -395,17 +365,14 @@ sub_units = {
 			category_army
 		}
 
-	
 		combat_width = 0
 	
-		#Size Definitions
 		max_strength = 2
 		max_organisation = 20
 		default_morale = 0.3
 		manpower = 300
 		training_time = 120
 
-		#Misc Abilities
 		weight = 0.1
 		supply_consumption = 0.035 # More than M Flame Tank (0.025)
 		
@@ -426,7 +393,6 @@ sub_units = {
 		defense = 0.15 # 50% more than reg engineers
 		breakthrough = 1 # 100% more than reg engineers
 
-		# Support nerfs to combat abilities
 		soft_attack = -0.5
 
 		can_be_parachuted = no

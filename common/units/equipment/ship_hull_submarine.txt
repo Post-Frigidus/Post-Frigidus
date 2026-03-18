@@ -68,7 +68,6 @@ equipments = {
 		
 		armor_value = 0
 
-		
 		surface_detection = 20
 		sub_detection = 0
 		surface_visibility = 1
@@ -80,12 +79,10 @@ equipments = {
 		
 		max_strength = 10
 		
-
 		fuel_consumption = 1
 		
 		build_cost_ic = 320
 		resources = {
-			#oil = 1
 			steel = 1
 		}
 		
@@ -93,8 +90,6 @@ equipments = {
 
 		naval_supremacy_factor = 0.8
 		naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
-		#MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.
-		# change this from 1 at your own risk
 	}
 
 	ship_hull_submarine_1 = {
@@ -139,11 +134,8 @@ equipments = {
 		reliability = 0.70
 		max_strength = 20
 		
-
-		
 		build_cost_ic = 350
 		resources = {
-			#oil = 1
 			steel = 2
 		}
 	}
@@ -190,8 +182,6 @@ equipments = {
 		
 		max_strength = 30
 
-
-		
 		build_cost_ic = 420
 		resources = {
 			steel = 2
@@ -238,8 +228,6 @@ equipments = {
 		naval_range = 3500
 		
 		max_strength = 35
-		
-
 		
 		build_cost_ic = 550
 		resources = {
@@ -300,8 +288,6 @@ equipments = {
 		
 		max_strength = 30
 
-
-		
 		build_cost_ic = 490
 		resources = {
 			steel = 2
@@ -360,8 +346,6 @@ equipments = {
 		
 		max_strength = 40
 
-
-		
 		build_cost_ic = 650
 		resources = {
 			steel = 3
@@ -377,16 +361,9 @@ equipments = {
 		module_slots = {
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_engine_slot = inherit #TODO_Manu: Could have a new Torpedo module for Midget Subs with lower stats
-			#rear_1_custom_slot = { #TODO_Manu: Potentially delete, this can cause Subs with 0 attack
-			#	allowed_module_categories = {
-			#		ship_torpedo_sub
-			#		ship_mine_layer_sub
-			#	}
-			#}
 		}
 
 		default_modules = {
-			#rear_1_custom_slot = empty #TODO_Manu: Possibly delete, see comment above
 			fixed_ship_torpedo_slot = inherit 
 			fixed_ship_engine_slot = inherit
 		}
@@ -401,13 +378,11 @@ equipments = {
 
 		manpower = 100
 
-		
 		build_cost_ic = 150
 		resources = {
 			steel = 1
 		}
 	}
-
 
 	ship_hull_nuclear_submarine = {
 		abbreviation = "hefns"
@@ -471,8 +446,6 @@ equipments = {
 		manpower = 400
 		max_strength = 50
 
-
-		
 		build_cost_ic = 1150
 		resources = {
 			steel = 3
@@ -502,7 +475,6 @@ equipments = {
 		
 		armor_value = 0
 
-		
 		surface_detection = 30
 		sub_detection = 0
 		surface_visibility = 1
@@ -514,12 +486,10 @@ equipments = {
 		
 		max_strength = 10
 		
-
 		fuel_consumption = 1
 		
 		build_cost_ic = 250
 		resources = {
-			#oil = 1
 			steel = 1
 		}
 		
@@ -534,7 +504,6 @@ equipments = {
 		parent = submarine_1
 		module_slots = inherit
 
-		
 		default_modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_1
@@ -548,7 +517,6 @@ equipments = {
 		
 		armor_value = 0
 
-		
 		surface_detection = 40
 		sub_detection = 0
 		surface_visibility = 1
@@ -560,11 +528,8 @@ equipments = {
 		
 		max_strength = 20
 		
-
-		
 		build_cost_ic = 250
 		resources = {
-			#oil = 1
 			steel = 2
 		}
 	}
@@ -590,7 +555,6 @@ equipments = {
 		
 		armor_value = 0
 
-		
 		surface_detection = 50
 		sub_detection = 0
 		surface_visibility = 1
@@ -602,11 +566,8 @@ equipments = {
 		
 		max_strength = 30
 
-
-		
 		build_cost_ic = 350
 		resources = {
-			#oil = 2
 			steel = 2
 		}
 	}
@@ -632,7 +593,6 @@ equipments = {
 		
 		armor_value = 0
 
-		
 		surface_detection = 70
 		sub_detection = 0
 		surface_visibility = 1
@@ -644,11 +604,8 @@ equipments = {
 		
 		max_strength = 35
 		
-
-		
 		build_cost_ic = 400
 		resources = {
-			#oil = 2
 			steel = 3
 			chromium = 1
 		}
@@ -706,8 +663,6 @@ equipments = {
 			}
 		}
 		
-	
-
 		default_modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
 			fixed_ship_engine_slot = sub_ship_engine_1
@@ -729,13 +684,11 @@ equipments = {
 		
 		armor_value = 0
 
-		
 		surface_detection = 20
 		sub_detection = 0
 		surface_visibility = 1
 		reliability = 0.75
 		fuel_consumption = 1
-
 
 		sub_visibility = 26
 		naval_speed = 16
@@ -745,8 +698,6 @@ equipments = {
 		
 		max_strength = 30
 
-
-		
 		build_cost_ic = 490
 		resources = {
 			steel = 2
@@ -827,13 +778,11 @@ equipments = {
 		
 		armor_value = 0
 
-		
 		surface_detection = 60
 		sub_detection = 0
 		surface_visibility = 1
 		reliability = 0.75
 		fuel_consumption = 1
-
 
 		sub_visibility = 13
 		naval_speed = 19
@@ -842,8 +791,6 @@ equipments = {
 		
 		max_strength = 40
 
-
-		
 		build_cost_ic = 650
 		resources = {
 			steel = 3
@@ -900,7 +847,6 @@ equipments = {
 
 		manpower = 100
 
-		
 		build_cost_ic = 150
 		resources = {
 			steel = 1
@@ -984,18 +930,15 @@ equipments = {
 		
 		armor_value = 0
 
-		
 		surface_detection = 55
 		sub_detection = 0
 		surface_visibility = 1
 		reliability = 0.8
 		fuel_consumption = 0
 
-
 		sub_visibility = 12
 		naval_speed = 22
 	
-		
 		naval_range = 10000
 		
 		max_strength = 50
@@ -1086,24 +1029,19 @@ equipments = {
 		
 		armor_value = 0
 
-		
 		surface_detection = 65
 		sub_detection = 0
 		surface_visibility = 1
 		reliability = 0.8
 		fuel_consumption = 4
 
-
 		sub_visibility = 13
 		naval_speed = 20
 	
-		
 		naval_range = 6500
 		
 		max_strength = 40
 
-
-		
 		build_cost_ic = 900
 		resources = {
 			steel = 4
@@ -1188,18 +1126,15 @@ equipments = {
 		
 		armor_value = 0
 
-		
 		surface_detection = 60
 		sub_detection = 0
 		surface_visibility = 1
 		reliability = 0.8
 		fuel_consumption = 0
 
-
 		sub_visibility = 14
 		naval_speed = 22
 	
-		
 		naval_range = 10000
 		
 		max_strength = 50

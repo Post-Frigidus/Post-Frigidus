@@ -4,7 +4,7 @@ state={
 	name="STATE_156"
 
 	history={
-		owner = SMS
+		owner = TST
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -15,12 +15,12 @@ state={
 			}
 
 		}
-		add_core_of = SMS
+		add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 
 		}
-		add_core_of = WFL
+		add_core_of = TST
 		victory_points = {
 			4927 12 
 		}

@@ -1,6 +1,5 @@
 technologies = {
 
-	# MM: This constants are here because I am not a **** savage
 	@transport_plane_x = 1
 	@mothership_x_bba = 3
 	@mothership_x = 3
@@ -115,12 +114,10 @@ technologies = {
 			cv_small_plane_suicide_airframe_0
 		}
 		
-	
 		path = {
 			leads_to_tech = basic_small_airframe
 			research_cost_coeff = 1
 		}
-		
 		
 		research_cost = 2
 		start_year = 1926
@@ -143,7 +140,6 @@ technologies = {
 		}
 		special_project_specialization = { specialization_air }
 
-		
 		ai_will_do = {
 			factor = 5
 			
@@ -158,8 +154,6 @@ technologies = {
 			}
 		}
 	}
-	
-	
 	
 	basic_small_airframe = {
 
@@ -201,7 +195,6 @@ technologies = {
 		}
 		special_project_specialization = { specialization_air }
 		
-		
 		ai_will_do = {
 			factor = 2
 			
@@ -231,8 +224,6 @@ technologies = {
 			}
 		}
 	}
-	
-	
 	
 	improved_small_airframe = {
 
@@ -756,12 +747,10 @@ technologies = {
 			
 			modifier = {
 				factor = 5
-				tag = ENG
 			}
 			
 			modifier = {
 				factor = 10
-				tag = USA
 				date > 1937.1.1
 			}
 		}
@@ -799,12 +788,10 @@ technologies = {
 			
 			modifier = {
 				factor = 5
-				tag = ENG
 			}
 			
 			modifier = {
 				factor = 10
-				tag = USA
 			}
 		}
 	}
@@ -859,12 +846,10 @@ technologies = {
 			
 			modifier = {
 				factor = 5
-				tag = ENG
 			}
 			
 			modifier = {
 				factor = 5
-				tag = USA
 			}
 		}
 	}
@@ -901,12 +886,10 @@ technologies = {
 			
 			modifier = {
 				factor = 5
-				tag = ENG
 			}
 			
 			modifier = {
 				factor = 5
-				tag = USA
 			}
 		}
 	}
@@ -975,9 +958,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-
-
-
 		path = {
 			leads_to_tech = heavy_bombs
 			research_cost_coeff = 1
@@ -1006,8 +986,6 @@ technologies = {
 			}
 		}
 	}
-
-
 
 	heavy_bombs = {
 		enable_equipment_modules = {
@@ -1055,7 +1033,6 @@ technologies = {
 			}
 		}
 	}
-
 
 	armor_piercing_bombs = {
 		enable_equipment_modules = {
@@ -1896,25 +1873,13 @@ technologies = {
 		research_cost = 1.5 #Carrier Variant
 		start_year = 1944
 
-		# only from focus!!! #####
 		allow = {
-			always = no
 		}
 
-		#folder = {
-		#	name = air_techs_folder
-		#	position = { x = -2 y = 8 }
-		#}
-		
 		ai_will_do = {
 			factor = 0
 		}
-		################
 	}
-
-
-
-	##### SPECIAL PROJECTS #####
 
 	sp_centrifugal_jet_tech = {
 		allow_branch = {

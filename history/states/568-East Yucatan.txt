@@ -7,10 +7,10 @@ state={
 	manpower=43583
 	buildings_max_level_factor=1.000
 	history={
-		owner = MYU
-		add_core_of = MYU	
+		owner = TST
+		add_core_of = TST	
 		1936.1.2 = {
-			owner = MEX
+			owner = TST
 		}
 		victory_points = {
 			4184 6

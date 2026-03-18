@@ -1,8 +1,5 @@
-# Written by Henrik "Groogy" Hansson
-# Modified by Daniel "Da9L" Sjöberg
 
 default_unit_production = {
-	# If adding country-unique ones, bear in mind that they STACK unless excluding countries in the enable
 	enable = {
 		always = yes
 	}
@@ -38,7 +35,6 @@ default_unit_production = {
 		value = 80
 	}
 
-	#Air unit factors
 	ai_strategy = {
 		type = unit_ratio
 		id = fighter
@@ -81,7 +77,6 @@ default_unit_production = {
 		value = 20
 	}
 
-	# Naval unit factors
 	ai_strategy = {
 		type = unit_ratio
 		id = capital_ship
@@ -232,7 +227,6 @@ default_role_ratios = {
 }
 
 default_surplus_management = {
-	# If we manage to get all equipment we want, keep producing more stuff according to this
 	enable = {
 		always = yes  # For now, applies to everyone
 	}
@@ -276,7 +270,6 @@ default_surplus_management = {
 }
 
 bba_air_prod_1 = {
-	# TODO BFW: this was moved from germany's strats
 
 	enable = {
 		always = yes
@@ -284,7 +277,6 @@ bba_air_prod_1 = {
 
 	abort_when_not_enabled = yes
 
-	#Air unit factors
 	ai_strategy = {
 		type = unit_ratio
 		id = fighter
@@ -591,12 +583,6 @@ default_garrison_production = {
 		value = 5
 	}
 
-	# Old garrison system against resistance
-	# ai_strategy = {
-	# 	type = role_ratio
-	# 	id = suppression
-	# 	value = 2
-	# }
 }
 
 default_mountaineers_production = {
@@ -613,27 +599,6 @@ default_mountaineers_production = {
 		value = 3
 	}
 }
-
-#default_marines_production = {
-#	enable = {
-#		ai_wants_divisions > 49
-#	}
-#	abort = {
-#		ai_wants_divisions < 50
-#	}
-#
-#	ai_strategy = {
-#		type = role_ratio
-#		id = marines
-#		value = 0
-#	}
-#
-#	#ai_strategy = {
-#	#	type = role_ratio
-#	#	id = infantry
-#	#	value = 0
-#	#}
-#}
 
 default_mobile_production = {
 	enable = {
@@ -750,7 +715,6 @@ default_market_stockpile_management = {
 	}
 	abort_when_not_enabled = yes
 
-	# Hold your trains there, partner
 	ai_strategy = {
 		type = equipment_market_for_sale_threshold
 		id = train
@@ -767,20 +731,12 @@ default_market_stockpile_management = {
 		value = -50  # put fewer trains up for sale
 	}
 
-	# Better not put all your boats up for sail
-	# ai_strategy = {  # Commented because handled dynamically in code through the EQUIPMENT_MARKET_WANTED_CONVOY_USAGE_RATIO define
-	# 	type = equipment_market_for_sale_threshold
-	# 	id = convoy
-	# 	value = 100  # only start considering selling convoys if surplus more than 100
-	# }
 	ai_strategy = {
 		type = equipment_market_min_for_sale
 		id = convoy
 		value = 20  # only put up for sale in chunks of 20
 	}
 
-	# Don't let all your planes just fly out the window.
-	# Only sell planes if we have more than one airwing in surplus.
 	ai_strategy = {
 		type = equipment_market_for_sale_threshold
 		id = fighter
@@ -816,11 +772,9 @@ default_market_stockpile_management = {
 default_market_stockpile_management_if_at_war = {
 	enable = {
 		has_war = yes
-		# something something preparing for war?
 	}
 	abort_when_not_enabled = yes
 
-	# Don't sell stuff that we need for the war
 	ai_strategy = {
 		type = equipment_market_for_sale_threshold
 		id = infantry
@@ -1143,7 +1097,6 @@ ask_foreign_manpower_as_major = {
 	ai_strategy = {
 		type = asking_foreign_garrison
 		value = 100
-		# id = ITA # id is optionnal. If it is filled, the value will just apply for this country. If not, the value will apply for all countries.
 	}
 }
 
@@ -1168,7 +1121,6 @@ more_upgrades_as_spymaster = {
 	}
 }
 
-
 put_garrisons_on_high_prio = {
 	enable = {
 		always = yes
@@ -1188,15 +1140,6 @@ default_spyplanes_production = {
 			has_tech = photo_reconnaisance
 		}
 		is_major = yes
-		#OR = {
-		#	has_equipment = {
-		#		scout_plane_equipment > 50
-		#	}
-		#	has_deployed_air_force_size = {
-		#		size > 50
-		#		type = scout_plane
-		#	}
-		#}
 	}
 
 	abort_when_not_enabled = yes

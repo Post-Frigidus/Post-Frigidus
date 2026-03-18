@@ -6,7 +6,7 @@ state={
 	}
 	
 	history={
-		owner = SMA
+		owner = TST
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -15,13 +15,13 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = SMA
+		add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
-		add_core_of = SNY
+		add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 	}
 	

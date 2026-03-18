@@ -5,11 +5,11 @@ state={
 		steel=8.000
 	}
 	history={
-		owner = LON
-		add_core_of = PAN
-		add_core_of = LON
+		owner = TST
+		add_core_of = TST
+		add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 4

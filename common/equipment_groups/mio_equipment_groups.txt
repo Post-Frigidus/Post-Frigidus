@@ -1,14 +1,4 @@
 
-
-########    ###    ##    ## ##    ##     ######   ########   #######  ##     ## ########   ######  
-   ##      ## ##   ###   ## ##   ##     ##    ##  ##     ## ##     ## ##     ## ##     ## ##    ## 
-   ##     ##   ##  ####  ## ##  ##      ##        ##     ## ##     ## ##     ## ##     ## ##       
-   ##    ##     ## ## ## ## #####       ##   #### ########  ##     ## ##     ## ########   ######  
-   ##    ######### ##  #### ##  ##      ##    ##  ##   ##   ##     ## ##     ## ##              ## 
-   ##    ##     ## ##   ### ##   ##     ##    ##  ##    ##  ##     ## ##     ## ##        ##    ## 
-   ##    ##     ## ##    ## ##    ##     ######   ##     ##  #######   #######  ##         ######  
-
-
 mio_cat_eq_all_light_tank = { #Includes (standalone) Amphibious Tank Chassis
 	equipment_type = {
 		light_tank_chassis
@@ -31,7 +21,6 @@ mio_cat_eq_all_heavy_tank = { #Includes Super Heavy Tank Chassis
 }
 
 mio_cat_eq_all_main_battle_tank = { #Includes Medium Tank Chassis
-	# Same as medium, used for unique icon
 	equipment_type = {
 		medium_tank_chassis
 		modern_tank_chassis
@@ -39,7 +28,6 @@ mio_cat_eq_all_main_battle_tank = { #Includes Medium Tank Chassis
 }
 
 mio_cat_eq_all_super_heavy_tank = { #Includes Heavy Tank Chassis
-	# Same as heavy, used for unique icon
 	equipment_type = {
 		heavy_tank_chassis
 		super_heavy_tank_chassis
@@ -66,15 +54,6 @@ mio_cat_eq_all_amphibious_tank = { #Amphibious Tanks (EAW SPECIFIC)
 	}
 }
 
-
- ######  ##     ## #### ########      ######   ########   #######  ##     ## ########   ######  
-##    ## ##     ##  ##  ##     ##    ##    ##  ##     ## ##     ## ##     ## ##     ## ##    ## 
-##       ##     ##  ##  ##     ##    ##        ##     ## ##     ## ##     ## ##     ## ##       
- ######  #########  ##  ########     ##   #### ########  ##     ## ##     ## ########   ######  
-      ## ##     ##  ##  ##           ##    ##  ##   ##   ##     ## ##     ## ##              ## 
-##    ## ##     ##  ##  ##           ##    ##  ##    ##  ##     ## ##     ## ##        ##    ## 
- ######  ##     ## #### ##            ######   ##     ##  #######   #######  ##         ######  
-
 mio_cat_eq_all_carrier = { #Includes all CV --- Used due to custom loc capabilities
 	equipment_type = {
 		ship_hull_carrier
@@ -98,14 +77,6 @@ mio_cat_eq_all_battleship = { #Includes all Battleships (BB, BC, SHBB, Pre-Dread
 		ship_hull_heavy
 	}
 }
-
-########  ##          ###    ##    ## ########     ######   ########   #######  ##     ## ########   ######  
-##     ## ##         ## ##   ###   ## ##          ##    ##  ##     ## ##     ## ##     ## ##     ## ##    ## 
-##     ## ##        ##   ##  ####  ## ##          ##        ##     ## ##     ## ##     ## ##     ## ##       
-########  ##       ##     ## ## ## ## ######      ##   #### ########  ##     ## ##     ## ########   ######  
-##        ##       ######### ##  #### ##          ##    ##  ##   ##   ##     ## ##     ## ##              ## 
-##        ##       ##     ## ##   ### ##          ##    ##  ##    ##  ##     ## ##     ## ##        ##    ## 
-##        ######## ##     ## ##    ## ########     ######   ##     ##  #######   #######  ##         ######  
 
 mio_cat_eq_all_small_plane = { #Includes all Small Aircraft (Fighter, CAS, Nav) and CV versions --- Used due to custom loc capabilities
 	equipment_type = {

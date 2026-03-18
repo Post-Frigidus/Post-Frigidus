@@ -2,9 +2,9 @@ state = {
 	id = 120
 	name = "STATE_120"
 	history = {
-		owner = PQC
+		owner = TST
 		1936.1.2 = {
-			owner = CAN
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 2
@@ -12,7 +12,7 @@ state = {
 			air_base = 5
 			arms_factory = 1
 		}
-		add_core_of = PQC
+		add_core_of = TST
 		victory_points = {
 			5633
 			10

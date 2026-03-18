@@ -5,9 +5,9 @@ state = {
 		aluminium = 8
 	}
 	history = {
-		owner = SNH
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 2
@@ -25,7 +25,7 @@ state = {
 			5736
 			5
 		}
-		add_core_of = SNH
+		add_core_of = TST
 	}
 	provinces = {
 		2455

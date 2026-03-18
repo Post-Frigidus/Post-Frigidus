@@ -11,15 +11,15 @@ state={
 		aluminium = 20
 	}
 	history={
-		owner = SID
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
 		}
-		add_core_of = SID
+		add_core_of = TST
 		#add_claim_by = PCA
 		victory_points = { #Salmon
 			3753 1

@@ -27,11 +27,9 @@ upgrades = {
 
 		resource_cost_thresholds = {
 			10 = { #higher level engines do require more strategic resources
-				#chromium = 1
 			}
 		}
 
-		#maximum_speed = 0.1
 		reliability = -0.015
 		add_stats = {
 			fuel_consumption = 0.05
@@ -71,16 +69,13 @@ upgrades = {
 			}
 			10 = {
 				steel = 1
-				#chromium = 1
 			}
 			15 = {
 				steel = 1
-				#chromium = 2
 			}
 		}
 
 		reliability = -0.015
-		#armor_value = 0.085
 		add_stats = {
 			maximum_speed = -0.1
 			breakthrough = 1.25

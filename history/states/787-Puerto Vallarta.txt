@@ -5,13 +5,13 @@ state={
 		4443 4446 4451 4462 4468 4469 4475 
 	}
 	history = {
-		owner = MDC
+		owner = TST
 		1936.1.2 = {
-			owner = MEX
+			owner = TST
 
 		}
-		add_core_of = MDC
-		add_core_of = MJA
+		add_core_of = TST
+		add_core_of = TST
 
 		victory_points = {
 			4468 5 

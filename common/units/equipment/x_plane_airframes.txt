@@ -1,9 +1,5 @@
-# This file must be evaluated after the file(s) defining the archetypes being duplicated.
-# The equipment attributes alias, type, variant_name, and derived_variant_name are not duplicated.
 
 duplicate_archetypes = {
-
-	# small_plane
 
 	small_plane_cas_airframe = {
 		archetype = small_plane_airframe
@@ -82,8 +78,6 @@ duplicate_archetypes = {
 		forbid_mission_type = training
 	}
 
-	# medium_plane
-
 	medium_plane_fighter_airframe = {
 		archetype = medium_plane_airframe
 		type = heavy_fighter
@@ -117,8 +111,6 @@ duplicate_archetypes = {
 		forbid_mission_type = training
 	}
 
-	# large_plane
-
 	large_plane_maritime_patrol_plane_airframe = {
 		archetype = large_plane_airframe
 		type = maritime_patrol_plane
@@ -126,11 +118,8 @@ duplicate_archetypes = {
 		interface_overview_category_index = 8
 	}
 
-	# Non-BBA archetypes
-
 	jet_fighter_equipment = {
 		only_duplicate_archetype = yes
-		 #module_slots = none # Prevent this archetype from being identified as using the plane designer
 		archetype = small_plane_airframe
 		type = fighter
 		sprite = jet_plane
@@ -194,18 +183,15 @@ equipments = {
 		air_superiority = 1
 		reliability = 0.8
 
-		# Air vs Navy - low damage / high hit chance / easy to hurt
 		naval_strike_attack = 1
 		naval_strike_targetting = 10
 		surface_detection = 10 # For airwing of 100 planes (Destroyer I: 20 surface detection)
 		sub_detection = 2.5 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 
-		#Space taken in convoy
 		lend_lease_cost = 8
 
 		build_cost_ic = 22
 		resources = {
-			#oil = 1
 			aluminium = 2
 			rubber = 1
 		}
@@ -215,7 +201,6 @@ equipments = {
 
 	}
 
-	# Basic Fighter
 	fighter_equipment_1 = {
 		year = 1936
 
@@ -231,7 +216,6 @@ equipments = {
 
 		build_cost_ic = 24
 		resources = {
-			#oil = 1
 			aluminium = 3
 			rubber = 1
 		}
@@ -247,7 +231,6 @@ equipments = {
 		fuel_consumption = 0.21
 	}
 
-	# Improved Fighter
 	fighter_equipment_2 = {
 		year = 1940
 
@@ -263,7 +246,6 @@ equipments = {
 
 		build_cost_ic = 26
 		resources = {
-			#oil = 2
 			aluminium = 3
 			rubber = 1
 		}
@@ -279,7 +261,6 @@ equipments = {
 		fuel_consumption = 0.21
 	}
 
-	# Advanced Fighter
 	fighter_equipment_3 = {
 		year = 1944
 
@@ -295,7 +276,6 @@ equipments = {
 
 		build_cost_ic = 28
 		resources = {
-			#oil = 2
 			aluminium = 4
 			rubber = 1
 		}
@@ -311,7 +291,6 @@ equipments = {
 		fuel_consumption = 0.21
 	}
 
-	# Basic Jet Fighter
 	jet_fighter_equipment_1 = {
 		year = 1945
 
@@ -336,7 +315,6 @@ equipments = {
 			plane_reliability_upgrade
 		}
 
-		# Air vs Navy - low damage / high hit chance / easy to hurt
 		naval_strike_attack = 5
 		naval_strike_targetting = 10
 		surface_detection = 12 # For airwing of 100 planes (Destroyer I: 20 surface detection)
@@ -355,7 +333,6 @@ equipments = {
 		reliability = 0.8
 	}
 
-	# Improved Jet Fighter
 	jet_fighter_equipment_2 = {
 		year = 1950
 
@@ -385,7 +362,6 @@ equipments = {
 		reliability = 0.8
 	}
 
-	# Improved Jet Fighter
 	supersonic_fighter_equipment_1 = {
 		year = 1950
 		sprite = supersonic_jet_plane
@@ -415,13 +391,6 @@ equipments = {
 		reliability = 0.8
 	}
 
-	 ##  #   #     ### ###  ##  #  # ### ### ###  
-	#  # #   #     #    #  #    #  #  #  #   #  # 
-	#     # #      ##   #  # ## ####  #  ##  ###  
-	#  #  # #      #    #  #  # #  #  #  #   #  # 
-	 ##    #       #   ###  ##  #  #  #  ### #  # 
-
-	# Early Carrier Fighter
 	cv_fighter_equipment_0 = {
 		year = 1933
 
@@ -450,15 +419,12 @@ equipments = {
 			plane_reliability_upgrade
 		}
 
-		# Air vs Navy - low damage / high hit chance / easy to hurt
 		naval_strike_attack = 2
 		naval_strike_targetting = 10
 		surface_detection = 15 # For airwing of 100 planes (Destroyer I: 20 surface detection)
 		sub_detection = 3.5 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 
-		#Space taken in convoy
 		resources = {
-			#oil = 1
 			aluminium = 2
 			rubber = 1
 		}
@@ -470,7 +436,6 @@ equipments = {
 		fuel_consumption = 0.21
 	}
 
-	# Basic Carrier Fighter
 	cv_fighter_equipment_1 = {
 		year = 1936
 
@@ -487,7 +452,6 @@ equipments = {
 
 		build_cost_ic = 28.4 # cv_version costs 20% more of base archetype
 		resources = {
-			#oil = 1
 			aluminium = 3
 			rubber = 1
 		}
@@ -503,7 +467,6 @@ equipments = {
 		fuel_consumption = 0.21
 	}
 
-	# Improved Carrier Fighter
 	cv_fighter_equipment_2 = {
 		year = 1940
 
@@ -520,7 +483,6 @@ equipments = {
 
 		build_cost_ic = 30.4 # cv_version costs 20% more of base archetype
 		resources = {
-			#oil = 2
 			aluminium = 3
 			rubber = 1
 		}
@@ -535,7 +497,6 @@ equipments = {
 		fuel_consumption = 0.21
 	}
 
-	# Advanced Carrier Fighter
 	cv_fighter_equipment_3 = {
 		year = 1944
 
@@ -552,7 +513,6 @@ equipments = {
 
 		build_cost_ic = 32.4 # cv_version costs 20% more of base archetype
 		resources = {
-			#oil = 2
 			aluminium = 3
 			rubber = 1
 		}
@@ -568,13 +528,6 @@ equipments = {
 		fuel_consumption = 0.21
 	}
 
-	 ##   ##   ## 
-	#  # #  # #   
-	#    ####  #  
-	#  # #  #   # 
-	 ##  #  # ##  
-
-	# Basic CAS
 	CAS_equipment_1 = {
 		year = 1936
 
@@ -608,7 +561,6 @@ equipments = {
 
 		build_cost_ic = 22
 		resources = {
-			#oil = 1
 			aluminium = 2
 			rubber = 1
 		}
@@ -619,7 +571,6 @@ equipments = {
 		fuel_consumption = 0.26
 	}
 
-	# Improved CAS
 	CAS_equipment_2 = {
 		year = 1940
 
@@ -636,7 +587,6 @@ equipments = {
 
 		build_cost_ic = 24
 		resources = {
-			#oil = 1
 			aluminium = 3
 			rubber = 1
 		}
@@ -651,7 +601,6 @@ equipments = {
 		fuel_consumption = 0.26
 	}
 
-	# Advanced CAS
 	CAS_equipment_3 = {
 		year = 1944
 
@@ -668,7 +617,6 @@ equipments = {
 
 		build_cost_ic = 26
 		resources = {
-			#oil = 2
 			aluminium = 3
 			rubber = 1
 		}
@@ -683,13 +631,6 @@ equipments = {
 		fuel_consumption = 0.26
 	}
 
-	 ##  #   #      ##   ##   ## 
-	#  # #   #     #  # #  # #   
-	#     # #      #    ####  #  
-	#  #  # #      #  # #  #   # 
-	 ##    #        ##  #  # ##  
-
-	# Basic Carrier CAS
 	cv_CAS_equipment_1 = {
 		year = 1936
 
@@ -723,7 +664,6 @@ equipments = {
 
 		build_cost_ic = 26.4 # cv_version costs 20% more of base archetype
 			resources = {
-			#oil = 1
 			aluminium = 2
 			rubber = 1
 		}
@@ -737,7 +677,6 @@ equipments = {
 		sub_detection = 7.5 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 	}
 
-	# Improved Carrier CAS
 	cv_CAS_equipment_2 = {
 		year = 1940
 
@@ -755,7 +694,6 @@ equipments = {
 
 		build_cost_ic = 28.4 # cv_version costs 20% more of base archetype
 		resources = {
-			#oil = 1
 			aluminium = 3
 			rubber = 1
 		}
@@ -770,7 +708,6 @@ equipments = {
 		fuel_consumption = 0.26
 	}
 
-	# Advanced Carrier CAS
 	cv_CAS_equipment_3 = {
 		year = 1944
 
@@ -788,7 +725,6 @@ equipments = {
 
 		build_cost_ic = 30.4 # cv_version costs 20% more of base archetype
 		resources = {
-			#oil = 2
 			aluminium = 3
 			rubber = 1
 		}
@@ -803,13 +739,6 @@ equipments = {
 		fuel_consumption = 0.26
 	}
 
-	#  #  ##  #   #  ##  #       ###   ##  #   # ###  ### ###  
-	## # #  # #   # #  # #       #  # #  # ## ## #  # #   #  # 
-	# ## ####  # #  #### #       ###  #  # # # # ###  ##  ###  
-	#  # #  #  # #  #  # #       #  # #  # #   # #  # #   #  # 
-	#  # #  #   #   #  # ###     ###   ##  #   # ###  ### #  # 
-
-	# Basic nav_bomber
 	nav_bomber_equipment_1 = {
 		year = 1936
 
@@ -836,7 +765,6 @@ equipments = {
 			plane_reliability_upgrade
 		}
 
-		# Air vs Navy - high damage / medium hit chance / easy to hurt
 		naval_strike_attack = 15
 		naval_strike_targetting = 7.5
 		surface_detection = 15 # For airwing of 100 planes (Destroyer I: 20 surface detection)
@@ -844,7 +772,6 @@ equipments = {
 
 		build_cost_ic = 26
 		resources = {
-			#oil = 1
 			aluminium = 2
 			rubber = 1
 		}
@@ -855,7 +782,6 @@ equipments = {
 		fuel_consumption = 0.28
 	}
 
-	# Improved nav_bomber
 	nav_bomber_equipment_2 = {
 		year = 1940
 
@@ -875,7 +801,6 @@ equipments = {
 
 		build_cost_ic = 28
 		resources = {
-			#oil = 1
 			aluminium = 3
 			rubber = 1
 		}
@@ -886,7 +811,6 @@ equipments = {
 		fuel_consumption = 0.28
 	}
 
-	# Advanced nav_bomber
 	nav_bomber_equipment_3 = {
 		year = 1944
 
@@ -906,7 +830,6 @@ equipments = {
 
 		build_cost_ic = 30
 		resources = {
-			#oil = 2
 			aluminium = 3
 			rubber = 1
 		}
@@ -917,13 +840,6 @@ equipments = {
 		fuel_consumption = 0.28
 	}
 
-	 ##  #   #     #  #  ##  #   #  ##  #       ###   ##  #   # ###  ### ###  
-	#  # #   #     ## # #  # #   # #  # #       #  # #  # ## ## #  # #   #  # 
-	#     # #      # ## ####  # #  #### #       ###  #  # # # # ###  ##  ###  
-	#  #  # #      #  # #  #  # #  #  # #       #  # #  # #   # #  # #   #  # 
-	 ##    #       #  # #  #   #   #  # ###     ###   ##  #   # ###  ### #  # 
-
-	 # Basic Carrier nav_bomber
 	cv_nav_bomber_equipment_1 = {
 		year = 1936
 
@@ -954,14 +870,12 @@ equipments = {
 			plane_reliability_upgrade
 		}
 
-		# Air vs Navy - high damage / medium hit chance / easy to hurt
 		naval_strike_attack = 15
 		naval_strike_targetting = 7.5
 		surface_detection = 20 # For airwing of 100 planes (Destroyer I: 20 surface detection)
 		sub_detection = 10 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 
 		resources = {
-			#oil = 1
 			aluminium = 2
 			rubber = 1
 		}
@@ -972,7 +886,6 @@ equipments = {
 		fuel_consumption = 0.28
 	}
 
-	# Improved Carrier nav_bomber
 	cv_nav_bomber_equipment_2 = {
 		year = 1940
 
@@ -992,7 +905,6 @@ equipments = {
 		sub_detection = 15 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 		build_cost_ic = 33.2 # cv_version costs 20% more of base archetype
 		resources = {
-			#oil = 1
 			aluminium = 3
 			rubber = 1
 		}
@@ -1002,7 +914,6 @@ equipments = {
 		fuel_consumption = 0.28
 	}
 
-	# Advanced Carrier nav_bomber
 	cv_nav_bomber_equipment_3 = {
 		year = 1944
 
@@ -1022,7 +933,6 @@ equipments = {
 		sub_detection = 18 # For airwing of 100 planes (Destroyer I: 5 sub detection )
 		build_cost_ic = 35.2 # cv_version costs 20% more of base archetype
 		resources = {
-			#oil = 2
 			aluminium = 3
 			rubber = 1
 		}
@@ -1032,13 +942,6 @@ equipments = {
 		fuel_consumption = 0.28
 	}
 
-	###   ##   ##  # # ### ###     ### #  # ### ### ###   ##  ### ###  ###  ##  ###   ## 
-	#  # #  # #  # # # #    #       #  ## #  #  #   #  # #  # #   #  #  #  #  # #  # #   
-	###  #  # #    ##  ##   #       #  # ##  #  ##  ###  #    ##  ###   #  #  # ###   #  
-	#  # #  # #  # # # #    #       #  #  #  #  #   #  # #  # #   #     #  #  # #  #   # 
-	#  #  ##   ##  # # ###  #      ### #  #  #  ### #  #  ##  ### #     #   ##  #  # ##  
-
-	# Basic Rocket Interceptor
 	rocket_interceptor_equipment_1 = {
 		year = 1944
 
@@ -1075,7 +978,6 @@ equipments = {
 		naval_strike_targetting = 10
 	}
 
-	# Improved Rocket Interceptor
 	rocket_interceptor_equipment_2 = {
 		year = 1945
 
@@ -1102,7 +1004,6 @@ equipments = {
 		naval_strike_targetting = 10
 	}
 
-	# Advanced Rocket Interceptor
 	rocket_interceptor_equipment_3 = {
 		year = 1946
 
@@ -1129,13 +1030,6 @@ equipments = {
 		naval_strike_targetting = 10
 	}
 
-	 ## #  # ###  ##  ### ###  ###      ##  ###   ##  ### ### 
-	#   #  #  #  #  #  #  #  # #       #  # #  # #  # #    #  
-	 #  #  #  #  #     #  #  # ##      #    ###  #### ##   #  
-	  # #  #  #  #  #  #  #  # #       #  # #  # #  # #    #  
-	##   ##  ###  ##  ### ###  ###      ##  #  # #  # #    #  
-
-	# Rocket interceptor suicide craft!
 	rocket_suicide_equipment_1 = {
 		year = 1944
 
@@ -1170,13 +1064,6 @@ equipments = {
 		air_superiority = 1
 	}
 
-	###  ##   ##      ###   ##  #   # ###  ### ###  
-	 #  #  # #  #     #  # #  # ## ## #  # #   #  # 
-	 #  #### #        ###  #  # # # # ###  ##  ###  
-	 #  #  # #  #     #  # #  # #   # #  # #   #  # 
-	 #  #  #  ##      ###   ##  #   # ###  ### #  # 
-
-	 # Early Bomber
 	tac_bomber_equipment_0 = {
 		year = 1933
 
@@ -1211,11 +1098,9 @@ equipments = {
 
 		build_cost_ic = 35
 		resources = {
-			#oil = 1
 			aluminium = 2
 			rubber = 1
 		}
-		# build_cost_ic = 18
 		naval_strike_attack = 4
 		naval_strike_targetting = 6
 
@@ -1226,7 +1111,6 @@ equipments = {
 		fuel_consumption = 0.36
 	}
 
-	# Basic tac_bomber
 	tac_bomber_equipment_1 = {
 		year = 1936
 
@@ -1244,7 +1128,6 @@ equipments = {
 
 		build_cost_ic = 37
 		resources = {
-			#oil = 1
 			aluminium = 3
 			rubber = 1
 		}
@@ -1259,7 +1142,6 @@ equipments = {
 		fuel_consumption = 0.36
 	}
 
-	# Improved tac_bomber
 	tac_bomber_equipment_2 = {
 		year = 1940
 
@@ -1277,7 +1159,6 @@ equipments = {
 
 		build_cost_ic = 39
 		resources = {
-			#oil = 1
 			aluminium = 4
 			rubber = 1
 		}
@@ -1292,7 +1173,6 @@ equipments = {
 		fuel_consumption = 0.36
 	}
 
-	# Advanced tac_bomber
 	tac_bomber_equipment_3 = {
 		year = 1944
 
@@ -1310,7 +1190,6 @@ equipments = {
 
 		build_cost_ic = 41
 		resources = {
-			#oil = 1
 			aluminium = 5
 			rubber = 1
 		}
@@ -1325,7 +1204,6 @@ equipments = {
 		fuel_consumption = 0.36
 	}
 
-	# Basic Jet tac_bomber
 	jet_tac_bomber_equipment_1 = {
 		year = 1945
 
@@ -1357,7 +1235,6 @@ equipments = {
 			plane_reliability_upgrade
 		}
 
-		# Air vs Navy - high damage / low hit chance / hard to hurt
 		naval_strike_attack = 15
 		naval_strike_targetting = 6
 		surface_detection = 25 # For airwing of 100 planes (Destroyer I: 20 surface detection)
@@ -1376,7 +1253,6 @@ equipments = {
 		fuel_consumption = 0.72
 	}
 
-	# Improved Jet tac_bomber
 	jet_tac_bomber_equipment_2 = {
 		year = 1950
 
@@ -1409,12 +1285,6 @@ equipments = {
 		fuel_consumption = 0.72
 	}
 
-	#  # ###  ##  #   # #   #     ### ###  ##  #  # ### ### ###  
-	#  # #   #  # #   #  # #      #    #  #    #  #  #  #   #  # 
-	#### ##  ####  # #    #       ##   #  # ## ####  #  ##  ###  
-	#  # #   #  #  # #    #       #    #  #  # #  #  #  #   #  # 
-	#  # ### #  #   #     #       #   ###  ##  #  #  #  ### #  # 
-
 	heavy_fighter_equipment_1 = {
 		year = 1936
 
@@ -1432,7 +1302,6 @@ equipments = {
 		air_attack = 36
 		air_defence = 13
 
-		# build_cost_ic = 16
 		naval_strike_attack = 3
 		naval_strike_targetting = 6
 		surface_detection = 5
@@ -1446,7 +1315,6 @@ equipments = {
 
 		build_cost_ic = 28
 		resources = {
-			#oil = 1
 			aluminium = 2
 			rubber = 1
 		}
@@ -1472,7 +1340,6 @@ equipments = {
 
 		build_cost_ic = 30
 		resources = {
-			#oil = 1
 			aluminium = 3
 			rubber = 1
 		}
@@ -1501,7 +1368,6 @@ equipments = {
 
 		build_cost_ic = 32
 		resources = {
-			#oil = 1
 			aluminium = 4
 			rubber = 1
 		}
@@ -1514,12 +1380,6 @@ equipments = {
 		manpower = 40
 		fuel_consumption = 0.26
 	}
-
-	 ##  ##   ##  #  # ###     ###  #    ##  #  # ### 
-	#   #  # #  # #  #  #      #  # #   #  # ## # #   
-	 #  #    #  # #  #  #      ###  #   #### # ## ##  
-	  # #  # #  # #  #  #      #    #   #  # #  # #   
-	##   ##   ##   ##   #      #    ### #  # #  # ### 
 
 	scout_plane_equipment_1 = {
 		year = 1936
@@ -1582,13 +1442,6 @@ equipments = {
 		fuel_consumption = 0.26
 	}
 
-	 ## ### ###   ##  ###     ###   ##  #   # ###  ### ###  
-	#    #  #  # #  #  #      #  # #  # ## ## #  # #   #  # 
-	 #   #  ###  ####  #      ###  #  # # # # ###  ##  ###  
-	  #  #  #  # #  #  #      #  # #  # #   # #  # #   #  # 
-	##   #  #  # #  #  #      ###   ##  #   # ###  ### #  # 
-
-	# Basic strat_bomber
 	strat_bomber_equipment_1 = {
 		year = 1936
 
@@ -1607,7 +1460,6 @@ equipments = {
 		air_defence = 25
 		air_bombing = 30
 
-		# build_cost_ic = 36
 		upgrades = {
 			plane_bomb_upgrade
 			plane_range_upgrade
@@ -1615,7 +1467,6 @@ equipments = {
 			plane_reliability_upgrade
 		}
 
-		# Air vs Navy - high damage / low hit chance / hard to hurt
 		naval_strike_attack = 1.5
 		naval_strike_targetting = 0.6
 		surface_detection = 10 # For airwing of 100 planes (Destroyer I: 20 surface detection)
@@ -1633,7 +1484,6 @@ equipments = {
 		fuel_consumption = 0.8
 	}
 
-	# Improved strat_bomber
 	strat_bomber_equipment_2 = {
 		year = 1940
 
@@ -1650,7 +1500,6 @@ equipments = {
 
 		build_cost_ic = 62
 		resources = {
-			#oil = 1
 			aluminium = 4
 			rubber = 2
 		}
@@ -1664,7 +1513,6 @@ equipments = {
 		fuel_consumption = 0.8
 	}
 
-	# Advanced strat_bomber
 	strat_bomber_equipment_3 = {
 		year = 1944
 
@@ -1681,7 +1529,6 @@ equipments = {
 
 		build_cost_ic = 64
 		resources = {
-			#oil = 1
 			aluminium = 5
 			rubber = 2
 		}
@@ -1695,7 +1542,6 @@ equipments = {
 		fuel_consumption = 0.8
 	}
 
-	# Basic Jet strat_bomber
 	jet_strat_bomber_equipment_1 = {
 		year = 1950
 
@@ -1724,7 +1570,6 @@ equipments = {
 		air_superiority = 0.01
 		reliability = 0.8
 
-		# Air vs Navy - high damage / low hit chance / hard to hurt
 		naval_strike_attack = 1.5
 		naval_strike_targetting = 0.6
 		surface_detection = 10 # For airwing of 100 planes (Destroyer I: 20 surface detection)

@@ -4,9 +4,9 @@ state={
 	name="STATE_420"
 
 	history={
-		owner = SME
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 
 		}
 		buildings = {
@@ -14,7 +14,7 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = SME
+		add_core_of = TST
 
 	}
 

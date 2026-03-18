@@ -10,14 +10,14 @@ state={
 		tungsten=22.000
 	}
 	history={
-		owner = SID
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SID
+		add_core_of = TST
 		#add_claim_by = PCA
 		#victory_points = { #Arco
 		#	3741 1

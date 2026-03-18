@@ -2,8 +2,8 @@ state={
 	id=54
 	name="STATE_54"
 	history={
-		owner = SRO
-		add_core_of = SRO
+		owner = TST
+		add_core_of = TST
 		add_claim_by = SOR
 		buildings = {
 			infrastructure = 3
@@ -17,7 +17,7 @@ state={
 			2727 20
                 }
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 	}
 	provinces={

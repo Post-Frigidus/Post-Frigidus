@@ -4,11 +4,11 @@ state={
 	name="STATE_579"
 
 	history={
-		owner = MDC
-		add_core_of = MDC
-		add_core_of = MJA
+		owner = TST
+		add_core_of = TST
+		add_core_of = TST
 		1936.1.2 = {
-			owner = MEX
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 1

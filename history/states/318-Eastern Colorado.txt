@@ -9,9 +9,9 @@ state={
 	}
 
 	history={
-		owner = SCO
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}		 
 		buildings = {
 			infrastructure = 2
@@ -20,7 +20,7 @@ state={
 			fuel_silo = 1
 			air_base = 3
 		}
-		add_core_of = SCO
+		add_core_of = TST
 		victory_points = {
 			2012 30 
 		}

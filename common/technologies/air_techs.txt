@@ -94,7 +94,6 @@ technologies = {
 		}
 	}
 
-
 	early_fighter = {
 
 		enable_equipments = {
@@ -105,7 +104,6 @@ technologies = {
 			leads_to_tech = fighter1
 			research_cost_coeff = 1
 		}
-
 
 		path = {
 			leads_to_tech = CAS1
@@ -300,7 +298,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 				
-
 		research_cost = 2
 		start_year = 1940
 		folder = {
@@ -605,7 +602,6 @@ technologies = {
 			factor = 0
 		}
 	}
-	
 	
 	CAS1 = {
 
@@ -1077,11 +1073,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		#path = {
-		#	leads_to_tech = scout_plane1
-		#	research_cost_coeff = 1
-		#}
-		
 		research_cost = 2
 		start_year = 1933
 		folder = {
@@ -1169,11 +1160,6 @@ technologies = {
 			heavy_fighter_equipment_3
 		}
 		
-		#path = {
-		#	leads_to_tech = jet_fighter1
-		#	research_cost_coeff = 1.2
-		#}
-
 		research_cost = 2
 		start_year = 1944
 		folder = {
@@ -1535,7 +1521,6 @@ technologies = {
 		}
 	}
 	
-	
 	strategic_bomber1 = {
 
 		enable_equipments = {
@@ -1705,19 +1690,11 @@ technologies = {
 		research_cost = 1.5 #Carrier Variant
 		start_year = 1944
 
-		# only from focus!!! #####
 		allow = {
-			always = no
 		}
 
-		#folder = {
-		#	name = air_techs_folder
-		#	position = { x = -2 y = 8 }
-		#}
-		
 		ai_will_do = {
 			factor = 0
 		}
-		################
 	}
 }

@@ -6,12 +6,12 @@ state={
 		tungsten=2.000	
 	}
 	history={
-		owner = SIL
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
-		add_core_of = SIL
-		add_core_of = MAR
+		add_core_of = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

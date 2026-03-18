@@ -1,7 +1,3 @@
-### operations are sorted by order of 
-### 1) no. of required operatives
-### 2) required network strength
-### eg. 1/70 comes before 2/40
 
 operation_rescue_operative = { ### 0 1/35
 	icon = GFX_operations_rescue_captured_operative
@@ -10,7 +6,6 @@ operation_rescue_operative = { ### 0 1/35
 	desc = operation_rescue_operative_desc
 	priority = 0
 	prevent_captured_operative_to_die = yes
-
 
 	days = 35
 	network_strength = 30
@@ -143,12 +138,6 @@ operation_infiltrate_civilian = { ### 1 1/35
 	}
 
 	available = {
-		#NOT = {
-			#has_operation_token = {
-			#	tag = FROM
-			#	token = token_civilian
-			#}
-		#}
 	}
 
 	awarded_tokens = {
@@ -282,7 +271,6 @@ operation_fake_intel = { ### 2 1/40
 	
 	available = {
 		ROOT = {
-			# check if we have at most x2.5 amount units we will generate
 			set_temp_variable = { num_max_fake_intel_unit = num_armies }
 			multiply_temp_variable = { num_max_fake_intel_unit = 0.25 }
 			round_temp_variable = num_max_fake_intel_unit
@@ -296,7 +284,6 @@ operation_fake_intel = { ### 2 1/40
 			
 			num_fake_intel_divisions < num_max_fake_intel_unit
 			
-			# if enemy has high intel, don't do mission at all
 			all_enemy_country = {
 				intel_level_over = {
 					target = PREV
@@ -319,7 +306,6 @@ operation_fake_intel = { ### 2 1/40
 		ROOT = {
 			hidden_effect = {
 				if = {
-					# create template if not exist
 					limit = {
 						not = {
 							has_country_flag = fake_intel_template_created
@@ -337,7 +323,6 @@ operation_fake_intel = { ### 2 1/40
 					set_country_flag = fake_intel_template_created
 				}
 				
-				# give it an id and store id & current date so it can be deleted later
 				if = {
 					limit = { NOT = { has_variable = fake_intel_id } }
 					set_variable = { fake_intel_id = 1000 }
@@ -349,7 +334,6 @@ operation_fake_intel = { ### 2 1/40
 				}
 				set_variable = { num_days_for_fake_intel_id@var:id_to_set = global.num_days }
 				
-				# minimum of 0.25 of current armies or 24
 				set_temp_variable = { num_to_create = num_armies }
 				multiply_temp_variable = { num_to_create = 0.25 }
 				round_temp_variable = num_to_create
@@ -359,7 +343,6 @@ operation_fake_intel = { ### 2 1/40
 					min = 24
 				}
 				
-				# create actual units
 				capital_scope = {
 					create_unit = {
 						division = "division_template = \"Fake Intel Division\" start_experience_factor = 0.5" 
@@ -369,7 +352,6 @@ operation_fake_intel = { ### 2 1/40
 					}
 				}
 				
-				# will delete them after 90 days
 				country_event = { id = lar_fake_intel_units.1 days = 90 }
 			}
 		}
@@ -380,7 +362,6 @@ operation_fake_intel = { ### 2 1/40
 		custom_effect_tooltip = CUSTOM_EFFECT_CREATE_FAKE_ARMIES
 	}
 	
-	#since this operation is taking place in friendly territory, no infiltration/exfiltration is necessary
 	phases = { #
 		fake_intel_decoy_tanks = { base = 33 }
 		fake_intel_radio_deception = { base = 33 }
@@ -574,12 +555,6 @@ operation_infiltrate_armed_forces_army = { ### 4 1/55
 	}
 
 	available = {
-		#NOT = {
-		#	has_operation_token = {
-		#		tag = FROM
-		#		token = token_army
-		#	}
-		#}
 	}
 	
 	awarded_tokens = {
@@ -728,17 +703,6 @@ operation_infiltrate_armed_forces_navy = { ### 5 1/55
 	}
 
 	available = {
-		#NOT = {
-		#	has_operation_token = {
-		#		tag = FROM
-		#		token = token_navy
-		#	}
-		#}
-		#FROM = {
-		#	any_owned_state = {
-		#		is_coastal = yes
-		#	}
-		#}
 	}
 
 	awarded_tokens = {
@@ -881,12 +845,6 @@ operation_infiltrate_armed_forces_airforce = { ### 6 1/55
 	}
 
 	available = {
-		#NOT = {
-		#	has_operation_token = {
-		#		tag = FROM
-		#		token = token_airforce
-		#	}
-		#}
 	}
 
 	awarded_tokens = {
@@ -1024,7 +982,6 @@ operation_coup_government = { ### 7 1/70
 	equipment = {
 		infantry_equipment = 12000
 	}
-	# Cannot spawn a civil war in the capital
 	selection_target_state = {
 		is_capital = no
 	}
@@ -1099,7 +1056,6 @@ operation_coup_government = { ### 7 1/70
 				}
 			}
 
-			# Exploit prevention: Make sure ruling party is not the same as the saved one, otherwise change it!
 			if = {
 				limit = {
 					has_government = var:coup_operation_party@ROOT
@@ -1117,7 +1073,6 @@ operation_coup_government = { ### 7 1/70
 			set_temp_variable = { civil_war_navy_fraction = civil_war_size }
 			set_temp_variable = { civil_war_army_fraction = civil_war_size }
 
-			# If ROOT has infiltrated a service, the revolter gets additional troops
 			if = {
 				limit = {
 					ROOT = {
@@ -1153,7 +1108,6 @@ operation_coup_government = { ### 7 1/70
 				add_to_temp_variable = { civil_war_navy_fraction = 0.15 }
 			}
 
-			# create different civil wars depending on ROOT ideology
 			start_civil_war = {
 				capital = coup_civil_war_capital
 				size = civil_war_size
@@ -1163,7 +1117,6 @@ operation_coup_government = { ### 7 1/70
 				air_ratio = civil_war_airforce_fraction
 			}
 
-			# Clear State
 			clear_variable = coup_operation_party@ROOT
 			hidden_effect = {
 				ROOT = {
@@ -1191,8 +1144,6 @@ operation_coup_government = { ### 7 1/70
 					has_variable = coup_operation_party@ROOT
 				}
 
-				# Display the locked in variable if the operation has already started
-				# This is because politics can change and it would display the wrong party if someone looked at the generated tooltip it in that situation
 				set_temp_variable = { civil_war_party = coup_operation_party@ROOT }
 			}
 			else = {
@@ -1230,8 +1181,6 @@ operation_coup_government = { ### 7 1/70
 			}
 		}
 	}
-	#phases = { lar_fra_coup_pre_position_units = { base = 100 } }
-	#phases = { lar_fra_launch_coup = { base = 100 } }
 }
 
 operation_boost_resistance = { ### 8 2/40
@@ -1322,7 +1271,6 @@ operation_boost_resistance = { ### 8 2/40
 		}
 	}
 
-	
 	target_weight = {
 		base = 100
 		
@@ -1419,18 +1367,6 @@ operation_make_resistance_contacts = { ### 9 2/40
 	}
 
 	available = {
-		#NOT = {
-		#	has_operation_token = {
-		#		tag = FROM
-		#		token = token_resistance_contacts
-		#	}
-		#}
-		#
-		#FROM = {
-		#	any_controlled_state = {
-		#		has_resistance = yes
-		#	}
-		#}
 	}
 	
 	awarded_tokens = {
@@ -1579,7 +1515,6 @@ operation_collaboration_government = { ### 10 2/55
 		}
 	}
 
-
 	allowed = {
 		has_rule = can_create_collaboration_government
 	}
@@ -1709,7 +1644,6 @@ operation_coordinated_strike = { ### 11 2/70
 		targets = { FROM }
 	}
 
-	# Coordinated Strike will lead to a war with the target
 	will_lead_to_war_with = yes
 	risk_chance = 0.3
 	experience = 2
@@ -1719,7 +1653,6 @@ operation_coordinated_strike = { ### 11 2/70
 		}
 		
 		execute_operation_coordinated_strike = {
-			# Amount determines how often the mission simulation is run
 			amount = 12 #1 attack per 6 hours --> 12 attacks = 3 days
 		}
 	}
@@ -1959,7 +1892,6 @@ operation_targeted_sabotage_industry = { ### 13 3/35
 			target = FROM
 			value > 0
 		}
-
 
 		has_operation_token = {
 			tag = FROM
@@ -2254,7 +2186,6 @@ operation_targeted_sabotage_resources = { ### 15 3/35
 			target = FROM
 			value > 0
 		}
-
 
 		has_operation_token = {
 			tag = FROM
@@ -2775,7 +2706,6 @@ operation_steal_tech_airforce = { ### 18 3/55
 	name = operation_steal_tech_airforce
 	desc = operation_steal_tech_airforce_desc
 	priority = 18
-
 
 	days = 120
 	network_strength = 50

@@ -6,16 +6,16 @@ state={
 		oil=24.000
 	}
 	history={
-		owner = SSD
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			air_base = 2
 		}
-		add_core_of = SSD
+		add_core_of = TST
 		add_claim_by = SND
 		victory_points = {
 			2641 1 

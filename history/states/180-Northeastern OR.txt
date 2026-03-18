@@ -6,10 +6,10 @@ state={
 		chromium=4
 	}
 	history={
-		owner = SOR
-		add_core_of = SOR
+		owner = TST
+		add_core_of = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 1
@@ -24,7 +24,7 @@ state={
 			181 1
                 }
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		add_claim_by = SRO
 	}

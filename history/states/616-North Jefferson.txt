@@ -8,11 +8,11 @@ state={
 		2453 2519 2934 3018 
 	}
 	history={
-		owner = SOR
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
-		add_core_of = SOR
+		add_core_of = TST
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

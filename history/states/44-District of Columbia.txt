@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = WDC
+		owner = TST
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 4
@@ -21,12 +21,12 @@ state={
 			}
 
 		}
-		add_core_of = WDC
+		add_core_of = TST
 		victory_points = {
 			3421 50 
 		}
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 
 		}
 

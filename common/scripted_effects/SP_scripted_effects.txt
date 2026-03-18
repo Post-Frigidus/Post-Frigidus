@@ -1,12 +1,7 @@
-###################################################
-	### SPECIAL PROJECTS - SCRIPTED EFFECTS ###
-###################################################
 
-# MINE-CLEARING TANK - ASSAULT ENGINEERS 
 SP_create_variant_based_on_country_assault_engineer = {
 	if = {
 		limit = {
-			original_tag = GER
 		}
 		create_equipment_variant = {
 			name = "Minenraumer mit Pz.Kpfw.Antrib"
@@ -25,7 +20,6 @@ SP_create_variant_based_on_country_assault_engineer = {
 	}
 	else_if = {
 		limit = {
-			original_tag = JAP
 		}
 		create_equipment_variant = {
 			name = "Type 97 Chi-Yu"
@@ -44,7 +38,6 @@ SP_create_variant_based_on_country_assault_engineer = {
 	}
 	else_if = {
 		limit = {
-			original_tag = SOV
 		}
 		create_equipment_variant = {
 			name = "PT-34"
@@ -63,7 +56,6 @@ SP_create_variant_based_on_country_assault_engineer = {
 	}
 	else_if = {
 		limit = {
-			original_tag = ENG
 		}
 		create_equipment_variant = {
 			name = "Sherman Crab"
@@ -82,7 +74,6 @@ SP_create_variant_based_on_country_assault_engineer = {
 	}
 	else_if = {
 		limit = {
-			original_tag = USA
 		}
 		create_equipment_variant = {
 			name = "Sherman T1E3"
@@ -117,11 +108,9 @@ SP_create_variant_based_on_country_assault_engineer = {
 	}
 }
 
-# BRIDGE LAYER TANK - ARMORED ENGINEERS 
 SP_create_variant_based_on_country_armored_engineer = {
 	if = {
 		limit = {
-			original_tag = GER
 		}
 		create_equipment_variant = {
 			name = "Brückenleger I"
@@ -139,7 +128,6 @@ SP_create_variant_based_on_country_armored_engineer = {
 	}
 	else_if = {
 		limit = {
-			original_tag = ITA
 		}
 		create_equipment_variant = {
 			name = "L3 Passerella"
@@ -157,7 +145,6 @@ SP_create_variant_based_on_country_armored_engineer = {
 	}
 	else_if = {
 		limit = {
-			original_tag = SOV
 		}
 		create_equipment_variant = {
 			name = "IT-28"
@@ -175,7 +162,6 @@ SP_create_variant_based_on_country_armored_engineer = {
 	}
 	else_if = {
 		limit = {
-			original_tag = ENG
 		}
 		create_equipment_variant = {
 			name = "Churchill AVRE Bridgelayer"
@@ -208,11 +194,9 @@ SP_create_variant_based_on_country_armored_engineer = {
 	}
 }
 
-# ARMORED RECOVERY TANK - ARMORED MAINTENANCE 
 SP_create_variant_based_on_country_armored_maintenance = {
 	if = {
 		limit = {
-			original_tag = GER
 		}
 		create_equipment_variant = {
 			name = "Bergepanzer IV"
@@ -230,7 +214,6 @@ SP_create_variant_based_on_country_armored_maintenance = {
 	}
 	else_if = {
 		limit = {
-			original_tag = JAP
 		}
 		create_equipment_variant = {
 			name = "Sōkō Sagyō Ki"
@@ -248,7 +231,6 @@ SP_create_variant_based_on_country_armored_maintenance = {
 	}
 	else_if = {
 		limit = {
-			original_tag = SOV
 		}
 		create_equipment_variant = {
 			name = "T-34-T"
@@ -266,7 +248,6 @@ SP_create_variant_based_on_country_armored_maintenance = {
 	}
 	else_if = {
 		limit = {
-			original_tag = ENG
 		}
 		create_equipment_variant = {
 			name = "Churchill ARV"
@@ -284,7 +265,6 @@ SP_create_variant_based_on_country_armored_maintenance = {
 	}
 	else_if = {
 		limit = {
-			original_tag = USA
 		}
 		create_equipment_variant = {
 			name = "M31 ARV"
@@ -317,11 +297,9 @@ SP_create_variant_based_on_country_armored_maintenance = {
 	}
 }
 
-# COMMAND TANK - ARMORED SIGNAL 
 SP_create_variant_based_on_country_armored_signal = {
 	if = {
 		limit = {
-			original_tag = GER
 		}
 		create_equipment_variant = {
 			name = "Panzerbefehlswagen"
@@ -339,7 +317,6 @@ SP_create_variant_based_on_country_armored_signal = {
 	}
 	else_if = {
 		limit = {
-			original_tag = ITA
 		}
 		create_equipment_variant = {
 			name = "M41 Carro Comando"
@@ -357,7 +334,6 @@ SP_create_variant_based_on_country_armored_signal = {
 	}
 	else_if = {
 		limit = {
-			original_tag = JAP
 		}
 		create_equipment_variant = {
 			name = "Type 97 Shi-Ki"
@@ -375,7 +351,6 @@ SP_create_variant_based_on_country_armored_signal = {
 	}
 	else_if = {
 		limit = {
-			original_tag = SOV
 		}
 		create_equipment_variant = {
 			name = "BT-7K"
@@ -390,11 +365,9 @@ SP_create_variant_based_on_country_armored_signal = {
 			icon = "GFX_SOV_armored_support_vehicle_command_medium"
 			model = SOV_armored_signal_entity
 		}
-		#TODO_Manu: Implement T-26 variant if art makes it in
 	}
 	else_if = {
 		limit = {
-			original_tag = ENG
 		}
 		create_equipment_variant = {
 			name = "Cromwell Command Tank"
@@ -412,7 +385,6 @@ SP_create_variant_based_on_country_armored_signal = {
 	}
 	else_if = {
 		limit = {
-			original_tag = FRA
 		}
 		create_equipment_variant = {
 			name = "AMC35 TSF"
@@ -430,7 +402,6 @@ SP_create_variant_based_on_country_armored_signal = {
 	}
 	else_if = {
 		limit = {
-			original_tag = USA
 		}
 		create_equipment_variant = {
 			name = "M4 Sherman Command Tank"
@@ -462,8 +433,6 @@ SP_create_variant_based_on_country_armored_signal = {
 		}
 	}
 }
-
-# IMPROVED SMALL AIRFRAME / ROCKET ENGINE
 
 SP_create_variant_based_on_country_improved_small_airframe_rocket_engine = {
 

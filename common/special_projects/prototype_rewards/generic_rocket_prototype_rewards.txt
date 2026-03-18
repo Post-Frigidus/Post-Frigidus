@@ -1,4 +1,3 @@
-#"Good"
 sp_rockets_scientist_xp_generic_reward = {
 	fire_only_once = no
 	
@@ -71,7 +70,6 @@ sp_rockets_generic_avionics_advancements_reward = {
 	}
 }
 
-# "Bad"
 sp_rockets_political_interference_generic_reward = {
 	fire_only_once = no
 	

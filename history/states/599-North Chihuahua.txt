@@ -2,10 +2,10 @@ state = {
 	id = 599
 	name = "STATE_599"
 	history = {
-		owner = MCH
-		add_core_of = MCH
+		owner = TST
+		add_core_of = TST
 		1936.1.2 = {
-			owner = MEX
+			owner = TST
 		}
 		victory_points = {
 			4786

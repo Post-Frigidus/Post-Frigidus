@@ -5,11 +5,11 @@ state={
 		tungsten=4.000
 	}
 	history={
-		owner = SIN
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
-		add_core_of = SIN
+		add_core_of = TST
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -21,7 +21,7 @@ state={
 		victory_points = {
 			1868 1
 		}
-		# add_core_of = FOM
+		# add_core_of = TST
 	}
 	provinces={
 		593 616 631 645 1834 1841 1868 7643 7644 7645 7646 7647 7648 7650 7652 

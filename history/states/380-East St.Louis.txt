@@ -5,8 +5,8 @@ state={
 		steel=87
 	}
 	history={
-		owner = SIL
-		add_core_of = SIL
+		owner = TST
+		add_core_of = TST
 		buildings = {
 			industrial_complex = 1
 			arms_factory = 2
@@ -16,12 +16,12 @@ state={
 				naval_base = 4
 			}
 		}
-		add_core_of = MAR
+		add_core_of = TST
 		victory_points = {
 			7761 10 
 		}
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 	}
 	provinces={

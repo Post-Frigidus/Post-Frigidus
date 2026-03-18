@@ -4,8 +4,8 @@ state={
 	name="STATE_59"
 
 	history={
-		owner = MCM
-		add_core_of = MCM
+		owner = TST
+		add_core_of = TST
 		victory_points = {
 			4510 30 
 		}
@@ -13,7 +13,7 @@ state={
 			4513 10 
 		}
 		1936.1.2 = {
-			owner = MEX
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 1

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SMI
+		owner = TST
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3
@@ -19,8 +19,8 @@ state={
 			# }
 
 		}
-		add_core_of = SMI
-		add_core_of = DET
+		add_core_of = TST
+		add_core_of = TST
 		victory_points = {
 			7870 5 
 		}
@@ -31,7 +31,7 @@ state={
 			2405 2 
 		}
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 
 		}
 

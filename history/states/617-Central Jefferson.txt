@@ -5,12 +5,12 @@ state={
 		257 447 2354 2426 2966 3006 
 	}
 	history={
-		owner = SOR
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
-		add_core_of = SOR
-		add_core_of = JEF
+		add_core_of = TST
+		add_core_of = TST
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

@@ -1,7 +1,3 @@
-#### COMBAT TACTICS ###########################################################
-#
-# NOTE: tactics must start with "tactic_" in their name to work with techs.
-###############################################################################
 
 phases = { # phase = no is the standard phase
 	close_combat
@@ -65,7 +61,6 @@ tactic_counterattack = { # counters basic attack, assault
 	defender = 0.25
 }
 
-
 tactic_assault = { 
 	is_attacker = yes
 	trigger = {
@@ -99,7 +94,6 @@ tactic_assault = {
 	
 	attacker = 0.25			#attacker gets a bonus to doing damage
 }
-###close combat tactics here
 tactic_cc_attack = { 
 	is_attacker = yes
 	trigger = {
@@ -181,7 +175,6 @@ tactic_cc_withdraw = {
 	attacker = -0.05
 	defender = -0.05
 }
-
 
 tactic_encirclement = {
 	is_attacker = yes
@@ -284,7 +277,6 @@ tactic_tactical_withdrawal = { #counters encirclement
 	attacker = -0.25
 	defender = -0.05
 }
-###tactical withdrawal tactics
 tactic_tw_attack = { 
 	is_attacker = yes
 	trigger = {
@@ -326,7 +318,6 @@ tactic_tw_chase = {
 	picture = tw_chase
 	display_phase = tactical_withdrawal
 	
-	
 	combat_width = -0.25		
 	attacker = -0.15
 	defender = -0.05
@@ -341,7 +332,6 @@ tactic_tw_evade = {
 	base =  { factor = 4 }
 	picture = tw_evade
 	display_phase = tactical_withdrawal
-	
 	
 	combat_width = -0.25		
 	attacker = -0.4
@@ -363,8 +353,6 @@ tactic_tw_intercept = {
 	attacker = -0.05
 	defender = -0.1
 }
-
-
 
 tactic_breakthrough = { #counters ambush
 	is_attacker = yes
@@ -444,7 +432,6 @@ tactic_blitz = {
 	attacker = 0.15
 	defender = -0.15
 }
-
 
 tactic_elastic_defense = { #counters blitz
 	is_attacker = no
@@ -753,8 +740,6 @@ tactic_human_wave_tactics = { #People's army attacker tactic
 	defender = 0.1
 }
 
-
-
 tactic_infantry_charge = { #GBP -> Infantry attacker tactic
 	is_attacker = yes
 	trigger = {
@@ -897,8 +882,4 @@ tactic_masterful_blitz = { #Improved version of Blitz for Soviets
 	attacker = 0.2
 	defender = -0.2
 }
-
-
-
-
 

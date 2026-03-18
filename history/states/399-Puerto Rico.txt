@@ -12,11 +12,11 @@ state={
 		oil = 3
 	}
 	history = {
-		owner = PRR
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
-		add_core_of = PRR
+		add_core_of = TST
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3

@@ -4,9 +4,9 @@ state={
 	name="STATE_406"
 
 	history={
-		owner = SGA
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 
 		}
 		buildings = {
@@ -20,7 +20,7 @@ state={
 			}
 
 		}
-		add_core_of = SGA
+		add_core_of = TST
 		victory_points = {
 			1657 30 
 		}

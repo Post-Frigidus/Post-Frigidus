@@ -3,15 +3,15 @@ state={
 	name="STATE_505"
 	
 	history={
-		owner = SUP
+		owner = TST
 		buildings = {
 			infrastructure = 1
 			3445 = {
 				naval_base = 2
 			}
 		}
-		add_core_of = SMI
-		add_core_of = SUP
+		add_core_of = TST
+		add_core_of = TST
 		add_claim_by = SMN
 	}
 	

@@ -5,11 +5,11 @@ state={
 		5014 5016 8134 8138 
 	}
 	history = {
-		owner = SIA
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
-		add_core_of = SIA
+		add_core_of = TST
 
 		buildings = {
 			industrial_complex = 1

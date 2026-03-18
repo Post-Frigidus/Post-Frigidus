@@ -4,7 +4,7 @@ state={
 	name="STATE_812"
 
 	history={
-		owner = VEN
+		owner = TST
 		buildings = {
 			air_base = 1
 			infrastructure = 2
@@ -13,7 +13,7 @@ state={
 			}
 
 		}
-		add_core_of = VEN
+		add_core_of = TST
 		victory_points = {
 			8372 10 
 		}

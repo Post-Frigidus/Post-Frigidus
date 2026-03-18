@@ -5,9 +5,9 @@ state = {
 		steel = 22
 	}
 	history = {
-		owner = SWI
+		owner = TST
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 3
@@ -22,7 +22,7 @@ state = {
 
 			}
 		}
-		add_core_of = SWI
+		add_core_of = TST
 		victory_points = {
 			6467
 			5

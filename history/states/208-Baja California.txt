@@ -4,13 +4,13 @@ state = {
 	resources = {
 	}
 	history = {
-		owner = BAJ
+		owner = TST
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = BAJ
+		add_core_of = TST
 		1936.1.2 = {
-			owner = MEX
+			owner = TST
 		}
 		victory_points = {
 			1096

@@ -5,8 +5,8 @@ state = {
 		7032
 	}
 	history = {
-		owner = GAY
-		add_core_of = GAY
+		owner = TST
+		add_core_of = TST
 	}
 	manpower = 10
 	buildings_max_level_factor = 1

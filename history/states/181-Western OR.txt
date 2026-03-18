@@ -5,11 +5,11 @@ state={
 		steel=21
 	}
 	history={
-		owner = SRO
-		add_core_of = SRO
+		owner = TST
+		add_core_of = TST
 		add_claim_by = SOR
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		buildings = {
 			infrastructure = 3
@@ -24,7 +24,7 @@ state={
 			2754 20
                 }
 		1936.1.2 = {
-			owner = USA
+			owner = TST
 		}
 		add_claim_by = SRO
 	}
