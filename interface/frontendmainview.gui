@@ -532,4 +532,50 @@ guiTypes = {
 		}
 				
 	}
+
+	# Compatibility stub required by frontend logic in recent HoI4 versions.
+	containerWindowType = {
+		name = "change_background"
+		position = { x = 0 y = 0 }
+		size = { width = 10 height = 10 }
+		hide = yes
+
+		containerWindowType = {
+			name = "background_selection"
+			position = { x = 0 y = 0 }
+			size = { width = 10 height = 10 }
+			hide = yes
+
+			gridBoxType = {
+				name = "background_selection_list"
+				position = { x = 0 y = 0 }
+				size = { width = 10 height = 10 }
+				slotsize = { width = 10 height = 10 }
+				max_slots_vertical = 1
+				max_slots_horizontal = 1
+				format = "UPPER_LEFT"
+			}
+
+			buttonType = {
+				name = "select_all_checkbox"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_main_lobby_button"
+				hide = yes
+			}
+
+			buttonType = {
+				name = "change_background_button"
+				position = { x = 0 y = 0 }
+				quadTextureSprite = "GFX_main_lobby_button"
+				hide = yes
+			}
+
+			containerWindowType = {
+				name = "available_backgrounds"
+				position = { x = 0 y = 0 }
+				size = { width = 10 height = 10 }
+				hide = yes
+			}
+		}
+	}
 }
