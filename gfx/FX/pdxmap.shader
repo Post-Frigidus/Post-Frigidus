@@ -394,12 +394,11 @@ PixelShader =
 			
 			vOut = DayNightWithBlend( vOut, vGlobeNormal, lerp(BORDER_NIGHT_DESATURATION_MAX, 1.0f, vBloomAlpha) );
 
-			// Frozen-apocalypse grade: hard desaturation + cold blue-gray tint + darker mids.
+			// Frozen-apocalypse grade: hard desaturation + cold blue-gray tint.
 			float vLuma = dot( vOut, float3( 0.2126, 0.7152, 0.0722 ) );
 			float3 vMono = float3( vLuma, vLuma, vLuma );
 			vOut = lerp( vOut, vMono, 0.72 );
-			vOut *= float3( 0.68, 0.72, 0.82 );
-			vOut = pow( saturate( vOut ), float3( 1.18, 1.18, 1.12 ) );
+			vOut *= float3( 0.74, 0.78, 0.88 );
 			
 			DebugReturn(vOut, lightingProperties, fShadowTerm);
 

@@ -1,0 +1,7 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_welcome_sprite"
+		texturefile = "gfx/interface/Welcome_Event.dds"
+		legacy_lazy_load = no
+	}
+}
